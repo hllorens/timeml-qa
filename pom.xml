@@ -5,7 +5,7 @@
 	<version>1.0.0</version>  <!-- version. NOTE: update it manually -->        
 	<packaging>jar</packaging>
         <name>TimeML QA</name>                 <!-- Full name (not id) -->
-        <description>A java application capable of performing temporal QA over a TimeML annotated text (via timegraph reasoning).</url>
+        <description>A java application capable of performing temporal QA over a TimeML annotated text (via timegraph reasoning).</description>
         <licenses>
                 <license>
                         <name>Apache License, Version 2.0</name>
@@ -75,7 +75,7 @@
        
 	<repositories>
 	   <repository>
-	       <id><name>cognitionis-releases</id>
+	       <id>cognitionis-releases</id>
 	       <url>https://github.com/hllorens/cognitionis-mvn-repo/raw/master/releases</url>
 	   </repository>
 	</repositories>       
@@ -97,6 +97,16 @@
 	    <artifactId>joda-time</artifactId>
 	    <version>1.6</version>
 	</dependency>        
-	</dependencies>
+	<dependency>
+	    <groupId>com.cognitionis</groupId>
+	    <artifactId>utils-basickit</artifactId>
+	    <version>1.0.0</version>
+	</dependency>
+	<dependency>
+	    <groupId>com.cognitionis</groupId>
+	    <artifactId>jtimegraph</artifactId>
+	    <version>1.0.0</version>
+	</dependency>	
+       </dependencies>
 </project>
 

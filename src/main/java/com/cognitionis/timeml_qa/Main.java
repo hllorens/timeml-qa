@@ -5,7 +5,6 @@ import java.text.*;
 import java.util.*;
 import org.apache.commons.cli.*;
 import com.cognitionis.utils_basickit.*;
-import com.cognitionis.timeml_qa.*;
 
 /**
  * @author Hector Llorens
@@ -58,7 +57,7 @@ public class Main {
                 if (cl_options.hasOption('a')) {
                     action = cl_options.getOptionValue("a");
                     try {
-                        com.cognitionis.time_qa.ActionHandler.Action.valueOf(action.toUpperCase());
+                        ActionHandler.Action.valueOf(action.toUpperCase());
                     } catch (Exception e) {
                         String errortext = "\nValid acctions are:\n";
                         for (ActionHandler.Action c : ActionHandler.Action.values()) {
@@ -104,9 +103,9 @@ public class Main {
                 long endTime = System.currentTimeMillis();
                 long sec = (endTime - startTime) / 1000;
                 if (sec < 60) {
-                    System.err.println("Done in " + com.cognitionis.utils_basickit.StringUtils.twoDecPosS(sec) + " sec!\n");
+                    System.err.println("Done in " + StringUtils.twoDecPosS(sec) + " sec!\n");
                 } else {
-                    System.err.println("Done in " + com.cognitionis.utils_basickit.StringUtils.twoDecPosS(sec / 60) + " min!\n");
+                    System.err.println("Done in " + StringUtils.twoDecPosS(sec / 60) + " min!\n");
                 }
             }
 
