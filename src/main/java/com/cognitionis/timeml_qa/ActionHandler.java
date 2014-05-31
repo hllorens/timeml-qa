@@ -113,15 +113,14 @@ public class ActionHandler {
                                 }
                                 if (!curr_fileid.equals(pipesarr[1])) {
                                     curr_fileid = pipesarr[1];
-                                    XMLFile nlpfile = new XMLFile();
-                                    nlpfile.loadFile(new File(path + pipesarr[1]));
+                                    XMLFile nlpfile = new XMLFile(path + pipesarr[1],null);
                                     if (!nlpfile.getClass().getSimpleName().equals("XMLFile")) {
                                         throw new Exception("FreeTime requires XMLFile files as input. Found: " + nlpfile.getClass().getSimpleName());
                                     }
                                     if (!nlpfile.getExtension().equalsIgnoreCase("tml")) {
                                         nlpfile.overrideExtension("tml");
                                     }
-                                    if (!nlpfile.isWellFormed()) {
+                                    if (!nlpfile.isWellFormatted()) {
                                         throw new Exception("File: " + input_files[i] + " is not a valid TimeML (.tml) XML file.");
                                     }
                                     TimeML tml = TML_file_utils.ReadTml2Object(nlpfile.getFile().getCanonicalPath());
@@ -177,15 +176,14 @@ public class ActionHandler {
 
                 case READ_TML:
                     for (int i = 0; i < input_files.length; i++) {
-                        XMLFile nlpfile = new XMLFile();
-                        nlpfile.loadFile(new File(input_files[i]));
+                        XMLFile nlpfile = new XMLFile(input_files[i],null);
                         if (!nlpfile.getClass().getSimpleName().equals("XMLFile")) {
                             throw new Exception("FreeTime requires XMLFile files as input. Found: " + nlpfile.getClass().getSimpleName());
                         }
                         if (!nlpfile.getExtension().equalsIgnoreCase("tml")) {
                             nlpfile.overrideExtension("tml");
                         }
-                        if (!nlpfile.isWellFormed()) {
+                        if (!nlpfile.isWellFormatted()) {
                             throw new Exception("File: " + input_files[i] + " is not a valid TimeML (.tml) XML file.");
                         }
                         TimeML tml = TML_file_utils.ReadTml2Object(nlpfile.getFile().getCanonicalPath());

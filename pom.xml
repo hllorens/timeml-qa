@@ -93,15 +93,20 @@
 	    <version>1.2</version>
 	</dependency>        
 	<dependency>
-	    <groupId>joda-time</groupId>
-	    <artifactId>joda-time</artifactId>
-	    <version>1.6</version>
-	</dependency>        
-	<dependency>
 	    <groupId>com.cognitionis</groupId>
 	    <artifactId>utils-basickit</artifactId>
 	    <version>1.0.0</version>
 	</dependency>
+	<dependency>
+	    <groupId>com.cognitionis</groupId>
+	    <artifactId>nlp-files</artifactId>
+	    <version>1.0.0</version>
+	</dependency>
+	<dependency>
+	    <groupId>com.cognitionis</groupId>
+	    <artifactId>timeml-basickit</artifactId>
+	    <version>1.0.0</version>
+	</dependency>	
 	<dependency>
 	    <groupId>com.cognitionis</groupId>
 	    <artifactId>jtimegraph</artifactId>
