@@ -1,7 +1,14 @@
 
 TimeML-QA (timeml-qa)
 
-A java application capable of performing temporal QA over a TimeML annotated text (via timegraph reasoning).
+A java application capable of performing temporal QA over TimeML annotated texts (via timegraph reasoning).
+
+Input:
+	A questionset following the format:
+		questionID|TimeML file|question in timeml-qa syntax|question in NL|Expected answer
+
+Output:
+	A text file reporting the answers for the questions in the input questionset
 
 LICENSE
   Copyright 2011 Hector Llorens
@@ -21,9 +28,7 @@ LICENSE
    
 COMPILATION AND JARING
 
-mkdir -p build/classes; javac -cp lib/commons-cli-1.2.jar:lib/joda-time-1.6.jar  -d build/classes src/main/java/com/cognigionis/timeml_qa/Main.java
-mkdir dist; jar cfm dist/timeml-qA.jar manifest.mf -C build/classes/  .
-cp -R lib/ dist/;
+mvn clean package
 
 INSTALLATION
 
@@ -31,11 +36,11 @@ Just move/rename compiled jar dist folder with the lib subfolder to any destinat
 
 USAGE
 
-java -jar [path-to-the-jar/timeml-qa.jar] file/s
+java -jar path-to-the-jar/timeml-qa.jar questionset-file/s
 
 EXAMPLE (if timeml-qa is included in the CLASSPATH)
 
-java -jar timeml-qa.jar xxxxxxxxxxxxx
+java -jar timeml-qa.jar examples/example2/questionset.txt
 
 OPTIONS
 
