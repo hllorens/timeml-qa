@@ -1,0 +1,243 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>APW19980219.0476</DOCID>
+
+<DCT><TIMEX3 tid="t0" type="TIME" value="1998-02-19T08:02:00" temporalFunction="false" functionInDocument="CREATION_TIME">02/19/1998 08:02:00</TIMEX3></DCT>
+
+<EXTRAINFO>
+APW19980219.0476 NEWS STORY 02/19/1998 08:02:00
+w1151 Cx1f wstmr i Cx13 Cx11 BC-Cambodia-Britain-Host 02-19 0690
+BC-Cambodia-Britain-Hostage
+Cambodian resistance general looking for remains of missing Briton
+UR By DON PATHAN QC UR Associated Press Writer QC
+</EXTRAINFO>
+
+<TEXT>
+O'SMACH, Cambodia (AP)_ The top commander of a Cambodian resistance force <EVENT eid="e1" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="REPORTING">said</EVENT> <TIMEX3 tid="t1" type="DATE" value="1998-02-19">Thursday</TIMEX3> he has <EVENT eid="e2" polarity="POS" modality="NONE" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" class="OCCURRENCE">sent</EVENT> a team to recover the remains of a British mine <EVENT eid="e4" polarity="POS" modality="NONE" pos="NOUN" tense="NONE" aspect="NONE" class="OCCURRENCE">removal</EVENT> expert kidnapped and <EVENT eid="e6" polarity="POS" modality="NONE" pos="VERB" tense="PASTPART" aspect="NONE" class="OCCURRENCE">presumed</EVENT> <EVENT eid="e7" polarity="POS" modality="NONE" pos="VERB" tense="NONE" aspect="NONE" class="OCCURRENCE">killed</EVENT> by Khmer Rouge guerrillas <TIMEX3 tid="t2" type="DATE" value="1996">almost two years ago</TIMEX3>. Gen. Nhek Bunchhay, a loyalist of <EVENT eid="e8" polarity="POS" modality="NONE" pos="VERB" tense="PASTPART" aspect="NONE" class="OCCURRENCE">ousted</EVENT> Cambodian Prime Minister Prince Norodom Ranariddh, <EVENT eid="e9" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="REPORTING">said</EVENT> in an <EVENT eid="e10" polarity="POS" modality="NONE" pos="NOUN" tense="NONE" aspect="NONE" class="OCCURRENCE">interview</EVENT> with The Associated Press at his hilltop headquarters that he <EVENT eid="e11" polarity="POS" modality="NONE" pos="VERB" tense="PRESENT" aspect="NONE" class="I_STATE">hopes</EVENT> to recover the remains of Christopher Howes within <TIMEX3 tid="t3" type="DURATION" value="P2W">the next two weeks</TIMEX3>. Howes had been <EVENT eid="e13" polarity="POS" modality="NONE" pos="VERB" tense="PRESENT" aspect="PERFECTIVE_PROGRESSIVE" class="OCCURRENCE">working</EVENT> for the Britain-based Mines Advisory Group when he was abducted with his Cambodian interpreter Houn Hourth in <TIMEX3 tid="t4" type="DATE" value="1996-03">March 1996</TIMEX3>. There were many conflicting accounts of his fate. Howes' team was <EVENT eid="e16" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="PROGRESSIVE" class="OCCURRENCE">clearing</EVENT> mines 17 kilometers (10 miles) from Angkor Wat, the fabled 11th century temple that is Cambodia's main tourist <EVENT eid="e17" polarity="POS" modality="NONE" pos="NOUN" tense="NONE" aspect="NONE" class="OCCURRENCE">attraction</EVENT>, when it was <EVENT eid="e18" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="OCCURRENCE">attacked</EVENT>. In <TIMEX3 tid="t6" type="DATE" value="1998-01">January this year</TIMEX3>, British police officers who had been <EVENT eid="e19" polarity="POS" modality="NONE" pos="VERB" tense="PRESENT" aspect="PERFECTIVE_PROGRESSIVE" class="OCCURRENCE">searching</EVENT> for Howes <EVENT eid="e20" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="OCCURRENCE">concluded</EVENT> he had probably been <EVENT eid="e21" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="PERFECTIVE" class="OCCURRENCE">killed</EVENT> soon after being <EVENT eid="e22" polarity="POS" modality="NONE" pos="VERB" tense="PASTPART" aspect="NONE" class="OCCURRENCE">captured</EVENT>. The Foreign Office said it had informed the family of Howes, 37 years old when he was kidnapped, that he probably died within <TIMEX3 tid="t7" type="DURATION" value="PXW">weeks or months</TIMEX3> of his capture on <TIMEX3 tid="t8" type="DATE" value="1998-03-26">March 26</TIMEX3>, <TIMEX3 tid="t9" type="DATE" value="1996">1996</TIMEX3>. ``Obviously, it is deeply <EVENT eid="e28" polarity="POS" modality="NONE" pos="VERB" tense="PRESENT" aspect="NONE" class="STATE">discouraging</EVENT> for the family after 22 <TIMEX3 tid="t10" type="DURATION" value="P22M">months,</TIMEX3> but there is no <EVENT eid="e29" polarity="POS" modality="NONE" pos="ADJECTIVE" tense="NONE" aspect="NONE" class="OCCURRENCE">proof</EVENT> of life. But there is no evidence in either direction _ that there is <EVENT eid="e30" polarity="POS" modality="NONE" pos="NOUN" tense="NONE" aspect="NONE" class="OCCURRENCE">proof</EVENT> of life or death,'' <EVENT eid="e32" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="REPORTING">said</EVENT> a Foreign Office spokesman, speaking with customary anonymity. ``We will <EVENT eid="e34" polarity="POS" modality="will" pos="VERB" tense="FUTURE" aspect="NONE" class="ASPECTUAL">continue</EVENT> to do everything we can to <EVENT eid="e36" polarity="POS" modality="NONE" pos="VERB" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE">establish</EVENT> what has <EVENT eid="e37" polarity="POS" modality="NONE" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" class="OCCURRENCE">happened</EVENT>.'' Thai military officials who <EVENT eid="e38" polarity="POS" modality="NONE" pos="VERB" tense="PRESENT" aspect="NONE" class="OCCURRENCE">monitor</EVENT> Cambodian affairs <EVENT eid="e39" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="REPORTING">said</EVENT> privately <TIMEX3 tid="t11" type="DATE" value="1998-02-19">Thursday</TIMEX3> that Britain, through its embassies in Thailand and Cambodia, has been <EVENT eid="e40" polarity="POS" modality="NONE" pos="VERB" tense="PRESPART" aspect="PERFECTIVE" class="OCCURRENCE">pushing</EVENT> hard to <EVENT eid="e41" polarity="POS" modality="NONE" pos="VERB" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE">resolve</EVENT> the Howes case as the second anniversary of his abduction <EVENT eid="e44" polarity="POS" modality="NONE" pos="VERB" tense="PRESENT" aspect="NONE" class="OCCURRENCE">nears</EVENT>. Nhek Bunchhay, who had been closely involved in the <EVENT eid="e46" polarity="POS" modality="NONE" pos="NOUN" tense="NONE" aspect="NONE" class="OCCURRENCE">search</EVENT> for Howes before having to <EVENT eid="e47" polarity="POS" modality="NONE" pos="VERB" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE">flee</EVENT> the Cambodian capital after a coup d'etat <TIMEX3 tid="t12" type="DATE" value="1997">last year</TIMEX3>, appeared confident he would <EVENT eid="e50" polarity="POS" modality="would" pos="VERB" tense="NONE" aspect="NONE" class="OCCURRENCE">find</EVENT> Howes' remains. He <EVENT eid="e51" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="REPORTING">said</EVENT> he <EVENT eid="e52" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="OCCURRENCE">received</EVENT> information from Khmer Rouge guerrillas on where the body had been <EVENT eid="e53" polarity="POS" modality="NONE" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" class="OCCURRENCE">buried</EVENT>, and <TIMEX3 tid="t13" type="DATE" value="PAST_REF">recently</TIMEX3> <EVENT eid="e54" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="OCCURRENCE">ordered</EVENT> 10 of his men from a force of 500 near Khmer Rouge headquarters in Anlong Veng to <EVENT eid="e55" polarity="POS" modality="NONE" pos="VERB" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE">conduct</EVENT> the <EVENT eid="e56" polarity="POS" modality="NONE" pos="NOUN" tense="NONE" aspect="NONE" class="OCCURRENCE">search</EVENT>. If and when the remains are <EVENT eid="e57" polarity="POS" modality="NONE" pos="VERB" tense="PRESENT" aspect="NONE" class="OCCURRENCE">found</EVENT>, he <EVENT eid="e58" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="REPORTING">said</EVENT>, they would be <EVENT eid="e59" polarity="POS" modality="would" pos="VERB" tense="NONE" aspect="NONE" class="OCCURRENCE">turned</EVENT> over to the British Embassy, apparently <EVENT eid="e60" polarity="POS" modality="NONE" pos="VERB" tense="PRESPART" aspect="NONE" class="I_ACTION">meaning</EVENT> they would be <EVENT eid="e61" polarity="POS" modality="would" pos="VERB" tense="NONE" aspect="NONE" class="OCCURRENCE">sent</EVENT> across the border into Thailand and onward to Bangkok. Nhek Bunchhay <EVENT eid="e63" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="REPORTING">said</EVENT> he <TIMEX3 tid="t14" type="DATE" value="PRESENT_REF">now</TIMEX3> <EVENT eid="e64" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="I_STATE">believed</EVENT> Howes had been <EVENT eid="e65" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="PERFECTIVE" class="OCCURRENCE">killed</EVENT> within a week of his <EVENT eid="e66" polarity="POS" modality="NONE" pos="NOUN" tense="NONE" aspect="NONE" class="OCCURRENCE">capture</EVENT> by a Khmer Rouge faction loyal to Pol Pot, then the guerrilla group's leader. Pol Pot is <EVENT eid="e67" polarity="POS" modality="NONE" pos="VERB" tense="PRESENT" aspect="NONE" class="I_STATE">considered</EVENT> responsible for the radical policies that <EVENT eid="e70" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="OCCURRENCE">led</EVENT> to the deaths of as many as 1.7 million Cambodians when the communist group <EVENT eid="e72" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="OCCURRENCE">held</EVENT> power in the late <TIMEX3 tid="t16" type="DATE" value="197">1970s</TIMEX3>. At the time Howes was <EVENT eid="e73" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="OCCURRENCE">captured</EVENT>, the Khmer Rouge were a more or less united guerrilla force with more than 10,000 men under arms. But the group <EVENT eid="e74" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="ASPECTUAL">began</EVENT> to <EVENT eid="e75" polarity="POS" modality="NONE" pos="VERB" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE">fall</EVENT> apart in <TIMEX3 tid="t17" type="DATE" value="1996">mid-1996</TIMEX3> after the <EVENT eid="e76" polarity="POS" modality="NONE" pos="NOUN" tense="NONE" aspect="NONE" class="OCCURRENCE">defection</EVENT> of one of its top leaders, Ieng Sary. Other commanders, and thousands of guerrillas, <EVENT eid="e77" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="OCCURRENCE">followed</EVENT> him. A small hardcore group under Pol Pot <EVENT eid="e78" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="ASPECTUAL">continued</EVENT> to <EVENT eid="e79" polarity="POS" modality="NONE" pos="VERB" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE">hold</EVENT> out at their headquarters at Anlong Veng in northern Cambodia near the Thai border. But in <TIMEX3 tid="t18" type="DATE" value="1997-06">June last year</TIMEX3>, the remaining leadership had a <EVENT eid="e80" polarity="POS" modality="NONE" pos="VERB" tense="PRESPART" aspect="NONE" class="OCCURRENCE">falling</EVENT> out, and Pol Pot was <EVENT eid="e81" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="OCCURRENCE">arrested</EVENT>. In <TIMEX3 tid="t20" type="DATE" value="1997-07">July last year</TIMEX3> in Phnom Penh, Cambodia's capital, Second Prime Minister Hun Sen <EVENT eid="e82" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="OCCURRENCE">staged</EVENT> a successful coup d'etat against First Prime Minister Prince Norodom Ranariddh. Ranariddh's loyalists, including Nhek Bunchhay, his top military commander, <EVENT eid="e84" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="OCCURRENCE">went</EVENT> into hiding or <EVENT eid="e86" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="OCCURRENCE">fled</EVENT> the capital. Nhek Bunchhay, <EVENT eid="e87" polarity="POS" modality="NONE" pos="VERB" tense="PRESPART" aspect="NONE" class="OCCURRENCE">evading</EVENT> an intensive <EVENT eid="e88" polarity="POS" modality="NONE" pos="NOUN" tense="NONE" aspect="NONE" class="OCCURRENCE">manhunt</EVENT>, <EVENT eid="e89" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="OCCURRENCE">made</EVENT> his way to O'Smach, the last major outpost <EVENT eid="e90" polarity="POS" modality="NONE" pos="VERB" tense="PASTPART" aspect="NONE" class="OCCURRENCE">held</EVENT> by Ranariddh's forces. His men have <EVENT eid="e91" polarity="POS" modality="NONE" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" class="OCCURRENCE">held</EVENT> the stronghold _ which is on the border just opposite the Thai province of Surin _ against <EVENT eid="e92" polarity="POS" modality="NONE" pos="VERB" tense="PASTPART" aspect="NONE" class="OCCURRENCE">repeated</EVENT> intense <EVENT eid="e93" polarity="POS" modality="NONE" pos="NOUN" tense="NONE" aspect="NONE" class="OCCURRENCE">attacks</EVENT> by Hun Sen's troops. They have been <EVENT eid="e94" polarity="POS" modality="NONE" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" class="OCCURRENCE">aided</EVENT> by Khmer Rouge guerrillas from Anlong Veng, who have <EVENT eid="e95" polarity="POS" modality="NONE" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" class="OCCURRENCE">formed</EVENT> an alliance with Ranariddh's resistance forces to <EVENT eid="e96" polarity="POS" modality="NONE" pos="VERB" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE">oppose</EVENT> Hun Sen.
+</TEXT>
+
+<MAKEINSTANCE eiid="ei7" eventID="e7"/>
+<MAKEINSTANCE eiid="ei82" eventID="e82"/>
+<MAKEINSTANCE eiid="ei36" eventID="e36"/>
+<MAKEINSTANCE eiid="ei6" eventID="e6"/>
+<MAKEINSTANCE eiid="ei88" eventID="e88"/>
+<MAKEINSTANCE eiid="ei20" eventID="e20"/>
+<MAKEINSTANCE eiid="ei16" eventID="e16"/>
+<MAKEINSTANCE eiid="ei96" eventID="e96"/>
+<MAKEINSTANCE eiid="ei59" eventID="e59"/>
+<MAKEINSTANCE eiid="ei37" eventID="e37"/>
+<MAKEINSTANCE eiid="ei4" eventID="e4"/>
+<MAKEINSTANCE eiid="ei17" eventID="e17"/>
+<MAKEINSTANCE eiid="ei28" eventID="e28"/>
+<MAKEINSTANCE eiid="ei75" eventID="e75"/>
+<MAKEINSTANCE eiid="ei51" eventID="e51"/>
+<MAKEINSTANCE eiid="ei91" eventID="e91"/>
+<MAKEINSTANCE eiid="ei64" eventID="e64"/>
+<MAKEINSTANCE eiid="ei67" eventID="e67"/>
+<MAKEINSTANCE eiid="ei81" eventID="e81"/>
+<MAKEINSTANCE eiid="ei21" eventID="e21"/>
+<MAKEINSTANCE eiid="ei93" eventID="e93"/>
+<MAKEINSTANCE eiid="ei92" eventID="e92"/>
+<MAKEINSTANCE eiid="ei57" eventID="e57"/>
+<MAKEINSTANCE eiid="ei63" eventID="e63"/>
+<MAKEINSTANCE eiid="ei79" eventID="e79"/>
+<MAKEINSTANCE eiid="ei87" eventID="e87"/>
+<MAKEINSTANCE eiid="ei13" eventID="e13"/>
+<MAKEINSTANCE eiid="ei94" eventID="e94"/>
+<MAKEINSTANCE eiid="ei50" eventID="e50"/>
+<MAKEINSTANCE eiid="ei56" eventID="e56"/>
+<MAKEINSTANCE eiid="ei77" eventID="e77"/>
+<MAKEINSTANCE eiid="ei53" eventID="e53"/>
+<MAKEINSTANCE eiid="ei47" eventID="e47"/>
+<MAKEINSTANCE eiid="ei10" eventID="e10"/>
+<MAKEINSTANCE eiid="ei38" eventID="e38"/>
+<MAKEINSTANCE eiid="ei46" eventID="e46"/>
+<MAKEINSTANCE eiid="ei8" eventID="e8"/>
+<MAKEINSTANCE eiid="ei9" eventID="e9"/>
+<MAKEINSTANCE eiid="ei80" eventID="e80"/>
+<MAKEINSTANCE eiid="ei18" eventID="e18"/>
+<MAKEINSTANCE eiid="ei95" eventID="e95"/>
+<MAKEINSTANCE eiid="ei89" eventID="e89"/>
+<MAKEINSTANCE eiid="ei52" eventID="e52"/>
+<MAKEINSTANCE eiid="ei73" eventID="e73"/>
+<MAKEINSTANCE eiid="ei55" eventID="e55"/>
+<MAKEINSTANCE eiid="ei78" eventID="e78"/>
+<MAKEINSTANCE eiid="ei32" eventID="e32"/>
+<MAKEINSTANCE eiid="ei1" eventID="e1"/>
+<MAKEINSTANCE eiid="ei61" eventID="e61"/>
+<MAKEINSTANCE eiid="ei22" eventID="e22"/>
+<MAKEINSTANCE eiid="ei86" eventID="e86"/>
+<MAKEINSTANCE eiid="ei76" eventID="e76"/>
+<MAKEINSTANCE eiid="ei65" eventID="e65"/>
+<MAKEINSTANCE eiid="ei72" eventID="e72"/>
+<MAKEINSTANCE eiid="ei60" eventID="e60"/>
+<MAKEINSTANCE eiid="ei84" eventID="e84"/>
+<MAKEINSTANCE eiid="ei34" eventID="e34"/>
+<MAKEINSTANCE eiid="ei11" eventID="e11"/>
+<MAKEINSTANCE eiid="ei90" eventID="e90"/>
+<MAKEINSTANCE eiid="ei19" eventID="e19"/>
+<MAKEINSTANCE eiid="ei2" eventID="e2"/>
+<MAKEINSTANCE eiid="ei54" eventID="e54"/>
+<MAKEINSTANCE eiid="ei66" eventID="e66"/>
+<MAKEINSTANCE eiid="ei44" eventID="e44"/>
+<MAKEINSTANCE eiid="ei40" eventID="e40"/>
+<MAKEINSTANCE eiid="ei41" eventID="e41"/>
+<MAKEINSTANCE eiid="ei29" eventID="e29"/>
+<MAKEINSTANCE eiid="ei58" eventID="e58"/>
+<MAKEINSTANCE eiid="ei70" eventID="e70"/>
+<MAKEINSTANCE eiid="ei74" eventID="e74"/>
+<MAKEINSTANCE eiid="ei39" eventID="e39"/>
+<MAKEINSTANCE eiid="ei30" eventID="e30"/>
+
+
+<LASTEXTRAINFO>
+(PROFILE (WS SL:BC-Cambodia-Britain-Hostage; CT:i; (REG:ASIA;) (REG:ENGL;) (REG:EURO;) (REG:BRIT;) (REG:SCAN;) (REG:MEST;) (REG:AFRI;) (REG:INDI;) (LANG:ENGLISH;)) )
+AP-NY-02-19-98 0802EST
+</LASTEXTRAINFO>
+
+
+<TLINK lid="l1" relType="SIMULTANEOUS" timeID="t11" relatedToTime="t13" />
+<TLINK lid="l2" relType="AFTER" timeID="t11" relatedToTime="t16" />
+<TLINK lid="l3" relType="AFTER" timeID="t11" relatedToTime="t12" />
+<TLINK lid="l4" relType="SIMULTANEOUS" timeID="t1" relatedToTime="t11" />
+<TLINK lid="l5" relType="SIMULTANEOUS" timeID="t0" relatedToTime="t11" />
+<TLINK lid="l6" relType="AFTER" timeID="t11" relatedToTime="t20" />
+<TLINK lid="l7" relType="BEFORE" timeID="t6" relatedToTime="t11" />
+<TLINK lid="l8" relType="AFTER" timeID="t11" relatedToTime="t17" />
+<TLINK lid="l9" relType="AFTER" timeID="t8" relatedToTime="t11" />
+<TLINK lid="l10" relType="AFTER" timeID="t11" relatedToTime="t18" />
+<TLINK lid="l11" relType="SIMULTANEOUS" timeID="t11" relatedToTime="t14" />
+<TLINK lid="l12" relType="BEFORE" timeID="t4" relatedToTime="t11" />
+<TLINK lid="l13" relType="BEFORE" timeID="t2" relatedToTime="t11" />
+<TLINK lid="l14" relType="BEFORE" timeID="t9" relatedToTime="t11" />
+<TLINK lid="l15" relType="BEFORE" timeID="t16" relatedToTime="t18" />
+<TLINK lid="l16" relType="BEFORE" timeID="t12" relatedToTime="t18" />
+<TLINK lid="l17" relType="BEFORE" timeID="t18" relatedToTime="t20" />
+<TLINK lid="l18" relType="AFTER" timeID="t6" relatedToTime="t18" />
+<TLINK lid="l19" relType="BEFORE" timeID="t17" relatedToTime="t18" />
+<TLINK lid="l20" relType="BEFORE" timeID="t4" relatedToTime="t18" />
+<TLINK lid="l21" relType="BEFORE" timeID="t2" relatedToTime="t18" />
+<TLINK lid="l22" relType="BEFORE" timeID="t9" relatedToTime="t18" />
+<TLINK lid="l23" relType="AFTER" timeID="t6" relatedToTime="t20" />
+<TLINK lid="l24" relType="AFTER" timeID="t9" relatedToTime="t16" />
+<TLINK lid="l25" relType="BEFORE" timeID="t9" relatedToTime="t12" />
+<TLINK lid="l26" relType="SIMULTANEOUS" timeID="t9" relatedToTime="t17" />
+<TLINK lid="l27" relType="AFTER" timeID="t4" relatedToTime="t9" />
+<TLINK lid="l28" relType="SIMULTANEOUS" timeID="t2" relatedToTime="t9" />
+<TLINK lid="l29" relType="BEFORE" timeID="t4" relatedToTime="t12" />
+<TLINK lid="l30" relType="BEFORE" eventInstanceID="ei7" relatedToTime="t0" />
+<TLINK lid="l31" relType="BEFORE" eventInstanceID="ei36" relatedToTime="t0" />
+<TLINK lid="l32" relType="AFTER" eventInstanceID="ei61" relatedToTime="t0" />
+<TLINK lid="l33" relType="INCLUDES" eventInstanceID="ei67" relatedToTime="t0" />
+<TLINK lid="l34" relType="BEGINS" eventInstanceID="ei86" relatedToTime="t0" />
+<TLINK lid="l35" relType="BEFORE" eventInstanceID="ei29" relatedToTime="t0" />
+<TLINK lid="l36" relType="BEFORE" eventInstanceID="ei20" relatedToTime="t0" />
+<TLINK lid="l37" relType="BEFORE" eventInstanceID="ei16" relatedToTime="t0" />
+<TLINK lid="l38" relType="BEFORE" eventInstanceID="ei10" relatedToTime="t0" />
+<TLINK lid="l39" relType="BEFORE" eventInstanceID="ei37" relatedToTime="t0" />
+<TLINK lid="l40" relType="BEFORE" eventInstanceID="ei4" relatedToTime="t0" />
+<TLINK lid="l41" relType="BEFORE" eventInstanceID="ei17" relatedToTime="t0" />
+<TLINK lid="l42" relType="INCLUDES" eventInstanceID="ei28" relatedToTime="t0" />
+<TLINK lid="l43" relType="BEFORE" eventInstanceID="ei81" relatedToTime="t0" />
+<TLINK lid="l44" relType="BEFORE" eventInstanceID="ei91" relatedToTime="t0" />
+<TLINK lid="l45" relType="BEFORE" eventInstanceID="ei54" relatedToTime="t0" />
+<TLINK lid="l46" relType="BEFORE" eventInstanceID="ei19" relatedToTime="t0" />
+<TLINK lid="l47" relType="BEFORE" eventInstanceID="ei51" relatedToTime="t0" />
+<TLINK lid="l48" relType="BEFORE" eventInstanceID="ei21" relatedToTime="t0" />
+<TLINK lid="l49" relType="BEGINS" eventInstanceID="ei93" relatedToTime="t0" />
+<TLINK lid="l50" relType="BEFORE" eventInstanceID="ei70" relatedToTime="t0" />
+<TLINK lid="l51" relType="BEFORE" eventInstanceID="ei92" relatedToTime="t0" />
+<TLINK lid="l52" relType="BEFORE" eventInstanceID="ei75" relatedToTime="t0" />
+<TLINK lid="l53" relType="BEFORE" eventInstanceID="ei63" relatedToTime="t0" />
+<TLINK lid="l54" relType="BEFORE" eventInstanceID="ei40" relatedToTime="t0" />
+<TLINK lid="l55" relType="BEGINS" eventInstanceID="ei87" relatedToTime="t0" />
+<TLINK lid="l56" relType="BEFORE" eventInstanceID="ei6" relatedToTime="t0" />
+<TLINK lid="l57" relType="BEFORE" eventInstanceID="ei56" relatedToTime="t0" />
+<TLINK lid="l58" relType="BEFORE" eventInstanceID="ei77" relatedToTime="t0" />
+<TLINK lid="l59" relType="BEFORE" eventInstanceID="ei53" relatedToTime="t0" />
+<TLINK lid="l60" relType="BEFORE" eventInstanceID="ei47" relatedToTime="t0" />
+<TLINK lid="l61" relType="BEFORE" eventInstanceID="ei78" relatedToTime="t0" />
+<TLINK lid="l62" relType="AFTER" eventInstanceID="ei59" relatedToTime="t0" />
+<TLINK lid="l63" relType="BEFORE" eventInstanceID="ei46" relatedToTime="t0" />
+<TLINK lid="l64" relType="BEFORE" eventInstanceID="ei8" relatedToTime="t0" />
+<TLINK lid="l65" relType="BEFORE" eventInstanceID="ei9" relatedToTime="t0" />
+<TLINK lid="l66" relType="SIMULTANEOUS" eventInstanceID="ei13" relatedToTime="t0" />
+<TLINK lid="l67" relType="BEFORE" eventInstanceID="ei95" relatedToTime="t0" />
+<TLINK lid="l68" relType="BEFORE" eventInstanceID="ei52" relatedToTime="t0" />
+<TLINK lid="l69" relType="BEFORE" eventInstanceID="ei73" relatedToTime="t0" />
+<TLINK lid="l70" relType="BEFORE" eventInstanceID="ei80" relatedToTime="t0" />
+<TLINK lid="l71" relType="BEGINS" eventInstanceID="ei88" relatedToTime="t0" />
+<TLINK lid="l72" relType="BEGINS" eventInstanceID="ei38" relatedToTime="t0" />
+<TLINK lid="l73" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0" />
+<TLINK lid="l74" relType="BEFORE" eventInstanceID="ei74" relatedToTime="t0" />
+<TLINK lid="l75" relType="BEFORE" eventInstanceID="ei94" relatedToTime="t0" />
+<TLINK lid="l76" relType="BEFORE" eventInstanceID="ei22" relatedToTime="t0" />
+<TLINK lid="l77" relType="BEFORE" eventInstanceID="ei96" relatedToTime="t0" />
+<TLINK lid="l78" relType="BEFORE" eventInstanceID="ei76" relatedToTime="t0" />
+<TLINK lid="l79" relType="BEFORE" eventInstanceID="ei39" relatedToTime="t0" />
+<TLINK lid="l80" relType="BEFORE" eventInstanceID="ei60" relatedToTime="t0" />
+<TLINK lid="l81" relType="BEFORE" eventInstanceID="ei72" relatedToTime="t0" />
+<TLINK lid="l82" relType="BEFORE" eventInstanceID="ei84" relatedToTime="t0" />
+<TLINK lid="l83" relType="AFTER" eventInstanceID="ei34" relatedToTime="t0" />
+<TLINK lid="l84" relType="IS_INCLUDED" eventInstanceID="ei11" relatedToTime="t0" />
+<TLINK lid="l85" relType="BEGINS" eventInstanceID="ei90" relatedToTime="t0" />
+<TLINK lid="l86" relType="BEFORE" eventInstanceID="ei82" relatedToTime="t0" />
+<TLINK lid="l87" relType="BEFORE" eventInstanceID="ei32" relatedToTime="t0" />
+<TLINK lid="l88" relType="BEFORE" eventInstanceID="ei2" relatedToTime="t0" />
+<TLINK lid="l89" relType="BEFORE" eventInstanceID="ei64" relatedToTime="t0" />
+<TLINK lid="l90" relType="BEFORE" eventInstanceID="ei66" relatedToTime="t0" />
+<TLINK lid="l91" relType="BEGINS" eventInstanceID="ei44" relatedToTime="t0" />
+<TLINK lid="l92" relType="INCLUDES" eventInstanceID="ei79" relatedToTime="t0" />
+<TLINK lid="l93" relType="BEFORE" eventInstanceID="ei50" relatedToTime="t0" />
+<TLINK lid="l94" relType="BEFORE" eventInstanceID="ei89" relatedToTime="t0" />
+<TLINK lid="l95" relType="BEFORE" eventInstanceID="ei18" relatedToTime="t0" />
+<TLINK lid="l96" relType="BEFORE" eventInstanceID="ei58" relatedToTime="t0" />
+<TLINK lid="l97" relType="INCLUDES" eventInstanceID="ei57" relatedToTime="t0" />
+<TLINK lid="l98" relType="BEGINS" eventInstanceID="ei41" relatedToTime="t0" />
+<TLINK lid="l99" relType="BEFORE" eventInstanceID="ei55" relatedToTime="t0" />
+<TLINK lid="l100" relType="BEFORE" eventInstanceID="ei65" relatedToTime="t0" />
+<TLINK lid="l101" relType="BEFORE" eventInstanceID="ei30" relatedToTime="t0" />
+<TLINK lid="l102" relType="SIMULTANEOUS" eventInstanceID="ei73" relatedToEventInstance="ei75" />
+<TLINK lid="l103" relType="SIMULTANEOUS" eventInstanceID="ei75" relatedToEventInstance="ei77" />
+<TLINK lid="l104" relType="BEFORE" eventInstanceID="ei77" relatedToEventInstance="ei78" />
+<TLINK lid="l105" relType="AFTER" eventInstanceID="ei78" relatedToEventInstance="ei81" />
+<TLINK lid="l106" relType="AFTER" eventInstanceID="ei81" relatedToEventInstance="ei82" />
+<TLINK lid="l107" relType="AFTER" eventInstanceID="ei36" relatedToEventInstance="ei40" />
+<TLINK lid="l108" relType="BEFORE" eventInstanceID="ei40" relatedToEventInstance="ei47" />
+<TLINK lid="l109" relType="SIMULTANEOUS" eventInstanceID="ei47" relatedToEventInstance="ei54" />
+<TLINK lid="l110" relType="BEFORE" eventInstanceID="ei63" relatedToEventInstance="ei67" />
+<TLINK lid="l111" relType="BEFORE" eventInstanceID="ei32" relatedToEventInstance="ei36" />
+<TLINK lid="l112" relType="AFTER" eventInstanceID="ei29" relatedToEventInstance="ei32" />
+<TLINK lid="l113" relType="SIMULTANEOUS" eventInstanceID="ei20" relatedToEventInstance="ei29" />
+<TLINK lid="l114" relType="SIMULTANEOUS" eventInstanceID="ei16" relatedToEventInstance="ei20" />
+<TLINK lid="l115" relType="SIMULTANEOUS" eventInstanceID="ei7" relatedToEventInstance="ei10" />
+<TLINK lid="l116" relType="BEGUN_BY" eventInstanceID="ei2" relatedToTime="t2" />
+<TLINK lid="l117" relType="BEGUN_BY" eventInstanceID="ei7" relatedToTime="t2" />
+<TLINK lid="l118" relType="BEGUN_BY" eventInstanceID="ei4" relatedToTime="t2" />
+<TLINK lid="l119" relType="IS_INCLUDED" eventInstanceID="ei6" relatedToTime="t2" />
+<TLINK lid="l120" relType="IS_INCLUDED" eventInstanceID="ei1" relatedToTime="t2" />
+<TLINK lid="l121" relType="IS_INCLUDED" eventInstanceID="ei10" relatedToTime="t3" />
+<TLINK lid="l122" relType="IS_INCLUDED" eventInstanceID="ei8" relatedToTime="t3" />
+<TLINK lid="l123" relType="IS_INCLUDED" eventInstanceID="ei9" relatedToTime="t3" />
+<TLINK lid="l124" relType="IS_INCLUDED" eventInstanceID="ei11" relatedToTime="t3" />
+<TLINK lid="l125" relType="IS_INCLUDED" eventInstanceID="ei20" relatedToTime="t6" />
+<TLINK lid="l126" relType="IS_INCLUDED" eventInstanceID="ei19" relatedToTime="t6" />
+<TLINK lid="l127" relType="IS_INCLUDED" eventInstanceID="ei21" relatedToTime="t6" />
+<TLINK lid="l128" relType="IS_INCLUDED" eventInstanceID="ei22" relatedToTime="t6" />
+<TLINK lid="l129" relType="IS_INCLUDED" eventInstanceID="ei70" relatedToTime="t16" />
+<TLINK lid="l130" relType="IS_INCLUDED" eventInstanceID="ei72" relatedToTime="t16" />
+<TLINK lid="l131" relType="IS_INCLUDED" eventInstanceID="ei47" relatedToTime="t12" />
+<TLINK lid="l132" relType="IS_INCLUDED" eventInstanceID="ei46" relatedToTime="t12" />
+<TLINK lid="l133" relType="IS_INCLUDED" eventInstanceID="ei50" relatedToTime="t12" />
+<TLINK lid="l134" relType="IS_INCLUDED" eventInstanceID="ei75" relatedToTime="t17" />
+<TLINK lid="l135" relType="IS_INCLUDED" eventInstanceID="ei74" relatedToTime="t17" />
+<TLINK lid="l136" relType="IS_INCLUDED" eventInstanceID="ei76" relatedToTime="t17" />
+<TLINK lid="l137" relType="IS_INCLUDED" eventInstanceID="ei81" relatedToTime="t18" />
+<TLINK lid="l138" relType="IS_INCLUDED" eventInstanceID="ei80" relatedToTime="t18" />
+<TLINK lid="l139" relType="IS_INCLUDED" eventInstanceID="ei29" relatedToTime="t10" />
+<TLINK lid="l140" relType="IS_INCLUDED" eventInstanceID="ei28" relatedToTime="t10" />
+
+</TimeML>
+
+

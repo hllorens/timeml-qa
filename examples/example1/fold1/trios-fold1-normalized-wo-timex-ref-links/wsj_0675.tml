@@ -1,0 +1,226 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>wsj_0675</DOCID>
+
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-10-30" temporalFunction="false" functionInDocument="CREATION_TIME">10/30/89</TIMEX3></DCT>
+
+<EXTRAINFO>
+WSJ891030-0020 = 891030 891030-0020.
+What's News -- @ Business and Finance 10/30/89 WALL STREET JOURNAL (J)
+</EXTRAINFO>
+
+<TEXT>
+PROGRAM TRADING is being <EVENT eid="e2" polarity="POS" modality="NONE" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" class="OCCURRENCE">curbed</EVENT> by more securities firms, but big institutional investors are <EVENT eid="e3" polarity="POS" modality="NONE" pos="VERB" tense="PRESENT" aspect="NONE" class="I_STATE">expected</EVENT> to <EVENT eid="e4" polarity="POS" modality="NONE" pos="VERB" tense="INFINITIVE" aspect="NONE" class="ASPECTUAL">continue</EVENT> the practice, further <EVENT eid="e6" polarity="POS" modality="NONE" pos="VERB" tense="PRESPART" aspect="NONE" class="OCCURRENCE">roiling</EVENT> the stock market. Bowing to criticism, Bear Stearns, Morgan Stanley and Oppenheimer <EVENT eid="e9" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="OCCURRENCE">joined</EVENT> PaineWebber in suspending stock-index arbitrage trading for their own accounts. Still, stock-index funds are <EVENT eid="e12" polarity="POS" modality="NONE" pos="VERB" tense="PRESENT" aspect="NONE" class="I_STATE">expected</EVENT> to <EVENT eid="e13" polarity="POS" modality="NONE" pos="VERB" tense="INFINITIVE" aspect="NONE" class="ASPECTUAL">continue</EVENT> <EVENT eid="e14" polarity="POS" modality="NONE" pos="VERB" tense="PRESPART" aspect="NONE" class="ASPECTUAL">launching</EVENT> big programs through the market.
+
+Several Big Board firms are <EVENT eid="e16" polarity="POS" modality="NONE" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" class="OCCURRENCE">organizing</EVENT> to <EVENT eid="e17" polarity="POS" modality="NONE" pos="VERB" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE">complain</EVENT> about program trading and the exchange's role in it. The effort is being <EVENT eid="e20" polarity="POS" modality="NONE" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" class="OCCURRENCE">led</EVENT> by Contel.
+
+Personal spending <EVENT eid="e21" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="OCCURRENCE">rose</EVENT> 0.2% in <TIMEX3 tid="t1" type="DATE" value="1989-09">September</TIMEX3>, the smallest <EVENT eid="e22" polarity="POS" modality="NONE" pos="NOUN" tense="NONE" aspect="NONE" class="OCCURRENCE">gain</EVENT> in a <TIMEX3 tid="t2" type="DATE" value="1989">year</TIMEX3>. The <EVENT eid="e23" polarity="POS" modality="NONE" pos="NOUN" tense="NONE" aspect="NONE" class="OCCURRENCE">slowdown</EVENT> <EVENT eid="e24" polarity="POS" modality="NONE" pos="VERB" tense="PRESENT" aspect="NONE" class="OCCURRENCE">raises</EVENT> <EVENT eid="e25" polarity="POS" modality="NONE" pos="NOUN" tense="NONE" aspect="NONE" class="OCCURRENCE">questions</EVENT> about the economy's strength because spending <EVENT eid="e26" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="OCCURRENCE">fueled</EVENT> much of the <TIMEX3 tid="t3" type="DATE" value="1989-Q4">third-quarter</TIMEX3> GNP growth. Meanwhile, personal income <EVENT eid="e28" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="OCCURRENCE">edged</EVENT> up 0.3%.
+
+Factory owners are <EVENT eid="e29" polarity="POS" modality="NONE" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" class="OCCURRENCE">buying</EVENT> new machinery at a healthy rate <TIMEX3 tid="t4" type="DATE" value="1989-FA">this fall</TIMEX3>, machine-tool makers <EVENT eid="e30" polarity="POS" modality="NONE" pos="VERB" tense="PRESENT" aspect="NONE" class="REPORTING">say</EVENT>. But weak car sales <EVENT eid="e31" polarity="POS" modality="NONE" pos="VERB" tense="PRESENT" aspect="NONE" class="OCCURRENCE">raise</EVENT> <EVENT eid="e32" polarity="POS" modality="NONE" pos="NOUN" tense="NONE" aspect="NONE" class="OCCURRENCE">questions</EVENT> about future demand from the auto sector.
+
+Southern's Gulf Power unit may <EVENT eid="e34" polarity="POS" modality="may" pos="VERB" tense="NONE" aspect="NONE" class="OCCURRENCE">plead</EVENT> guilty <TIMEX3 tid="t6" type="DATE" value="1989-W44">this week</TIMEX3> to charges it illegally <EVENT eid="e36" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="OCCURRENCE">steered</EVENT> company money to politicians through third parties. The tentative pact would <EVENT eid="e37" polarity="POS" modality="would" pos="VERB" tense="NONE" aspect="NONE" class="OCCURRENCE">resolve</EVENT> part of a broad investigation of the Atlanta-based company in <TIMEX3 tid="t7" type="DATE" value="1988">the past year</TIMEX3>.
+
+LIN Broadcasting and BellSouth <EVENT eid="e39" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="OCCURRENCE">sweetened</EVENT> their plan to <EVENT eid="e41" polarity="POS" modality="NONE" pos="VERB" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE">merge</EVENT> cellular phone <EVENT eid="e42" polarity="POS" modality="NONE" pos="NOUN" tense="NONE" aspect="NONE" class="OCCURRENCE">operations</EVENT>, offering LIN holders a special $42-a-share payout. But the new pact will <EVENT eid="e45" polarity="POS" modality="will" pos="VERB" tense="FUTURE" aspect="NONE" class="OCCURRENCE">force</EVENT> huge debt on the new firm and could still fail to <EVENT eid="e47" polarity="POS" modality="NONE" pos="VERB" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE">thwart</EVENT> rival suitor McCaw Cellular.
+
+Unisys <EVENT eid="e48" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="OCCURRENCE">posted</EVENT> a $648.2 million loss for <TIMEX3 tid="t8" type="DATE" value="1989-Q3">the third quarter</TIMEX3> as it <EVENT eid="e50" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="OCCURRENCE">moved</EVENT> quickly to <EVENT eid="e51" polarity="POS" modality="NONE" pos="VERB" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE">take</EVENT> write-offs for various problems and <EVENT eid="e53" polarity="POS" modality="NONE" pos="VERB" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE">prepare</EVENT> for a turnaround. But some analysts <EVENT eid="e55" polarity="POS" modality="NONE" pos="VERB" tense="PRESENT" aspect="NONE" class="OCCURRENCE">wonder</EVENT> how strong the recovery will be.
+
+RJR Nabisco <EVENT eid="e57" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="I_ACTION">agreed</EVENT> to <EVENT eid="e58" polarity="POS" modality="NONE" pos="VERB" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE">sell</EVENT> three candy businesses to Nestle for $370 million. The accord <EVENT eid="e59" polarity="POS" modality="NONE" pos="VERB" tense="PRESENT" aspect="NONE" class="I_ACTION">helps</EVENT> RJR <EVENT eid="e60" polarity="POS" modality="NONE" pos="NOUN" tense="NONE" aspect="NONE" class="OCCURRENCE">pay</EVENT> off debt and boosts Nestle's 7% <EVENT eid="e62" polarity="POS" modality="NONE" pos="VERB" tense="PASTPART" aspect="NONE" class="OCCURRENCE">share</EVENT> of the U.S. candy market to 12%.
+
+GM and Ford are <EVENT eid="e63" polarity="POS" modality="NONE" pos="VERB" tense="PRESENT" aspect="NONE" class="I_STATE">expected</EVENT> to <EVENT eid="e64" polarity="POS" modality="NONE" pos="VERB" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE">go</EVENT> <EVENT eid="e65" polarity="POS" modality="NONE" pos="VERB" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE">head</EVENT> to head in the markets to <EVENT eid="e66" polarity="POS" modality="NONE" pos="VERB" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE">buy</EVENT> up rival 15% stakes in Jaguar. GM <EVENT eid="e67" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="OCCURRENCE">confirmed</EVENT> it <EVENT eid="e68" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="OCCURRENCE">received</EVENT> U.S. antitrust <EVENT eid="e69" polarity="POS" modality="NONE" pos="NOUN" tense="NONE" aspect="NONE" class="OCCURRENCE">clearance</EVENT> to <EVENT eid="e70" polarity="POS" modality="NONE" pos="VERB" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE">boost</EVENT> its holding.
+
+Sansui Electric <EVENT eid="e72" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="I_ACTION">agreed</EVENT> to <EVENT eid="e73" polarity="POS" modality="NONE" pos="VERB" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE">sell</EVENT> a 51% stake to Polly Peck of Britain for $110 million. Still, analysts <EVENT eid="e74" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="REPORTING">said</EVENT> the accord doesn't <EVENT eid="e75" polarity="NEG" modality="do" pos="VERB" tense="PRESENT" aspect="NONE" class="I_STATE">suggest</EVENT> Japan is <EVENT eid="e76" polarity="POS" modality="NONE" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" class="OCCURRENCE">opening</EVENT> up to more foreign <EVENT eid="e77" polarity="POS" modality="NONE" pos="NOUN" tense="NONE" aspect="NONE" class="OCCURRENCE">takeovers</EVENT>.
+
+Kellogg <EVENT eid="e78" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="ASPECTUAL">suspended</EVENT> work on a $1 billion cereal plant, <EVENT eid="e80" polarity="POS" modality="NONE" pos="VERB" tense="PRESPART" aspect="NONE" class="OCCURRENCE">indicating</EVENT> a pessimistic outlook by the cereal maker, which has been <EVENT eid="e81" polarity="POS" modality="NONE" pos="VERB" tense="PRESENT" aspect="PERFECTIVE_PROGRESSIVE" class="OCCURRENCE">losing</EVENT> market <EVENT eid="e82" polarity="POS" modality="NONE" pos="VERB" tense="PRESENT" aspect="NONE" class="OCCURRENCE">share</EVENT>.
+
+Insurers could <EVENT eid="e83" polarity="POS" modality="could" pos="VERB" tense="NONE" aspect="NONE" class="PERCEPTION">see</EVENT> claims <EVENT eid="e84" polarity="POS" modality="NONE" pos="VERB" tense="PRESPART" aspect="NONE" class="OCCURRENCE">totaling</EVENT> nearly $1 billion from the San Francisco earthquake, far less than the $4 billion from Hurricane Hugo.
+
+Nashua <EVENT eid="e87" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="OCCURRENCE">strengthened</EVENT> its poison-pill plan after <EVENT eid="e89" polarity="POS" modality="NONE" pos="VERB" tense="PRESPART" aspect="NONE" class="OCCURRENCE">announcing</EVENT> a Dutch firm is <EVENT eid="e90" polarity="POS" modality="NONE" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" class="I_ACTION">seeking</EVENT> to <EVENT eid="e91" polarity="POS" modality="NONE" pos="VERB" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE">buy</EVENT> up to 25% of the New Hampshire copier company.
+
+Mobil is <EVENT eid="e92" polarity="POS" modality="NONE" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" class="OCCURRENCE">cutting</EVENT> back its U.S. oil and gas exploration and production group by up to 15% as part of a restructuring of the business.
+
+Markets Stocks: Volume 170,330,000 shares.
+
+Dow Jones industrials 2596.72, off 17.01; transportation 1190.43, off 14.76; utilities 215.86, up 0.19.
+
+Bonds: Shearson Lehman Hutton Treasury index 3406.31, off 19.29.
+
+Commodities: Dow Jones futures index 129.49, up 0.27; spot index 130.80, off 0.24.
+
+Dollar: 141.65 yen, off 0.45; 1.8300 marks, off 0.0100.
+</TEXT>
+
+<MAKEINSTANCE eiid="ei2" eventID="e2"/>
+<MAKEINSTANCE eiid="ei17" eventID="e17"/>
+<MAKEINSTANCE eiid="ei63" eventID="e63"/>
+<MAKEINSTANCE eiid="ei72" eventID="e72"/>
+<MAKEINSTANCE eiid="ei75" eventID="e75"/>
+<MAKEINSTANCE eiid="ei28" eventID="e28"/>
+<MAKEINSTANCE eiid="ei68" eventID="e68"/>
+<MAKEINSTANCE eiid="ei62" eventID="e62"/>
+<MAKEINSTANCE eiid="ei64" eventID="e64"/>
+<MAKEINSTANCE eiid="ei58" eventID="e58"/>
+<MAKEINSTANCE eiid="ei51" eventID="e51"/>
+<MAKEINSTANCE eiid="ei66" eventID="e66"/>
+<MAKEINSTANCE eiid="ei41" eventID="e41"/>
+<MAKEINSTANCE eiid="ei70" eventID="e70"/>
+<MAKEINSTANCE eiid="ei36" eventID="e36"/>
+<MAKEINSTANCE eiid="ei20" eventID="e20"/>
+<MAKEINSTANCE eiid="ei90" eventID="e90"/>
+<MAKEINSTANCE eiid="ei81" eventID="e81"/>
+<MAKEINSTANCE eiid="ei74" eventID="e74"/>
+<MAKEINSTANCE eiid="ei55" eventID="e55"/>
+<MAKEINSTANCE eiid="ei89" eventID="e89"/>
+<MAKEINSTANCE eiid="ei6" eventID="e6"/>
+<MAKEINSTANCE eiid="ei24" eventID="e24"/>
+<MAKEINSTANCE eiid="ei60" eventID="e60"/>
+<MAKEINSTANCE eiid="ei87" eventID="e87"/>
+<MAKEINSTANCE eiid="ei29" eventID="e29"/>
+<MAKEINSTANCE eiid="ei25" eventID="e25"/>
+<MAKEINSTANCE eiid="ei21" eventID="e21"/>
+<MAKEINSTANCE eiid="ei9" eventID="e9"/>
+<MAKEINSTANCE eiid="ei84" eventID="e84"/>
+<MAKEINSTANCE eiid="ei31" eventID="e31"/>
+<MAKEINSTANCE eiid="ei59" eventID="e59"/>
+<MAKEINSTANCE eiid="ei34" eventID="e34"/>
+<MAKEINSTANCE eiid="ei22" eventID="e22"/>
+<MAKEINSTANCE eiid="ei30" eventID="e30"/>
+<MAKEINSTANCE eiid="ei50" eventID="e50"/>
+<MAKEINSTANCE eiid="ei73" eventID="e73"/>
+<MAKEINSTANCE eiid="ei48" eventID="e48"/>
+<MAKEINSTANCE eiid="ei53" eventID="e53"/>
+<MAKEINSTANCE eiid="ei92" eventID="e92"/>
+<MAKEINSTANCE eiid="ei13" eventID="e13"/>
+<MAKEINSTANCE eiid="ei42" eventID="e42"/>
+<MAKEINSTANCE eiid="ei37" eventID="e37"/>
+<MAKEINSTANCE eiid="ei65" eventID="e65"/>
+<MAKEINSTANCE eiid="ei91" eventID="e91"/>
+<MAKEINSTANCE eiid="ei80" eventID="e80"/>
+<MAKEINSTANCE eiid="ei82" eventID="e82"/>
+<MAKEINSTANCE eiid="ei67" eventID="e67"/>
+<MAKEINSTANCE eiid="ei39" eventID="e39"/>
+<MAKEINSTANCE eiid="ei23" eventID="e23"/>
+<MAKEINSTANCE eiid="ei57" eventID="e57"/>
+<MAKEINSTANCE eiid="ei4" eventID="e4"/>
+<MAKEINSTANCE eiid="ei26" eventID="e26"/>
+<MAKEINSTANCE eiid="ei16" eventID="e16"/>
+<MAKEINSTANCE eiid="ei14" eventID="e14"/>
+<MAKEINSTANCE eiid="ei83" eventID="e83"/>
+<MAKEINSTANCE eiid="ei32" eventID="e32"/>
+<MAKEINSTANCE eiid="ei12" eventID="e12"/>
+<MAKEINSTANCE eiid="ei3" eventID="e3"/>
+<MAKEINSTANCE eiid="ei77" eventID="e77"/>
+<MAKEINSTANCE eiid="ei76" eventID="e76"/>
+<MAKEINSTANCE eiid="ei47" eventID="e47"/>
+<MAKEINSTANCE eiid="ei78" eventID="e78"/>
+<MAKEINSTANCE eiid="ei45" eventID="e45"/>
+<MAKEINSTANCE eiid="ei69" eventID="e69"/>
+
+
+
+<TLINK lid="l1" relType="AFTER" timeID="t6" relatedToTime="t7" />
+<TLINK lid="l2" relType="AFTER" timeID="t1" relatedToTime="t7" />
+<TLINK lid="l3" relType="AFTER" timeID="t3" relatedToTime="t7" />
+<TLINK lid="l4" relType="AFTER" timeID="t2" relatedToTime="t7" />
+<TLINK lid="l5" relType="AFTER" timeID="t4" relatedToTime="t7" />
+<TLINK lid="l6" relType="BEFORE" timeID="t7" relatedToTime="t8" />
+<TLINK lid="l7" relType="AFTER" timeID="t0" relatedToTime="t7" />
+<TLINK lid="l8" relType="AFTER" timeID="t4" relatedToTime="t6" />
+<TLINK lid="l9" relType="BEFORE" timeID="t1" relatedToTime="t4" />
+<TLINK lid="l10" relType="AFTER" timeID="t3" relatedToTime="t4" />
+<TLINK lid="l11" relType="BEFORE" timeID="t2" relatedToTime="t4" />
+<TLINK lid="l12" relType="AFTER" timeID="t4" relatedToTime="t8" />
+<TLINK lid="l13" relType="BEFORE" timeID="t0" relatedToTime="t4" />
+<TLINK lid="l14" relType="BEFORE" timeID="t2" relatedToTime="t6" />
+<TLINK lid="l15" relType="AFTER" timeID="t1" relatedToTime="t2" />
+<TLINK lid="l16" relType="SIMULTANEOUS" timeID="t2" relatedToTime="t8" />
+<TLINK lid="l17" relType="AFTER" timeID="t0" relatedToTime="t2" />
+<TLINK lid="l18" relType="BEFORE" timeID="t1" relatedToTime="t6" />
+<TLINK lid="l19" relType="AFTER" timeID="t0" relatedToTime="t1" />
+<TLINK lid="l20" relType="INCLUDES" timeID="t0" relatedToTime="t6" />
+<TLINK lid="l21" relType="INCLUDES" eventInstanceID="ei2" relatedToTime="t0" />
+<TLINK lid="l22" relType="INCLUDES" eventInstanceID="ei17" relatedToTime="t0" />
+<TLINK lid="l23" relType="AFTER" eventInstanceID="ei14" relatedToTime="t0" />
+<TLINK lid="l24" relType="INCLUDES" eventInstanceID="ei63" relatedToTime="t0" />
+<TLINK lid="l25" relType="BEFORE" eventInstanceID="ei72" relatedToTime="t0" />
+<TLINK lid="l26" relType="IS_INCLUDED" eventInstanceID="ei75" relatedToTime="t0" />
+<TLINK lid="l27" relType="BEFORE" eventInstanceID="ei68" relatedToTime="t0" />
+<TLINK lid="l28" relType="BEGINS" eventInstanceID="ei62" relatedToTime="t0" />
+<TLINK lid="l29" relType="AFTER" eventInstanceID="ei64" relatedToTime="t0" />
+<TLINK lid="l30" relType="BEFORE" eventInstanceID="ei50" relatedToTime="t0" />
+<TLINK lid="l31" relType="BEFORE" eventInstanceID="ei51" relatedToTime="t0" />
+<TLINK lid="l32" relType="AFTER" eventInstanceID="ei66" relatedToTime="t0" />
+<TLINK lid="l33" relType="INCLUDES" eventInstanceID="ei41" relatedToTime="t0" />
+<TLINK lid="l34" relType="BEGINS" eventInstanceID="ei70" relatedToTime="t0" />
+<TLINK lid="l35" relType="BEFORE" eventInstanceID="ei36" relatedToTime="t0" />
+<TLINK lid="l36" relType="INCLUDES" eventInstanceID="ei20" relatedToTime="t0" />
+<TLINK lid="l37" relType="INCLUDES" eventInstanceID="ei90" relatedToTime="t0" />
+<TLINK lid="l38" relType="SIMULTANEOUS" eventInstanceID="ei81" relatedToTime="t0" />
+<TLINK lid="l39" relType="INCLUDES" eventInstanceID="ei82" relatedToTime="t0" />
+<TLINK lid="l40" relType="BEFORE" eventInstanceID="ei48" relatedToTime="t0" />
+<TLINK lid="l41" relType="BEFORE" eventInstanceID="ei9" relatedToTime="t0" />
+<TLINK lid="l42" relType="BEGINS" eventInstanceID="ei6" relatedToTime="t0" />
+<TLINK lid="l43" relType="BEFORE" eventInstanceID="ei24" relatedToTime="t0" />
+<TLINK lid="l44" relType="INCLUDES" eventInstanceID="ei3" relatedToTime="t0" />
+<TLINK lid="l45" relType="BEFORE" eventInstanceID="ei87" relatedToTime="t0" />
+<TLINK lid="l46" relType="INCLUDES" eventInstanceID="ei29" relatedToTime="t0" />
+<TLINK lid="l47" relType="BEFORE" eventInstanceID="ei25" relatedToTime="t0" />
+<TLINK lid="l48" relType="BEFORE" eventInstanceID="ei21" relatedToTime="t0" />
+<TLINK lid="l49" relType="INCLUDES" eventInstanceID="ei55" relatedToTime="t0" />
+<TLINK lid="l50" relType="AFTER" eventInstanceID="ei84" relatedToTime="t0" />
+<TLINK lid="l51" relType="INCLUDES" eventInstanceID="ei83" relatedToTime="t0" />
+<TLINK lid="l52" relType="BEFORE" eventInstanceID="ei34" relatedToTime="t0" />
+<TLINK lid="l53" relType="BEFORE" eventInstanceID="ei22" relatedToTime="t0" />
+<TLINK lid="l54" relType="BEFORE" eventInstanceID="ei28" relatedToTime="t0" />
+<TLINK lid="l55" relType="AFTER" eventInstanceID="ei58" relatedToTime="t0" />
+<TLINK lid="l56" relType="INCLUDES" eventInstanceID="ei13" relatedToTime="t0" />
+<TLINK lid="l57" relType="BEFORE" eventInstanceID="ei74" relatedToTime="t0" />
+<TLINK lid="l58" relType="IS_INCLUDED" eventInstanceID="ei59" relatedToTime="t0" />
+<TLINK lid="l59" relType="INCLUDES" eventInstanceID="ei92" relatedToTime="t0" />
+<TLINK lid="l60" relType="BEGINS" eventInstanceID="ei73" relatedToTime="t0" />
+<TLINK lid="l61" relType="BEFORE" eventInstanceID="ei89" relatedToTime="t0" />
+<TLINK lid="l62" relType="BEGINS" eventInstanceID="ei42" relatedToTime="t0" />
+<TLINK lid="l63" relType="BEFORE" eventInstanceID="ei26" relatedToTime="t0" />
+<TLINK lid="l64" relType="INCLUDES" eventInstanceID="ei47" relatedToTime="t0" />
+<TLINK lid="l65" relType="AFTER" eventInstanceID="ei65" relatedToTime="t0" />
+<TLINK lid="l66" relType="BEFORE" eventInstanceID="ei80" relatedToTime="t0" />
+<TLINK lid="l67" relType="BEFORE" eventInstanceID="ei37" relatedToTime="t0" />
+<TLINK lid="l68" relType="BEFORE" eventInstanceID="ei67" relatedToTime="t0" />
+<TLINK lid="l69" relType="BEFORE" eventInstanceID="ei39" relatedToTime="t0" />
+<TLINK lid="l70" relType="BEFORE" eventInstanceID="ei53" relatedToTime="t0" />
+<TLINK lid="l71" relType="BEFORE" eventInstanceID="ei23" relatedToTime="t0" />
+<TLINK lid="l72" relType="BEFORE" eventInstanceID="ei57" relatedToTime="t0" />
+<TLINK lid="l73" relType="BEFORE" eventInstanceID="ei30" relatedToTime="t0" />
+<TLINK lid="l74" relType="INCLUDES" eventInstanceID="ei31" relatedToTime="t0" />
+<TLINK lid="l75" relType="BEGINS" eventInstanceID="ei91" relatedToTime="t0" />
+<TLINK lid="l76" relType="IS_INCLUDED" eventInstanceID="ei16" relatedToTime="t0" />
+<TLINK lid="l77" relType="INCLUDES" eventInstanceID="ei4" relatedToTime="t0" />
+<TLINK lid="l78" relType="BEGINS" eventInstanceID="ei32" relatedToTime="t0" />
+<TLINK lid="l79" relType="INCLUDES" eventInstanceID="ei12" relatedToTime="t0" />
+<TLINK lid="l80" relType="BEFORE" eventInstanceID="ei60" relatedToTime="t0" />
+<TLINK lid="l81" relType="INCLUDES" eventInstanceID="ei76" relatedToTime="t0" />
+<TLINK lid="l82" relType="BEGINS" eventInstanceID="ei77" relatedToTime="t0" />
+<TLINK lid="l83" relType="BEFORE" eventInstanceID="ei78" relatedToTime="t0" />
+<TLINK lid="l84" relType="AFTER" eventInstanceID="ei45" relatedToTime="t0" />
+<TLINK lid="l85" relType="AFTER" eventInstanceID="ei69" relatedToTime="t0" />
+<TLINK lid="l86" relType="SIMULTANEOUS" eventInstanceID="ei41" relatedToEventInstance="ei47" />
+<TLINK lid="l87" relType="BEFORE" eventInstanceID="ei36" relatedToEventInstance="ei37" />
+<TLINK lid="l88" relType="SIMULTANEOUS" eventInstanceID="ei29" relatedToEventInstance="ei31" />
+<TLINK lid="l89" relType="BEFORE" eventInstanceID="ei24" relatedToEventInstance="ei28" />
+<TLINK lid="l90" relType="BEFORE" eventInstanceID="ei21" relatedToEventInstance="ei24" />
+<TLINK lid="l91" relType="SIMULTANEOUS" eventInstanceID="ei17" relatedToEventInstance="ei20" />
+<TLINK lid="l92" relType="AFTER" eventInstanceID="ei14" relatedToEventInstance="ei17" />
+<TLINK lid="l93" relType="SIMULTANEOUS" eventInstanceID="ei68" relatedToEventInstance="ei72" />
+<TLINK lid="l94" relType="BEFORE" eventInstanceID="ei50" relatedToEventInstance="ei55" />
+<TLINK lid="l95" relType="SIMULTANEOUS" eventInstanceID="ei90" relatedToEventInstance="ei92" />
+<TLINK lid="l96" relType="IS_INCLUDED" eventInstanceID="ei22" relatedToTime="t2" />
+<TLINK lid="l97" relType="IS_INCLUDED" eventInstanceID="ei50" relatedToTime="t8" />
+<TLINK lid="l98" relType="IS_INCLUDED" eventInstanceID="ei51" relatedToTime="t8" />
+<TLINK lid="l99" relType="IS_INCLUDED" eventInstanceID="ei48" relatedToTime="t8" />
+<TLINK lid="l100" relType="IS_INCLUDED" eventInstanceID="ei53" relatedToTime="t8" />
+<TLINK lid="l101" relType="IS_INCLUDED" eventInstanceID="ei21" relatedToTime="t2" />
+<TLINK lid="l102" relType="IS_INCLUDED" eventInstanceID="ei37" relatedToTime="t7" />
+
+</TimeML>
+
+

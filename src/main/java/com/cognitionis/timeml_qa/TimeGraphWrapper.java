@@ -61,6 +61,10 @@ public class TimeGraphWrapper {
             ArrayList<Link> links_array = tml.getLinks();
             Timex dct = tml.getDCT();
             switch (Methods.valueOf(method.toUpperCase())) {
+            	
+           	/*
+           	* Add relations one after the other as they appear in the file
+           	*/ 
                 case ORIGINAL_ORDER: {
                     for (int i = 0; i < links_array.size(); i++) {
                         Link l = links_array.get(i);
@@ -88,6 +92,9 @@ public class TimeGraphWrapper {
                 }
                 break;
 
+		/*
+		* Add links in entity appearance order from DCT (this could create a better ordered)
+		*/
                 case NEIGHBOURS_STARTING_FROM_DCT: {
                     if (method.equals("neighbours-starting-from-dct")) {
 

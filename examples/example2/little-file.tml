@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>APW19980219.0476</DOCID>
+
+<DCT><TIMEX3 tid="t0" type="TIME" value="1998-02-19T08:02:00" temporalFunction="false" functionInDocument="CREATION_TIME">02/19/1998 08:02:00</TIMEX3></DCT>
+
+<TEXT>
+I <EVENT eid="e1" class="OCCURRENCE">saw</EVENT> you on <TIMEX3 tid="t1" type="DATE" value="1998-02-19">Thursday</TIMEX3>.
+You will <EVENT eid="e2" class="I_ACTION">see</EVENT> me <TIMEX3 tid="t2" type="DATE" value="1998-02-20">tomorrow</TIMEX3>.
+Unlinked <EVENT eid="e3" class="I_ACTION">evnet</EVENT>.
+</TEXT>
+
+
+<MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e2" eiid="ei2" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB" />
+
+
+<TLINK lid="l1" relType="BEFORE" timeID="t1" relatedToTime="t0" />
+<TLINK lid="l2" relType="AFTER" timeID="t2" relatedToTime="t0" />
+<TLINK lid="l3" relType="AFTER" timeID="t2" relatedToTime="t1" />
+<TLINK lid="l4" relType="IS_INCLUDED" eventInstanceID="ei1" relatedToTime="t1" />
+<TLINK lid="l5" relType="IS_INCLUDED" eventInstanceID="ei2" relatedToTime="t2" />
+
+</TimeML>
+

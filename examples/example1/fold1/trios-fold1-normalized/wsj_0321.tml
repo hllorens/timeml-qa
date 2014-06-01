@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>wsj_0321</DOCID>
+
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-11-01" temporalFunction="false" functionInDocument="CREATION_TIME">11/01/89</TIMEX3></DCT>
+
+<EXTRAINFO>
+WSJ891101-0043 = 891101 891101-0043.
+Business Brief -- StatesWest Airlines: @ Offer for Mesa Withdrawn; @ Firm to Continue Pursuit 11/01/89 WALL STREET JOURNAL (J) SWAL MESA TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+</EXTRAINFO>
+
+<TEXT>
+StatesWest Airlines, Phoenix, Ariz., <EVENT eid="e1" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="REPORTING">said</EVENT> it <EVENT eid="e2" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="OCCURRENCE">withdrew</EVENT> its offer to <EVENT eid="e4" polarity="POS" modality="NONE" pos="VERB" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE">acquire</EVENT> Mesa Airlines because the Farmington, N.M., carrier didn't <EVENT eid="e5" polarity="NEG" modality="do" pos="VERB" tense="PAST" aspect="NONE" class="I_ACTION">respond</EVENT> to its offer by the <EVENT eid="e7" polarity="POS" modality="NONE" pos="NOUN" tense="NONE" aspect="NONE" class="OCCURRENCE">close</EVENT> of business <TIMEX3 tid="t1" type="DATE" value="1989-10-31">yesterday</TIMEX3>, a deadline StatesWest had <EVENT eid="e8" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="PERFECTIVE" class="OCCURRENCE">set</EVENT> for a <EVENT eid="e9" polarity="POS" modality="NONE" pos="NOUN" tense="NONE" aspect="NONE" class="OCCURRENCE">response</EVENT>.
+
+However, StatesWest isn't <EVENT eid="e10" polarity="NEG" modality="NONE" pos="VERB" tense="PRESENT" aspect="PROGRESSIVE" class="OCCURRENCE">abandoning</EVENT> its pursuit of the much-larger Mesa. StatesWest, which has a 7.25% stake in Mesa, <EVENT eid="e13" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="REPORTING">said</EVENT> it may <EVENT eid="e14" polarity="POS" modality="NONE" pos="VERB" tense="NONE" aspect="NONE" class="OCCURRENCE">purchase</EVENT> more Mesa stock or <EVENT eid="e15" polarity="POS" modality="NONE" pos="VERB" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE">make</EVENT> a tender offer directly to Mesa shareholders.
+
+StatesWest had <EVENT eid="e17" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="PERFECTIVE" class="OCCURRENCE">proposed</EVENT> <EVENT eid="e18" polarity="POS" modality="NONE" pos="VERB" tense="PRESPART" aspect="NONE" class="OCCURRENCE">acquiring</EVENT> Mesa for $7 a share and one share of a new series of StatesWest 6% convertible preferred stock it values at $3 a share. Earlier, Mesa had <EVENT eid="e20" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="PERFECTIVE" class="OCCURRENCE">rejected</EVENT> a general proposal from StatesWest to <EVENT eid="e22" polarity="POS" modality="NONE" pos="VERB" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE">combine</EVENT> the two carriers in some way.
+
+StatesWest <EVENT eid="e23" polarity="POS" modality="NONE" pos="VERB" tense="PRESENT" aspect="NONE" class="OCCURRENCE">serves</EVENT> 10 cities in California, Arizona and Nevada. Mesa <EVENT eid="e24" polarity="POS" modality="NONE" pos="VERB" tense="PRESENT" aspect="NONE" class="OCCURRENCE">flies</EVENT> to 42 cities in New Mexico, Arizona, Wyoming, Colorado and Texas.
+</TEXT>
+
+<MAKEINSTANCE eiid="ei2" eventID="e2"/>
+<MAKEINSTANCE eiid="ei4" eventID="e4"/>
+<MAKEINSTANCE eiid="ei10" eventID="e10"/>
+<MAKEINSTANCE eiid="ei18" eventID="e18"/>
+<MAKEINSTANCE eiid="ei23" eventID="e23"/>
+<MAKEINSTANCE eiid="ei17" eventID="e17"/>
+<MAKEINSTANCE eiid="ei20" eventID="e20"/>
+<MAKEINSTANCE eiid="ei1" eventID="e1"/>
+<MAKEINSTANCE eiid="ei24" eventID="e24"/>
+<MAKEINSTANCE eiid="ei14" eventID="e14"/>
+<MAKEINSTANCE eiid="ei9" eventID="e9"/>
+<MAKEINSTANCE eiid="ei8" eventID="e8"/>
+<MAKEINSTANCE eiid="ei13" eventID="e13"/>
+<MAKEINSTANCE eiid="ei15" eventID="e15"/>
+<MAKEINSTANCE eiid="ei22" eventID="e22"/>
+<MAKEINSTANCE eiid="ei5" eventID="e5"/>
+<MAKEINSTANCE eiid="ei7" eventID="e7"/>
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" timeID="t1" relatedToTime="t0" />
+<TLINK lid="l5" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0" />
+<TLINK lid="l6" relType="BEFORE" eventInstanceID="ei2" relatedToTime="t0" />
+<TLINK lid="l7" relType="BEFORE" eventInstanceID="ei4" relatedToTime="t0" />
+<TLINK lid="l8" relType="INCLUDES" eventInstanceID="ei10" relatedToTime="t0" />
+<TLINK lid="l9" relType="BEFORE" eventInstanceID="ei18" relatedToTime="t0" />
+<TLINK lid="l10" relType="BEFORE" eventInstanceID="ei23" relatedToTime="t0" />
+<TLINK lid="l11" relType="BEFORE" eventInstanceID="ei17" relatedToTime="t0" />
+<TLINK lid="l12" relType="BEFORE" eventInstanceID="ei20" relatedToTime="t0" />
+<TLINK lid="l13" relType="AFTER" eventInstanceID="ei14" relatedToTime="t0" />
+<TLINK lid="l14" relType="BEFORE" eventInstanceID="ei7" relatedToTime="t0" />
+<TLINK lid="l15" relType="BEGINS" eventInstanceID="ei24" relatedToTime="t0" />
+<TLINK lid="l16" relType="BEFORE" eventInstanceID="ei8" relatedToTime="t0" />
+<TLINK lid="l17" relType="BEFORE" eventInstanceID="ei13" relatedToTime="t0" />
+<TLINK lid="l18" relType="BEFORE" eventInstanceID="ei15" relatedToTime="t0" />
+<TLINK lid="l19" relType="AFTER" eventInstanceID="ei22" relatedToTime="t0" />
+<TLINK lid="l20" relType="BEFORE" eventInstanceID="ei5" relatedToTime="t0" />
+<TLINK lid="l21" relType="BEFORE" eventInstanceID="ei9" relatedToTime="t0" />
+<TLINK lid="l22" relType="BEFORE" eventInstanceID="ei10" relatedToEventInstance="ei14" />
+<TLINK lid="l23" relType="BEFORE" eventInstanceID="ei18" relatedToEventInstance="ei20" />
+<TLINK lid="l24" relType="AFTER" eventInstanceID="ei20" relatedToEventInstance="ei23" />
+<TLINK lid="l25" relType="IS_INCLUDED" eventInstanceID="ei1" relatedToTime="t1" />
+<TLINK lid="l26" relType="IS_INCLUDED" eventInstanceID="ei2" relatedToTime="t1" />
+<TLINK lid="l27" relType="IS_INCLUDED" eventInstanceID="ei4" relatedToTime="t1" />
+<TLINK lid="l28" relType="IS_INCLUDED" eventInstanceID="ei7" relatedToTime="t1" />
+<TLINK lid="l29" relType="IS_INCLUDED" eventInstanceID="ei8" relatedToTime="t1" />
+<TLINK lid="l30" relType="IS_INCLUDED" eventInstanceID="ei5" relatedToTime="t1" />
+<TLINK lid="l31" relType="IS_INCLUDED" eventInstanceID="ei9" relatedToTime="t1" />
+<TLINK lid="l32" relType="ENDED_BY" eventInstanceID="ei5" relatedToEventInstance="ei7" />
+<TLINK lid="l33" relType="INCLUDES" eventInstanceID="ei5" relatedToEventInstance="ei9" />
+
+</TimeML>
+
+
+

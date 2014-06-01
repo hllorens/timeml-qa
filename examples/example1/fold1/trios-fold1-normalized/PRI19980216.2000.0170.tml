@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>PRI19980216.2000.0170</DOCID>
+
+<DCT><TIMEX3 tid="t0" type="DATE" value="1998-02-16" temporalFunction="false" functionInDocument="CREATION_TIME">19980216</TIMEX3></DCT>
+
+<EXTRAINFO>
+PRI19980216.2000.0170 NEWS STORY
+</EXTRAINFO>
+
+<TEXT>
+The British government has formally <EVENT eid="e1" polarity="POS" modality="NONE" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" class="I_ACTION">called</EVENT> for Sinn Fein, the IRA's political wing, to be <EVENT eid="e2" polarity="POS" modality="NONE" pos="VERB" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE">expelled</EVENT> from the multiparty peace <EVENT eid="e3" polarity="POS" modality="NONE" pos="NOUN" tense="NONE" aspect="NONE" class="OCCURRENCE">talks</EVENT> on northern Ireland. The move had been widely <EVENT eid="e5" polarity="POS" modality="NONE" pos="VERB" tense="PASTPART" aspect="PERFECTIVE" class="I_STATE">expected</EVENT> after northern Ireland police <EVENT eid="e6" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="REPORTING">said</EVENT> they <EVENT eid="e7" polarity="POS" modality="NONE" pos="VERB" tense="PRESENT" aspect="NONE" class="I_STATE">believe</EVENT> the IRA was behind two killings in Belfast <TIMEX3 tid="t1" type="DATE" value="1998-W06">last week</TIMEX3>. Sinn Fein chairman Mitchell McLaughlin <EVENT eid="e10" polarity="POS" modality="NONE" pos="VERB" tense="PRESENT" aspect="NONE" class="REPORTING">says</EVENT> the party will challenge the <EVENT eid="e12" polarity="POS" modality="NONE" pos="NOUN" tense="NONE" aspect="NONE" class="OCCURRENCE">move</EVENT> by legal means if they have to.
+
+We're going to <EVENT eid="e13" polarity="POS" modality="going-to" pos="VERB" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE">fight</EVENT> it. And uh we've already <EVENT eid="e14" polarity="POS" modality="NONE" pos="VERB" tense="PASTPART" aspect="NONE" class="OCCURRENCE">challenged</EVENT>, very strongly, the uh the terms in which this has been <EVENT eid="e15" polarity="POS" modality="NONE" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" class="OCCURRENCE">presented</EVENT>. But we're <EVENT eid="e16" polarity="POS" modality="NONE" pos="VERB" tense="PRESPART" aspect="NONE" class="OCCURRENCE">challenging</EVENT> it on the ground that uh the RUC uh have <EVENT eid="e17" polarity="POS" modality="NONE" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" class="OCCURRENCE">offered</EVENT> an opinion, and this opinion is going to be <EVENT eid="e18" polarity="POS" modality="going-to" pos="VERB" tense="NONE" aspect="NONE" class="OCCURRENCE">used</EVENT> as a mechanism for <EVENT eid="e19" polarity="POS" modality="NONE" pos="VERB" tense="PRESPART" aspect="NONE" class="OCCURRENCE">ejecting</EVENT> us from the <EVENT eid="e20" polarity="POS" modality="NONE" pos="NOUN" tense="NONE" aspect="NONE" class="OCCURRENCE">talks</EVENT>, and uh that's a very serious.
+
+Any <EVENT eid="e21" polarity="POS" modality="NONE" pos="NOUN" tense="NONE" aspect="NONE" class="OCCURRENCE">decision</EVENT> to <EVENT eid="e22" polarity="POS" modality="NONE" pos="VERB" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE">expel</EVENT> Sinn Fein must be <EVENT eid="e23" polarity="POS" modality="must" pos="VERB" tense="NONE" aspect="NONE" class="I_ACTION">agreed</EVENT> jointly by the governments of both Britain and the Irish Republic.
+</TEXT>
+
+<MAKEINSTANCE eiid="ei14" eventID="e14"/>
+<MAKEINSTANCE eiid="ei19" eventID="e19"/>
+<MAKEINSTANCE eiid="ei13" eventID="e13"/>
+<MAKEINSTANCE eiid="ei2" eventID="e2"/>
+<MAKEINSTANCE eiid="ei20" eventID="e20"/>
+<MAKEINSTANCE eiid="ei10" eventID="e10"/>
+<MAKEINSTANCE eiid="ei23" eventID="e23"/>
+<MAKEINSTANCE eiid="ei1" eventID="e1"/>
+<MAKEINSTANCE eiid="ei21" eventID="e21"/>
+<MAKEINSTANCE eiid="ei22" eventID="e22"/>
+<MAKEINSTANCE eiid="ei16" eventID="e16"/>
+<MAKEINSTANCE eiid="ei18" eventID="e18"/>
+<MAKEINSTANCE eiid="ei15" eventID="e15"/>
+<MAKEINSTANCE eiid="ei6" eventID="e6"/>
+<MAKEINSTANCE eiid="ei12" eventID="e12"/>
+<MAKEINSTANCE eiid="ei3" eventID="e3"/>
+<MAKEINSTANCE eiid="ei5" eventID="e5"/>
+<MAKEINSTANCE eiid="ei7" eventID="e7"/>
+<MAKEINSTANCE eiid="ei17" eventID="e17"/>
+
+
+
+
+
+<TLINK lid="l3" relType="BEFORE" eventInstanceID="ei14" relatedToTime="t0" />
+<TLINK lid="l4" relType="AFTER" eventInstanceID="ei13" relatedToTime="t0" />
+<TLINK lid="l5" relType="BEFORE" eventInstanceID="ei22" relatedToTime="t0" />
+<TLINK lid="l6" relType="BEGINS" eventInstanceID="ei20" relatedToTime="t0" />
+<TLINK lid="l7" relType="BEGINS" eventInstanceID="ei10" relatedToTime="t0" />
+<TLINK lid="l8" relType="AFTER" eventInstanceID="ei23" relatedToTime="t0" />
+<TLINK lid="l9" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0" />
+<TLINK lid="l10" relType="BEFORE" eventInstanceID="ei21" relatedToTime="t0" />
+<TLINK lid="l11" relType="BEGINS" eventInstanceID="ei16" relatedToTime="t0" />
+<TLINK lid="l12" relType="AFTER" eventInstanceID="ei18" relatedToTime="t0" />
+<TLINK lid="l13" relType="BEFORE" eventInstanceID="ei17" relatedToTime="t0" />
+<TLINK lid="l14" relType="BEGINS" eventInstanceID="ei2" relatedToTime="t0" />
+<TLINK lid="l15" relType="BEFORE" eventInstanceID="ei12" relatedToTime="t0" />
+<TLINK lid="l16" relType="BEGINS" eventInstanceID="ei3" relatedToTime="t0" />
+<TLINK lid="l17" relType="BEFORE" eventInstanceID="ei15" relatedToTime="t0" />
+<TLINK lid="l18" relType="BEFORE" eventInstanceID="ei5" relatedToTime="t0" />
+<TLINK lid="l19" relType="BEFORE" eventInstanceID="ei6" relatedToTime="t0" />
+<TLINK lid="l20" relType="INCLUDES" eventInstanceID="ei7" relatedToTime="t0" />
+<TLINK lid="l21" relType="BEGINS" eventInstanceID="ei19" relatedToTime="t0" />
+<TLINK lid="l22" relType="SIMULTANEOUS" eventInstanceID="ei1" relatedToEventInstance="ei5" />
+<TLINK lid="l23" relType="IS_INCLUDED" eventInstanceID="ei5" relatedToTime="t1" />
+<TLINK lid="l24" relType="IS_INCLUDED" eventInstanceID="ei6" relatedToTime="t1" />
+
+</TimeML>
+
+
+

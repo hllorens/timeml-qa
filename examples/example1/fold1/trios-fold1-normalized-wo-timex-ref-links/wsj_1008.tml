@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>wsj_1008</DOCID>
+
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-10-26" temporalFunction="false" functionInDocument="CREATION_TIME">10/26/89</TIMEX3></DCT>
+
+<EXTRAINFO>
+WSJ891026-0048 = 891026 891026-0048.
+Business Brief -- Lawrence Insurance Group Inc.: @ Houston Reinsurance Firm @ Is Acquired for $28 Million 10/26/89 WALL STREET JOURNAL (J) LWR TENDER OFFERS, MERGERS, ACQUISITIONS (TNM)
+</EXTRAINFO>
+
+<TEXT>
+Lawrence Insurance Group Inc. <EVENT eid="e1" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="REPORTING">said</EVENT> it <EVENT eid="e2" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="OCCURRENCE">acquired</EVENT> United Republic Reinsurance Co., a Houston property and casualty reinsurance company, from United Savings Association of Texas for $28 million.
+
+Lawrence Insurance also <EVENT eid="e3" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="OCCURRENCE">sold</EVENT> 3.2 million of its shares for $7.125 each to its parent, Lawrence Group Inc. Lawrence Insurance, based in Albany, N.Y., plans to <EVENT eid="e5" polarity="POS" modality="NONE" pos="VERB" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE">use</EVENT> the $22.5 million in proceeds to <EVENT eid="e6" polarity="POS" modality="NONE" pos="VERB" tense="INFINITIVE" aspect="NONE" class="I_ACTION">help</EVENT> finance the <EVENT eid="e8" polarity="POS" modality="NONE" pos="NOUN" tense="NONE" aspect="NONE" class="OCCURRENCE">acquisition</EVENT> of United Republic.
+
+By acquiring the <EVENT eid="e10" polarity="POS" modality="NONE" pos="NOUN" tense="NONE" aspect="NONE" class="OCCURRENCE">shares</EVENT>, Lawrence Group <EVENT eid="e11" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="OCCURRENCE">increased</EVENT> its stake in Lawrence Insurance to 93.2% from 91.2%. Lawrence Insurance <EVENT eid="e12" polarity="POS" modality="NONE" pos="VERB" tense="PRESENT" aspect="NONE" class="I_ACTION">underwrites</EVENT> mostly primary insurance, a company spokesman <EVENT eid="e13" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="REPORTING">said</EVENT>. A reinsurance company effectively insures insurance companies that wish to <EVENT eid="e15" polarity="POS" modality="NONE" pos="VERB" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE">spread</EVENT> the risk of a particular policy.
+
+Lawrence Group also owns Lawrence Agency Corp., Schenectady, N.Y., an insurance agency and brokerage.
+</TEXT>
+
+<MAKEINSTANCE eiid="ei2" eventID="e2"/>
+<MAKEINSTANCE eiid="ei1" eventID="e1"/>
+<MAKEINSTANCE eiid="ei5" eventID="e5"/>
+<MAKEINSTANCE eiid="ei10" eventID="e10"/>
+<MAKEINSTANCE eiid="ei3" eventID="e3"/>
+<MAKEINSTANCE eiid="ei8" eventID="e8"/>
+<MAKEINSTANCE eiid="ei11" eventID="e11"/>
+<MAKEINSTANCE eiid="ei15" eventID="e15"/>
+<MAKEINSTANCE eiid="ei6" eventID="e6"/>
+<MAKEINSTANCE eiid="ei12" eventID="e12"/>
+<MAKEINSTANCE eiid="ei13" eventID="e13"/>
+
+
+
+<TLINK lid="l1" relType="BEFORE" eventInstanceID="ei2" relatedToTime="t0" />
+<TLINK lid="l2" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0" />
+<TLINK lid="l3" relType="AFTER" eventInstanceID="ei5" relatedToTime="t0" />
+<TLINK lid="l4" relType="BEFORE" eventInstanceID="ei10" relatedToTime="t0" />
+<TLINK lid="l5" relType="BEFORE" eventInstanceID="ei3" relatedToTime="t0" />
+<TLINK lid="l6" relType="BEGINS" eventInstanceID="ei8" relatedToTime="t0" />
+<TLINK lid="l7" relType="BEFORE" eventInstanceID="ei11" relatedToTime="t0" />
+<TLINK lid="l8" relType="AFTER" eventInstanceID="ei15" relatedToTime="t0" />
+<TLINK lid="l9" relType="BEGINS" eventInstanceID="ei6" relatedToTime="t0" />
+<TLINK lid="l10" relType="INCLUDES" eventInstanceID="ei12" relatedToTime="t0" />
+<TLINK lid="l11" relType="BEFORE" eventInstanceID="ei13" relatedToTime="t0" />
+<TLINK lid="l12" relType="BEFORE" eventInstanceID="ei2" relatedToEventInstance="ei3" />
+
+</TimeML>
+
+

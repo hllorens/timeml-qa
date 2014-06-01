@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>wsj_0752</DOCID>
+
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-10-27" temporalFunction="false" functionInDocument="CREATION_TIME">10/27/89</TIMEX3></DCT>
+
+<EXTRAINFO>
+WSJ891027-0143 = 891027 891027-0143.
+Dividend News: @ AEP Industries Inc. 10/27/89 WALL STREET JOURNAL (J) AEPI DIVIDENDS (DIV)
+</EXTRAINFO>
+
+<TEXT>
+AEP INDUSTRIES Inc. directors <EVENT eid="e1" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="I_ACTION">authorized</EVENT> a 3-for-2 split of the common, payable <TIMEX3 tid="t1" type="DATE" value="1989-12">Dec.</TIMEX3> 7 to stock of record Nov. 22. The split was <EVENT eid="e4" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="I_ACTION">aimed</EVENT> at <EVENT eid="e5" polarity="POS" modality="NONE" pos="VERB" tense="PRESPART" aspect="NONE" class="OCCURRENCE">boosting</EVENT> the stock's liquidity, <EVENT eid="e6" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="REPORTING">said</EVENT> Brendan Barba, chairman of the Moonachie, N.J., maker of plastic film products. After the <EVENT eid="e7" polarity="POS" modality="NONE" pos="NOUN" tense="NONE" aspect="NONE" class="OCCURRENCE">split</EVENT>, the company will have more than 4.7 million shares outstanding. In national over-the-counter trading yesterday, AEP shares <EVENT eid="e10" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="OCCURRENCE">closed</EVENT> at $21.25, down 50 cents.
+</TEXT>
+
+<MAKEINSTANCE eiid="ei1" eventID="e1"/>
+<MAKEINSTANCE eiid="ei10" eventID="e10"/>
+<MAKEINSTANCE eiid="ei4" eventID="e4"/>
+<MAKEINSTANCE eiid="ei6" eventID="e6"/>
+<MAKEINSTANCE eiid="ei5" eventID="e5"/>
+<MAKEINSTANCE eiid="ei7" eventID="e7"/>
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" timeID="t0" relatedToTime="t1" />
+<TLINK lid="l5" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0" />
+<TLINK lid="l6" relType="BEFORE" eventInstanceID="ei10" relatedToTime="t0" />
+<TLINK lid="l7" relType="BEFORE" eventInstanceID="ei4" relatedToTime="t0" />
+<TLINK lid="l8" relType="BEFORE" eventInstanceID="ei6" relatedToTime="t0" />
+<TLINK lid="l9" relType="BEGINS" eventInstanceID="ei5" relatedToTime="t0" />
+<TLINK lid="l10" relType="BEGINS" eventInstanceID="ei7" relatedToTime="t0" />
+<TLINK lid="l11" relType="SIMULTANEOUS" eventInstanceID="ei1" relatedToEventInstance="ei4" />
+
+</TimeML>
+
+
+

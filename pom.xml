@@ -51,7 +51,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>com.cognitionis.jtimegraph.Main</mainClass>
+                            <mainClass>com.cognitionis.timeml_qa.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

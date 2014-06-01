@@ -27,7 +27,7 @@ public class ActionHandler {
         return paramValue;
     }
 
-    public static void doAction(String action, String[] input_files, String action_parameters, String lang) {
+    public static void doAction(String action, String[] input_files, String action_parameters) {
 
         try {
             if (System.getProperty("DEBUG") != null && System.getProperty("DEBUG").equalsIgnoreCase("true")) {
@@ -35,64 +35,13 @@ public class ActionHandler {
             }
             switch (Action.valueOf(action.toUpperCase())) {
 
-                case WIKITQA:
-                    GregorianGraph gg=new GregorianGraph("/home/hector/Desktop/wikitime.txt");
-                    for (int i = 0; i < input_files.length; i++) {
-                        BufferedReader pipesreader = new BufferedReader(new FileReader(input_files[i]));
-
-                        try {
-                            int linen = 0;
-                            String pipesline;
-                            String[] pipesarr = null;
-                            while ((pipesline = pipesreader.readLine()) != null) {
-                                linen++;
-                                pipesarr = pipesline.split("\\|");
-                                if(pipesarr.length<3)continue;
-                                if (System.getProperty("DEBUG") != null && System.getProperty("DEBUG").equalsIgnoreCase("true")) {
-                                    System.err.println("Processing: " + pipesline);
-                                }
-                                String[] command = pipesarr[2].trim().split("\\s+");
-                                System.out.println(pipesarr[0] + ". " + pipesarr[1] + ": " + pipesarr[2] + "?");
-
-                                if (command[0].equals("IS")) {
-                                    System.out.println("\t" + gg.checkRelation(command[1], command[3], command[2]));
-                                }
-
-                                if (command[0].equals("LIST")) {
-                                    if (command[1].equals("BETWEEN")) {
-                                        System.out.println("\t" + gg.getEntitiesBetween(command[2], command[3]));
-                                    } else if (command[1].equals("BEFORE")) {
-                                        System.out.println("\t" + gg.getEntitiesBeforeEntity(command[2]));
-                                    } else {
-                                        if (command[1].equals("AFTER")) {
-                                            System.out.println("\t" + gg.getEntitiesAfterEntity(command[2]));
-                                        } else {
-                                            if (command[1].equals("SINCE")) {
-                                                System.out.println("\t" + gg.getEntitiesSinceEntity(command[2]));
-                                            } else {
-                                                if (command[1].equals("WITHIN")) {
-                                                    System.out.println("\t" + gg.getEntitiesWithinEntity(command[2]));
-                                                } else {
-                                                    System.out.println("\t Need to implement this");
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-
-                                if (command[0].equals("WHEN")) {
-                                    System.out.println("\t" + gg.getEntitiesIncludeEntity(command[1]));
-                                }
-
-                            }
-                        } finally {
-                            if (pipesreader != null) {
-                                pipesreader.close();
-                            }
-                        }
-                    }
-                    break;
-
+                /*
+                 * Input: a file with the following format:
+                 * questionID|TimeML-file|Question in timeml-qa syntax|Question in NL
+                 * Output: a file with answers attached
+                 * 
+                 * 
+                 */
                 case TQA:
                     for (int i = 0; i < input_files.length; i++) {
                         File f = new File(input_files[i]);
@@ -115,7 +64,7 @@ public class ActionHandler {
                                     curr_fileid = pipesarr[1];
                                     XMLFile nlpfile = new XMLFile(path + pipesarr[1],null);
                                     if (!nlpfile.getClass().getSimpleName().equals("XMLFile")) {
-                                        throw new Exception("FreeTime requires XMLFile files as input. Found: " + nlpfile.getClass().getSimpleName());
+                                        throw new Exception("Requires XMLFile files as input. Found: " + nlpfile.getClass().getSimpleName());
                                     }
                                     if (!nlpfile.getExtension().equalsIgnoreCase("tml")) {
                                         nlpfile.overrideExtension("tml");
@@ -173,12 +122,14 @@ public class ActionHandler {
                     }
                     break;
 
-
+                /*
+                 * Reads a TimeML file and answers the questions below (to be added manually for testing)
+                 */
                 case READ_TML:
                     for (int i = 0; i < input_files.length; i++) {
                         XMLFile nlpfile = new XMLFile(input_files[i],null);
                         if (!nlpfile.getClass().getSimpleName().equals("XMLFile")) {
-                            throw new Exception("FreeTime requires XMLFile files as input. Found: " + nlpfile.getClass().getSimpleName());
+                            throw new Exception("Requires XMLFile files as input. Found: " + nlpfile.getClass().getSimpleName());
                         }
                         if (!nlpfile.getExtension().equalsIgnoreCase("tml")) {
                             nlpfile.overrideExtension("tml");
@@ -216,6 +167,65 @@ public class ActionHandler {
                         System.out.println("\nDo not implement anything esle.");
                     }
                     break;
+                    
+                    
+                case WIKITQA:
+                    GregorianGraph gg=new GregorianGraph("/home/hector/Desktop/wikitime.txt");
+                    for (int i = 0; i < input_files.length; i++) {
+                        BufferedReader pipesreader = new BufferedReader(new FileReader(input_files[i]));
+
+                        try {
+                            int linen = 0;
+                            String pipesline;
+                            String[] pipesarr = null;
+                            while ((pipesline = pipesreader.readLine()) != null) {
+                                linen++;
+                                pipesarr = pipesline.split("\\|");
+                                if(pipesarr.length<3)continue;
+                                if (System.getProperty("DEBUG") != null && System.getProperty("DEBUG").equalsIgnoreCase("true")) {
+                                    System.err.println("Processing: " + pipesline);
+                                }
+                                String[] command = pipesarr[2].trim().split("\\s+");
+                                System.out.println(pipesarr[0] + ". " + pipesarr[1] + ": " + pipesarr[2] + "?");
+
+                                if (command[0].equals("IS")) {
+                                    System.out.println("\t" + gg.checkRelation(command[1], command[3], command[2]));
+                                }
+
+                                if (command[0].equals("LIST")) {
+                                    if (command[1].equals("BETWEEN")) {
+                                        System.out.println("\t" + gg.getEntitiesBetween(command[2], command[3]));
+                                    } else if (command[1].equals("BEFORE")) {
+                                        System.out.println("\t" + gg.getEntitiesBeforeEntity(command[2]));
+                                    } else {
+                                        if (command[1].equals("AFTER")) {
+                                            System.out.println("\t" + gg.getEntitiesAfterEntity(command[2]));
+                                        } else {
+                                            if (command[1].equals("SINCE")) {
+                                                System.out.println("\t" + gg.getEntitiesSinceEntity(command[2]));
+                                            } else {
+                                                if (command[1].equals("WITHIN")) {
+                                                    System.out.println("\t" + gg.getEntitiesWithinEntity(command[2]));
+                                                } else {
+                                                    System.out.println("\t Need to implement this");
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+                                if (command[0].equals("WHEN")) {
+                                    System.out.println("\t" + gg.getEntitiesIncludeEntity(command[1]));
+                                }
+
+                            }
+                        } finally {
+                            if (pipesreader != null) {
+                                pipesreader.close();
+                            }
+                        }
+                    }
+                    break;                    
 
             }
         } catch (Exception e) {

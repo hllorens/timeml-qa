@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>wsj_0924</DOCID>
+
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-10-26" temporalFunction="false" functionInDocument="CREATION_TIME">10/26/89</TIMEX3></DCT>
+
+<EXTRAINFO>
+WSJ891026-0134 = 891026 891026-0134.
+Dominion Textile Rights Plan 10/26/89 WALL STREET JOURNAL (J) T.DTX EARNINGS (ERN) MONTREAL
+</EXTRAINFO>
+
+<TEXT>
+Dominion Textile Inc. holders <EVENT eid="e1" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="OCCURRENCE">adopted</EVENT> a shareholder-rights plan at the annual <EVENT eid="e2" polarity="POS" modality="NONE" pos="NOUN" tense="NONE" aspect="NONE" class="OCCURRENCE">meeting</EVENT>.
+
+The so-called poison pill <EVENT eid="e3" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="OCCURRENCE">took</EVENT> effect <TIMEX3 tid="t1" type="DATE" value="1989-08-09">Aug. 9</TIMEX3> pending <EVENT eid="e4" polarity="POS" modality="NONE" pos="NOUN" tense="NONE" aspect="NONE" class="OCCURRENCE">ratification</EVENT> by holders. Rights <EVENT eid="e5" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="OCCURRENCE">attached</EVENT> to the company's common shares were <EVENT eid="e6" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="OCCURRENCE">issued</EVENT> that are <EVENT eid="e7" polarity="POS" modality="NONE" pos="VERB" tense="PRESENT" aspect="NONE" class="OCCURRENCE">triggered</EVENT> if a hostile bidder <EVENT eid="e8" polarity="POS" modality="NONE" pos="VERB" tense="PRESENT" aspect="NONE" class="OCCURRENCE">acquires</EVENT> more than 20% of the shares outstanding. Once <EVENT eid="e9" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="OCCURRENCE">triggered</EVENT>, the rights <EVENT eid="e10" polarity="POS" modality="NONE" pos="VERB" tense="PRESENT" aspect="NONE" class="I_STATE">allow</EVENT> holders to <EVENT eid="e11" polarity="POS" modality="NONE" pos="VERB" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE">buy</EVENT> additional shares at 50% of the <TIMEX3 tid="t2" type="DATE" value="PAST_REF">then</TIMEX3> current market price or, at the board's discretion, to <EVENT eid="e12" polarity="POS" modality="NONE" pos="VERB" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE">receive</EVENT> securities or assets.
+
+Separately, Dominion Textile <EVENT eid="e13" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="OCCURRENCE">posted</EVENT> net income of 4.7 million Canadian dollars ($4 million), or 12 Canadian cents a <EVENT eid="e15" polarity="POS" modality="NONE" pos="NOUN" tense="NONE" aspect="NONE" class="OCCURRENCE">share</EVENT>, for the <TIMEX3 tid="t3" type="DATE" value="1989-Q1">fiscal-first quarter</TIMEX3> ended <TIMEX3 tid="t4" type="DATE" value="1989-09-30">Sept. 30</TIMEX3>. The company <EVENT eid="e16" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="STATE">had</EVENT> a net loss of C$2.3 million, or 14 Canadian cents a <EVENT eid="e18" polarity="POS" modality="NONE" pos="NOUN" tense="NONE" aspect="NONE" class="OCCURRENCE">share</EVENT>, a <TIMEX3 tid="t5" type="DURATION" value="PXY">year ago</TIMEX3>. Sales <EVENT eid="e19" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="OCCURRENCE">were</EVENT> C$348.2 million <EVENT eid="e20" polarity="POS" modality="NONE" pos="VERB" tense="NONE" aspect="NONE" class="OCCURRENCE">compared</EVENT> with C$307.2 a <TIMEX3 tid="t6" type="DURATION" value="PXY">year earlier</TIMEX3>.
+</TEXT>
+
+<MAKEINSTANCE eiid="ei20" eventID="e20"/>
+<MAKEINSTANCE eiid="ei3" eventID="e3"/>
+<MAKEINSTANCE eiid="ei6" eventID="e6"/>
+<MAKEINSTANCE eiid="ei16" eventID="e16"/>
+<MAKEINSTANCE eiid="ei5" eventID="e5"/>
+<MAKEINSTANCE eiid="ei18" eventID="e18"/>
+<MAKEINSTANCE eiid="ei7" eventID="e7"/>
+<MAKEINSTANCE eiid="ei9" eventID="e9"/>
+<MAKEINSTANCE eiid="ei12" eventID="e12"/>
+<MAKEINSTANCE eiid="ei1" eventID="e1"/>
+<MAKEINSTANCE eiid="ei8" eventID="e8"/>
+<MAKEINSTANCE eiid="ei4" eventID="e4"/>
+<MAKEINSTANCE eiid="ei19" eventID="e19"/>
+<MAKEINSTANCE eiid="ei10" eventID="e10"/>
+<MAKEINSTANCE eiid="ei13" eventID="e13"/>
+<MAKEINSTANCE eiid="ei15" eventID="e15"/>
+<MAKEINSTANCE eiid="ei2" eventID="e2"/>
+<MAKEINSTANCE eiid="ei11" eventID="e11"/>
+
+
+
+
+
+<TLINK lid="l1" relType="BEFORE" timeID="t1" relatedToTime="t4" />
+<TLINK lid="l2" relType="BEFORE" timeID="t4" relatedToTime="t0" />
+<TLINK lid="l7" relType="BEFORE" timeID="t2" relatedToTime="t3" />
+<TLINK lid="l14" relType="AFTER" eventInstanceID="ei20" relatedToTime="t0" />
+<TLINK lid="l15" relType="BEFORE" eventInstanceID="ei3" relatedToTime="t0" />
+<TLINK lid="l16" relType="BEFORE" eventInstanceID="ei6" relatedToTime="t0" />
+<TLINK lid="l17" relType="INCLUDES" eventInstanceID="ei4" relatedToTime="t0" />
+<TLINK lid="l18" relType="BEFORE" eventInstanceID="ei18" relatedToTime="t0" />
+<TLINK lid="l19" relType="INCLUDES" eventInstanceID="ei7" relatedToTime="t0" />
+<TLINK lid="l20" relType="BEFORE" eventInstanceID="ei9" relatedToTime="t0" />
+<TLINK lid="l21" relType="BEGINS" eventInstanceID="ei12" relatedToTime="t0" />
+<TLINK lid="l22" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0" />
+<TLINK lid="l23" relType="INCLUDES" eventInstanceID="ei8" relatedToTime="t0" />
+<TLINK lid="l24" relType="BEGINS" eventInstanceID="ei10" relatedToTime="t0" />
+<TLINK lid="l25" relType="BEFORE" eventInstanceID="ei5" relatedToTime="t0" />
+<TLINK lid="l26" relType="BEFORE" eventInstanceID="ei19" relatedToTime="t0" />
+<TLINK lid="l27" relType="BEFORE" eventInstanceID="ei16" relatedToTime="t0" />
+<TLINK lid="l28" relType="BEFORE" eventInstanceID="ei13" relatedToTime="t0" />
+<TLINK lid="l29" relType="BEFORE" eventInstanceID="ei15" relatedToTime="t0" />
+<TLINK lid="l30" relType="BEGINS" eventInstanceID="ei2" relatedToTime="t0" />
+<TLINK lid="l31" relType="BEFORE" eventInstanceID="ei11" relatedToTime="t0" />
+<TLINK lid="l32" relType="BEFORE" eventInstanceID="ei3" relatedToEventInstance="ei6" />
+<TLINK lid="l33" relType="BEFORE" eventInstanceID="ei6" relatedToEventInstance="ei9" />
+<TLINK lid="l34" relType="BEFORE" eventInstanceID="ei1" relatedToEventInstance="ei3" />
+<TLINK lid="l35" relType="BEFORE" eventInstanceID="ei9" relatedToEventInstance="ei13" />
+<TLINK lid="l36" relType="SIMULTANEOUS" eventInstanceID="ei13" relatedToEventInstance="ei18" />
+<TLINK lid="l37" relType="SIMULTANEOUS" eventInstanceID="ei18" relatedToTime="t5" />
+<TLINK lid="l38" relType="IS_INCLUDED" eventInstanceID="ei15" relatedToTime="t4" />
+<TLINK lid="l39" relType="IS_INCLUDED" eventInstanceID="ei13" relatedToTime="t4" />
+<TLINK lid="l40" relType="IS_INCLUDED" eventInstanceID="ei3" relatedToTime="t1" />
+<TLINK lid="l41" relType="IS_INCLUDED" eventInstanceID="ei16" relatedToTime="t5" />
+
+</TimeML>
+
+
+

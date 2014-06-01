@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<TimeML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://timeml.org/timeMLdocs/TimeML_1.2.1.xsd">
+
+<DOCID>wsj_0555</DOCID>
+
+<DCT><TIMEX3 tid="t0" type="DATE" value="1989-10-30" temporalFunction="false" functionInDocument="CREATION_TIME">10/30/89</TIMEX3></DCT>
+
+<EXTRAINFO>
+WSJ891030-0145 = 891030 891030-0145.
+Waxman Industries Debentures 10/30/89 WALL STREET JOURNAL (J) WAX BUYBACKS, REDEMPTIONS, SWAP OFFERS (BBK) BEDFORD HEIGHTS, Ohio
+</EXTRAINFO>
+
+<TEXT>
+Waxman Industries Inc. <EVENT eid="e1" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="REPORTING">said</EVENT> holders of $6,542,000 face amount of its 6 1/4% convertible subordinated debentures, due <TIMEX3 tid="t1" type="DATE" value="2007-03-15">March 15, 2007</TIMEX3>, have <EVENT eid="e3" polarity="POS" modality="NONE" pos="VERB" tense="PRESENT" aspect="PERFECTIVE" class="I_ACTION">elected</EVENT> to <EVENT eid="e4" polarity="POS" modality="NONE" pos="VERB" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE">convert</EVENT> the debt into about 683,000 common shares.
+
+The conversion price is $9.58 a <EVENT eid="e5" polarity="POS" modality="NONE" pos="NOUN" tense="NONE" aspect="NONE" class="OCCURRENCE">share</EVENT>.
+
+The company <EVENT eid="e6" polarity="POS" modality="NONE" pos="VERB" tense="PAST" aspect="NONE" class="REPORTING">said</EVENT> the holders <EVENT eid="e7" polarity="POS" modality="NONE" pos="VERB" tense="PRESENT" aspect="NONE" class="OCCURRENCE">represent</EVENT> 52% of the face amount of the debentures.
+
+Waxman <EVENT eid="e8" polarity="POS" modality="NONE" pos="VERB" tense="PRESENT" aspect="NONE" class="OCCURRENCE">sells</EVENT> a variety of hardware products for the home repair market.
+</TEXT>
+
+<MAKEINSTANCE eiid="ei8" eventID="e8"/>
+<MAKEINSTANCE eiid="ei3" eventID="e3"/>
+<MAKEINSTANCE eiid="ei6" eventID="e6"/>
+<MAKEINSTANCE eiid="ei1" eventID="e1"/>
+<MAKEINSTANCE eiid="ei5" eventID="e5"/>
+<MAKEINSTANCE eiid="ei7" eventID="e7"/>
+<MAKEINSTANCE eiid="ei4" eventID="e4"/>
+
+
+
+<TLINK lid="l1" relType="BEFORE" timeID="t0" relatedToTime="t1" />
+<TLINK lid="l2" relType="INCLUDES" eventInstanceID="ei8" relatedToTime="t0" />
+<TLINK lid="l3" relType="BEFORE" eventInstanceID="ei3" relatedToTime="t0" />
+<TLINK lid="l4" relType="BEFORE" eventInstanceID="ei6" relatedToTime="t0" />
+<TLINK lid="l5" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0" />
+<TLINK lid="l6" relType="BEGINS" eventInstanceID="ei5" relatedToTime="t0" />
+<TLINK lid="l7" relType="BEGINS" eventInstanceID="ei7" relatedToTime="t0" />
+<TLINK lid="l8" relType="AFTER" eventInstanceID="ei4" relatedToTime="t0" />
+<TLINK lid="l9" relType="IS_INCLUDED" eventInstanceID="ei4" relatedToTime="t1" />
+
+</TimeML>
+
+

@@ -1,0 +1,4 @@
+1|little-file.tml|IS ei1 BEFORE ei2|Did I saw you before you will see me?
+2|little-file.tml|IS ei2 AFTER ei1|Will you see me before I saw you?
+3|little-file.tml|IS ei1 AFTER ei2|Did I saw you after you will see me?
+4|little-file.tml|IS ei3 AFTER ei1|What about the unlinked event is it before I saw you?

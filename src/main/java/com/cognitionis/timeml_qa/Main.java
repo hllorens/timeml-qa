@@ -18,7 +18,6 @@ public class Main {
      */
     public static void main(String[] args) {
         try {
-            String lang = null;
             String action = "read_tml"; //default action
             String action_parameters = null;
             String input_files[];
@@ -30,7 +29,6 @@ public class Main {
             Options opt = new Options();
             //addOption(String opt, boolean hasArg, String description)
             opt.addOption("h", "help", false, "Print this help");
-            opt.addOption("l", "lang", true, "Language code (default \"EN\" [English])");
             opt.addOption("a", "action", true, "Action/s to be done (annotate,...)");
             opt.addOption("ap", "action_parameters", true, "Optionally actions can have parameters (-a annotate -ap model=TIPSemB)");
             opt.addOption("t", "text", true, "To use text instead of a file (for short texts)");
@@ -46,13 +44,6 @@ public class Main {
             } else {
                 if (cl_options.hasOption('d')) {
                     System.setProperty("DEBUG", "true");
-                }
-                if (cl_options.hasOption('l')) {
-                    lang = cl_options.getOptionValue('l').toLowerCase();
-                    if (lang.length() != 2) {
-                        hf.printHelp("FreeTime", opt);
-                        throw new Exception("Error: incorrect language " + lang + " -- must be 2 chars");
-                    }
                 }
                 if (cl_options.hasOption('a')) {
                     action = cl_options.getOptionValue("a");
@@ -97,7 +88,7 @@ public class Main {
                 }
             }
 
-            ActionHandler.doAction(action, input_files, action_parameters, lang);
+            ActionHandler.doAction(action, input_files, action_parameters);
 
             if (System.getProperty("DEBUG") != null && System.getProperty("DEBUG").equalsIgnoreCase("true")) {
                 long endTime = System.currentTimeMillis();
