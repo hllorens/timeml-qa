@@ -5,11 +5,15 @@ import com.cognitionis.timeml_basickit.*;
 import com.cognitionis.utils_basickit.*;
 import java.io.*;
 import com.cognitionis.nlp_files.*;
+import java.util.HashMap;
 
-/** @author Hector Llorens */
+/**
+ * @author Hector Llorens
+ */
 public class ActionHandler {
 
     public static enum Action {
+
         READ_TML, TQA, WIKITQA;
     }
 
@@ -43,26 +47,35 @@ public class ActionHandler {
                  * 
                  */
                 case TQA:
+                    int total_questions = 0;
+                    int total_correct = 0;
+                    HashMap<String, Integer> file_totals = new HashMap<>();
+                    HashMap<String, Integer> file_corrects = new HashMap<>();
                     for (int i = 0; i < input_files.length; i++) {
                         File f = new File(input_files[i]);
                         String path = FileUtils.getFolder(f.getCanonicalPath());
                         BufferedReader pipesreader = new BufferedReader(new FileReader(input_files[i]));
-
+                        
+                        int linen = 0;
                         try {
-                            int linen = 0;
                             String pipesline;
                             String[] pipesarr = null;
                             String curr_fileid = "";
                             TimeGraphWrapper tg = null;
                             while ((pipesline = pipesreader.readLine()) != null) {
+                                String predicted_answer = "unknown";
                                 linen++;
+                                total_questions++;
                                 pipesarr = pipesline.split("\\|");
                                 if (System.getProperty("DEBUG") != null && System.getProperty("DEBUG").equalsIgnoreCase("true")) {
                                     System.err.println("Processing: " + pipesline);
                                 }
+                                if (pipesarr.length != 5) {
+                                    throw new Exception("ERROR: BAD FORMAT required 5 fields separated by |");
+                                }
                                 if (!curr_fileid.equals(pipesarr[1])) {
                                     curr_fileid = pipesarr[1];
-                                    XMLFile nlpfile = new XMLFile(path + pipesarr[1],null);
+                                    XMLFile nlpfile = new XMLFile(path + pipesarr[1], null);
                                     if (!nlpfile.getClass().getSimpleName().equals("XMLFile")) {
                                         throw new Exception("Requires XMLFile files as input. Found: " + nlpfile.getClass().getSimpleName());
                                     }
@@ -81,28 +94,28 @@ public class ActionHandler {
                                 }
 
                                 String[] command = pipesarr[2].trim().split("\\s+");
-                                System.out.println(pipesarr[0] + ". " + pipesarr[1] + ": " + pipesarr[2] + "?");
+                                System.out.print(pipesline + "|predicted=");
 
                                 if (command[0].equals("IS")) {
-                                    System.out.println("\t" + tg.getTimeGraph().checkRelation(command[1], command[3], command[2]));
+                                    predicted_answer = (tg.getTimeGraph().checkRelation(command[1], command[3], command[2]));
                                 }
 
                                 if (command[0].equals("LIST")) {
                                     if (command[1].equals("BETWEEN")) {
-                                        System.out.println("\t" + tg.getTimeGraph().getEntitiesBetween(command[2], command[3]));
+                                        predicted_answer = (tg.getTimeGraph().getEntitiesBetween(command[2], command[3]));
                                     } else if (command[1].equals("BEFORE")) {
-                                        System.out.println("\t" + tg.getTimeGraph().getEntitiesBeforeEntity(command[2]));
+                                        predicted_answer = (tg.getTimeGraph().getEntitiesBeforeEntity(command[2]));
                                     } else {
                                         if (command[1].equals("AFTER")) {
-                                            System.out.println("\t" + tg.getTimeGraph().getEntitiesAfterEntity(command[2]));
+                                            predicted_answer = (tg.getTimeGraph().getEntitiesAfterEntity(command[2]));
                                         } else {
                                             if (command[1].equals("SINCE")) {
-                                                System.out.println("\t" + tg.getTimeGraph().getEntitiesSinceEntity(command[2]));
+                                                predicted_answer = (tg.getTimeGraph().getEntitiesSinceEntity(command[2]));
                                             } else {
                                                 if (command[1].equals("WITHIN")) {
-                                                    System.out.println("\t" + tg.getTimeGraph().getEntitiesWithinEntity(command[2]));
+                                                    predicted_answer = (tg.getTimeGraph().getEntitiesWithinEntity(command[2]));
                                                 } else {
-                                                    System.out.println("\t Need to implement this");
+                                                    predicted_answer = ("\t Need to implement this");
                                                 }
                                             }
                                         }
@@ -110,9 +123,20 @@ public class ActionHandler {
                                 }
 
                                 if (command[0].equals("WHEN")) {
-                                    System.out.println("\t" + tg.getTimeGraph().getEntitiesIncludeEntity(command[1]));
+                                    predicted_answer = (tg.getTimeGraph().getEntitiesIncludeEntity(command[1]));
                                 }
 
+                                System.out.println(predicted_answer);
+                                if(predicted_answer.split(" ")[0].equals(pipesarr[4])){
+                                    total_correct++;
+                                }
+                            }
+                            
+                        } catch (Exception e) {
+                            System.err.println("\nErrors found (timeml-qa):\n\t" + e.toString() +" - line "+ linen+ "\n");
+                            if (System.getProperty("DEBUG") != null && System.getProperty("DEBUG").equalsIgnoreCase("true")) {
+                                e.printStackTrace(System.err);
+                                System.exit(1);
                             }
                         } finally {
                             if (pipesreader != null) {
@@ -120,6 +144,9 @@ public class ActionHandler {
                             }
                         }
                     }
+                    
+                    System.out.println("questions="+total_questions+" correct="+total_correct+" accuracy="+((double)((double) total_correct/(double) total_questions)));
+                    
                     break;
 
                 /*
@@ -127,7 +154,7 @@ public class ActionHandler {
                  */
                 case READ_TML:
                     for (int i = 0; i < input_files.length; i++) {
-                        XMLFile nlpfile = new XMLFile(input_files[i],null);
+                        XMLFile nlpfile = new XMLFile(input_files[i], null);
                         if (!nlpfile.getClass().getSimpleName().equals("XMLFile")) {
                             throw new Exception("Requires XMLFile files as input. Found: " + nlpfile.getClass().getSimpleName());
                         }
@@ -167,10 +194,10 @@ public class ActionHandler {
                         System.out.println("\nDo not implement anything esle.");
                     }
                     break;
-                    
-                    
+
+
                 case WIKITQA:
-                    GregorianGraph gg=new GregorianGraph("/home/hector/Desktop/wikitime.txt");
+                    GregorianGraph gg = new GregorianGraph("/home/hector/Desktop/wikitime.txt");
                     for (int i = 0; i < input_files.length; i++) {
                         BufferedReader pipesreader = new BufferedReader(new FileReader(input_files[i]));
 
@@ -181,7 +208,9 @@ public class ActionHandler {
                             while ((pipesline = pipesreader.readLine()) != null) {
                                 linen++;
                                 pipesarr = pipesline.split("\\|");
-                                if(pipesarr.length<3)continue;
+                                if (pipesarr.length < 3) {
+                                    continue;
+                                }
                                 if (System.getProperty("DEBUG") != null && System.getProperty("DEBUG").equalsIgnoreCase("true")) {
                                     System.err.println("Processing: " + pipesline);
                                 }
@@ -225,7 +254,7 @@ public class ActionHandler {
                             }
                         }
                     }
-                    break;                    
+                    break;
 
             }
         } catch (Exception e) {
