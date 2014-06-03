@@ -27,17 +27,17 @@ Unisys <EVENT eid="e48" class="REPORTING">posted</EVENT> a $648.2 million <EVENT
 
 RJR Nabisco <EVENT eid="e57" class="OCCURRENCE">agreed</EVENT> to <EVENT eid="e58" class="OCCURRENCE">sell</EVENT> three candy businesses to Nestle for $370 million. The accord <EVENT eid="e59" class="I_ACTION">helps</EVENT> RJR <EVENT eid="e60" class="OCCURRENCE">pay</EVENT> off debt and <EVENT eid="e61" class="OCCURRENCE">boosts</EVENT> Nestle's 7% share of the U.S. candy market to 12%.
 
-GM and Ford are <EVENT eid="e63" class="I_STATE">expected</EVENT> to <EVENT eid="e64" class="OCCURRENCE">go</EVENT> head to head in the markets to <EVENT eid="e66" class="OCCURRENCE">buy</EVENT> up rival 15% stakes in Jaguar. GM <EVENT eid="e67" class="REPORTING">confirmed</EVENT> it <EVENT eid="e68" class="OCCURRENCE">received</EVENT> U.S. antitrust clearance to <EVENT eid="e70" class="OCCURRENCE">boost</EVENT> its holding.
+GM and Ford are <EVENT eid="e63" class="I_STATE">expected</EVENT> to <EVENT eid="e64" class="OCCURRENCE">go</EVENT> head to head in the markets to <EVENT eid="e67" class="OCCURRENCE">buy</EVENT> up rival 15% stakes in Jaguar. GM <EVENT eid="e68" class="REPORTING">confirmed</EVENT> it <EVENT eid="e69" class="OCCURRENCE">received</EVENT> U.S. antitrust clearance to <EVENT eid="e71" class="OCCURRENCE">boost</EVENT> its holding.
 
-Sansui Electric <EVENT eid="e72" class="I_ACTION">agreed</EVENT> to <EVENT eid="e73" class="OCCURRENCE">sell</EVENT> a 51% stake to Polly Peck of Britain for $110 million. Still, analysts <EVENT eid="e74" class="REPORTING">said</EVENT> the accord doesn't <EVENT eid="e75" class="REPORTING">suggest</EVENT> Japan is <EVENT eid="e76" class="I_ACTION">opening</EVENT> up to more foreign <EVENT eid="e77" class="OCCURRENCE">takeovers</EVENT>.
+Sansui Electric <EVENT eid="e73" class="I_ACTION">agreed</EVENT> to <EVENT eid="e74" class="OCCURRENCE">sell</EVENT> a 51% stake to Polly Peck of Britain for $110 million. Still, analysts <EVENT eid="e75" class="REPORTING">said</EVENT> the accord doesn't <EVENT eid="e76" class="REPORTING">suggest</EVENT> Japan is <EVENT eid="e77" class="I_ACTION">opening</EVENT> up to more foreign <EVENT eid="e78" class="OCCURRENCE">takeovers</EVENT>.
 
-Kellogg <EVENT eid="e78" class="ASPECTUAL">suspended</EVENT> <EVENT eid="e79" class="OCCURRENCE">work</EVENT> on a $1 billion cereal plant, <EVENT eid="e80" class="REPORTING">indicating</EVENT> a pessimistic outlook by the cereal maker, which has been <EVENT eid="e81" class="OCCURRENCE">losing</EVENT> market share.
+Kellogg <EVENT eid="e79" class="ASPECTUAL">suspended</EVENT> <EVENT eid="e80" class="OCCURRENCE">work</EVENT> on a $1 billion cereal plant, <EVENT eid="e81" class="REPORTING">indicating</EVENT> a pessimistic outlook by the cereal maker, which has been <EVENT eid="e82" class="OCCURRENCE">losing</EVENT> market share.
 
-Insurers could <EVENT eid="e83" class="I_ACTION">see</EVENT> claims totaling nearly $1 billion from the San Francisco <EVENT eid="e85" class="OCCURRENCE">earthquake</EVENT>, far less than the $4 billion from <EVENT eid="e86" class="OCCURRENCE">Hurricane</EVENT> Hugo.
+Insurers could <EVENT eid="e84" class="I_ACTION">see</EVENT> claims totaling nearly $1 billion from the San Francisco <EVENT eid="e86" class="OCCURRENCE">earthquake</EVENT>, far less than the $4 billion from <EVENT eid="e87" class="OCCURRENCE">Hurricane</EVENT> Hugo.
 
-Nashua <EVENT eid="e87" class="OCCURRENCE">strengthened</EVENT> its poison-pill <EVENT eid="e88" class="I_ACTION">plan</EVENT> after <EVENT eid="e89" class="REPORTING">announcing</EVENT> a Dutch firm is <EVENT eid="e90" class="I_ACTION">seeking</EVENT> to <EVENT eid="e91" class="OCCURRENCE">buy</EVENT> up to 25% of the New Hampshire copier company.
+Nashua <EVENT eid="e88" class="OCCURRENCE">strengthened</EVENT> its poison-pill <EVENT eid="e89" class="I_ACTION">plan</EVENT> after <EVENT eid="e90" class="REPORTING">announcing</EVENT> a Dutch firm is <EVENT eid="e91" class="I_ACTION">seeking</EVENT> to <EVENT eid="e92" class="OCCURRENCE">buy</EVENT> up to 25% of the New Hampshire copier company.
 
-Mobil is <EVENT eid="e92" class="OCCURRENCE">cutting</EVENT> back its U.S. oil and gas exploration and production group by up to 15% as part of a <EVENT eid="e93" class="OCCURRENCE">restructuring</EVENT> of the business.
+Mobil is <EVENT eid="e93" class="OCCURRENCE">cutting</EVENT> back its U.S. oil and gas exploration and production group by up to 15% as part of a <EVENT eid="e94" class="OCCURRENCE">restructuring</EVENT> of the business.
 
 Markets Stocks: Volume 170,330,000 shares.
 
@@ -107,30 +107,90 @@ Dollar: 141.65 yen, off 0.45; 1.8300 marks, off 0.0100.
 <MAKEINSTANCE eventID="e61" eiid="ei61" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB" />
 <MAKEINSTANCE eventID="e63" eiid="ei63" tense="PRESENT" aspect="NONE" polarity="POS" pos="VERB" />
 <MAKEINSTANCE eventID="e64" eiid="ei64" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB" />
-<MAKEINSTANCE eventID="e66" eiid="ei66" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB" />
-<MAKEINSTANCE eventID="e67" eiid="ei67" tense="PAST" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e67" eiid="ei67" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB" />
 <MAKEINSTANCE eventID="e68" eiid="ei68" tense="PAST" aspect="NONE" polarity="POS" pos="VERB" />
-<MAKEINSTANCE eventID="e70" eiid="ei70" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB" />
-<MAKEINSTANCE eventID="e72" eiid="ei72" tense="PAST" aspect="NONE" polarity="POS" pos="VERB" />
-<MAKEINSTANCE eventID="e73" eiid="ei73" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB" />
-<MAKEINSTANCE eventID="e74" eiid="ei74" tense="PAST" aspect="NONE" polarity="POS" pos="VERB" />
-<MAKEINSTANCE eventID="e75" eiid="ei75" tense="PRESENT" aspect="NONE" polarity="NEG" pos="VERB" />
-<MAKEINSTANCE eventID="e76" eiid="ei76" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB" />
-<MAKEINSTANCE eventID="e77" eiid="ei77" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN" />
-<MAKEINSTANCE eventID="e78" eiid="ei78" tense="PAST" aspect="NONE" polarity="POS" pos="VERB" />
-<MAKEINSTANCE eventID="e79" eiid="ei79" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN" />
-<MAKEINSTANCE eventID="e80" eiid="ei80" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB" />
-<MAKEINSTANCE eventID="e81" eiid="ei81" tense="PRESENT" aspect="PERFECTIVE_PROGRESSIVE" polarity="POS" pos="VERB" />
-<MAKEINSTANCE eventID="e83" eiid="ei83" tense="NONE" aspect="NONE" polarity="POS" pos="VERB" modality="could" />
-<MAKEINSTANCE eventID="e85" eiid="ei85" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN" />
+<MAKEINSTANCE eventID="e69" eiid="ei69" tense="PAST" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e71" eiid="ei71" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e73" eiid="ei73" tense="PAST" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e74" eiid="ei74" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e75" eiid="ei75" tense="PAST" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e76" eiid="ei76" tense="PRESENT" aspect="NONE" polarity="NEG" pos="VERB" />
+<MAKEINSTANCE eventID="e77" eiid="ei77" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e78" eiid="ei78" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN" />
+<MAKEINSTANCE eventID="e79" eiid="ei79" tense="PAST" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e80" eiid="ei80" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN" />
+<MAKEINSTANCE eventID="e81" eiid="ei81" tense="PRESPART" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e82" eiid="ei82" tense="PRESENT" aspect="PERFECTIVE_PROGRESSIVE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e84" eiid="ei84" tense="NONE" aspect="NONE" polarity="POS" pos="VERB" modality="could" />
 <MAKEINSTANCE eventID="e86" eiid="ei86" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN" />
-<MAKEINSTANCE eventID="e87" eiid="ei87" tense="PAST" aspect="NONE" polarity="POS" pos="VERB" />
-<MAKEINSTANCE eventID="e88" eiid="ei88" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN" />
+<MAKEINSTANCE eventID="e87" eiid="ei87" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN" />
+<MAKEINSTANCE eventID="e88" eiid="ei88" tense="PAST" aspect="NONE" polarity="POS" pos="VERB" />
 <MAKEINSTANCE eventID="e89" eiid="ei89" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN" />
-<MAKEINSTANCE eventID="e90" eiid="ei90" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB" />
-<MAKEINSTANCE eventID="e91" eiid="ei91" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB" />
-<MAKEINSTANCE eventID="e92" eiid="ei92" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB" />
-<MAKEINSTANCE eventID="e93" eiid="ei93" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN" />
+<MAKEINSTANCE eventID="e90" eiid="ei90" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN" />
+<MAKEINSTANCE eventID="e91" eiid="ei91" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e92" eiid="ei92" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e93" eiid="ei93" tense="PRESENT" aspect="PROGRESSIVE" polarity="POS" pos="VERB" />
+<MAKEINSTANCE eventID="e94" eiid="ei94" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN" />
+<TLINK lid="l131" relType="SIMULTANEOUS" eventInstanceID="ei88" relatedToEventInstance="ei89" />
+<TLINK lid="l128" relType="IS_INCLUDED" eventInstanceID="ei80" relatedToTime="t6" />
+<TLINK lid="l124" relType="AFTER" eventInstanceID="ei37" relatedToTime="t0" />
+<TLINK lid="l122" relType="IS_INCLUDED" eventInstanceID="ei35" relatedToTime="t0" />
+<TLINK lid="l120" relType="IS_INCLUDED" eventInstanceID="ei30" relatedToTime="t0" />
+<TLINK lid="l118" relType="IS_INCLUDED" eventInstanceID="ei26" relatedToTime="t3" />
+<TLINK lid="l117" relType="IS_INCLUDED" eventInstanceID="ei20" relatedToTime="t0" />
+<TLINK lid="l116" relType="INCLUDES" eventInstanceID="ei14" relatedToEventInstance="ei15" />
+<TLINK lid="l115" relType="IS_INCLUDED" eventInstanceID="ei13" relatedToEventInstance="ei14" />
+<TLINK lid="l114" relType="BEFORE" eventInstanceID="ei8" relatedToEventInstance="ei9" />
+<TLINK lid="l1" relType="IS_INCLUDED" eventInstanceID="ei93" relatedToEventInstance="ei94" />
+<TLINK lid="l2" relType="INCLUDES" eventInstanceID="ei2" relatedToTime="t0" />
+<TLINK lid="l3" relType="INCLUDES" eventInstanceID="ei3" relatedToTime="t0" />
+<TLINK lid="l4" relType="SIMULTANEOUS" eventInstanceID="ei2" relatedToEventInstance="ei3" />
+<TLINK lid="l5" relType="ENDS" eventInstanceID="ei1" relatedToEventInstance="ei2" />
+<TLINK lid="l6" relType="SIMULTANEOUS" eventInstanceID="ei1" relatedToEventInstance="ei5" />
+<TLINK lid="l7" relType="BEGINS" eventInstanceID="ei5" relatedToEventInstance="ei6" />
+<TLINK lid="l8" relType="SIMULTANEOUS" eventInstanceID="ei1" relatedToEventInstance="ei11" />
+<TLINK lid="l9" relType="BEFORE" eventInstanceID="ei7" relatedToEventInstance="ei9" />
+<TLINK lid="l10" relType="BEFORE" eventInstanceID="ei9" relatedToTime="t0" />
+<TLINK lid="l11" relType="BEFORE" eventInstanceID="ei10" relatedToTime="t0" />
+<TLINK lid="l12" relType="ENDS" eventInstanceID="ei10" relatedToEventInstance="ei11" />
+<TLINK lid="l13" relType="BEFORE" eventInstanceID="ei11" relatedToTime="t0" />
+<TLINK lid="l14" relType="INCLUDES" eventInstanceID="ei12" relatedToTime="t0" />
+<TLINK lid="l15" relType="INCLUDES" eventInstanceID="ei16" relatedToTime="t0" />
+<TLINK lid="l16" relType="SIMULTANEOUS" eventInstanceID="ei16" relatedToEventInstance="ei19" />
+<TLINK lid="l17" relType="SIMULTANEOUS" eventInstanceID="ei21" relatedToTime="t1"  />
+<TLINK lid="l18" relType="AFTER" timeID="t0" relatedToTime="t1" />
+<TLINK lid="l19" relType="INCLUDES" eventInstanceID="ei24" relatedToTime="t0" />
+<TLINK lid="l20" relType="SIMULTANEOUS" eventInstanceID="ei27" relatedToTime="t3" />
+<TLINK lid="l21" relType="SIMULTANEOUS" timeID="t0" relatedToTime="t3" />
+<TLINK lid="l24" relType="SIMULTANEOUS" eventInstanceID="ei29" relatedToTime="t4" />
+<TLINK lid="l25" relType="IS_INCLUDED" timeID="t1" relatedToTime="t4" />
+<TLINK lid="l26" relType="INCLUDES" eventInstanceID="ei31" relatedToTime="t0" />
+<TLINK lid="l27" relType="SIMULTANEOUS" eventInstanceID="ei33" relatedToTime="t5" />
+<TLINK lid="l28" relType="BEFORE" timeID="t0" relatedToTime="t5" />
+<TLINK lid="l29" relType="IS_INCLUDED" eventInstanceID="ei34" relatedToTime="t6" />
+<TLINK lid="l30" relType="DURING" eventInstanceID="ei38" relatedToTime="t7"  />
+<TLINK lid="l31" relType="INCLUDES" eventInstanceID="ei39" relatedToEventInstance="ei43" />
+<TLINK lid="l34" relType="BEFORE" eventInstanceID="ei39" relatedToTime="t0" />
+<TLINK lid="l35" relType="AFTER" eventInstanceID="ei34" relatedToTime="t0" />
+<TLINK lid="l36" relType="BEFORE" eventInstanceID="ei48" relatedToTime="t0" />
+<TLINK lid="l37" relType="IAFTER" eventInstanceID="ei49" relatedToTime="t8"  />
+<TLINK lid="l38" relType="SIMULTANEOUS" eventInstanceID="ei48" relatedToEventInstance="ei50"  />
+<TLINK lid="l39" relType="BEFORE" eventInstanceID="ei53" relatedToEventInstance="ei54" />
+<TLINK lid="l40" relType="AFTER" eventInstanceID="ei54" relatedToTime="t0" />
+<TLINK lid="l41" relType="INCLUDES" eventInstanceID="ei55" relatedToTime="t0" />
+<TLINK lid="l42" relType="SIMULTANEOUS" eventInstanceID="ei54" relatedToEventInstance="ei56" />
+<TLINK lid="l43" relType="BEFORE" eventInstanceID="ei57" relatedToTime="t0" />
+<TLINK lid="l47" relType="INCLUDES" eventInstanceID="ei63" relatedToTime="t0" />
+<TLINK lid="l48" relType="BEFORE" eventInstanceID="ei68" relatedToTime="t0" />
+<TLINK lid="l50" relType="BEFORE" eventInstanceID="ei73" relatedToTime="t0" />
+<TLINK lid="l51" relType="SIMULTANEOUS" eventInstanceID="ei73" relatedToEventInstance="ei75" />
+<TLINK lid="l52" relType="BEFORE" eventInstanceID="ei79" relatedToTime="t0" />
+<TLINK lid="l53" relType="SIMULTANEOUS" eventInstanceID="ei79" relatedToEventInstance="ei81" />
+<TLINK lid="l54" relType="AFTER" eventInstanceID="ei79" relatedToEventInstance="ei82" />
+<TLINK lid="l55" relType="BEFORE" eventInstanceID="ei84" relatedToTime="t0" />
+<TLINK lid="l58" relType="BEFORE" eventInstanceID="ei88" relatedToTime="t0" />
+<TLINK lid="l59" relType="AFTER" eventInstanceID="ei88" relatedToEventInstance="ei90"  />
+<TLINK lid="l60" relType="INCLUDES" eventInstanceID="ei93" relatedToTime="t0" />
 
 
 
@@ -167,66 +227,5 @@ Dollar: 141.65 yen, off 0.45; 1.8300 marks, off 0.0100.
 
 
 
-
-
-<TLINK lid="l1" relType="BEFORE" timeID="t7" relatedToTime="t1" />
-<TLINK lid="l2" relType="BEFORE" timeID="t1" relatedToTime="t0" />
-<TLINK lid="l6" relType="SIMULTANEOUS" eventInstanceID="ei87" relatedToEventInstance="ei88" />
-<TLINK lid="l7" relType="IS_INCLUDED" eventInstanceID="ei79" relatedToTime="t6" />
-<TLINK lid="l8" relType="AFTER" eventInstanceID="ei37" relatedToTime="t0" />
-<TLINK lid="l9" relType="IS_INCLUDED" eventInstanceID="ei35" relatedToTime="t0" />
-<TLINK lid="l10" relType="IS_INCLUDED" eventInstanceID="ei30" relatedToTime="t0" />
-<TLINK lid="l11" relType="IS_INCLUDED" eventInstanceID="ei26" relatedToTime="t3" />
-<TLINK lid="l12" relType="IS_INCLUDED" eventInstanceID="ei20" relatedToTime="t0" />
-<TLINK lid="l13" relType="INCLUDES" eventInstanceID="ei14" relatedToEventInstance="ei15" />
-<TLINK lid="l14" relType="IS_INCLUDED" eventInstanceID="ei13" relatedToEventInstance="ei14" />
-<TLINK lid="l15" relType="BEFORE" eventInstanceID="ei8" relatedToEventInstance="ei9" />
-<TLINK lid="l16" relType="IS_INCLUDED" eventInstanceID="ei92" relatedToEventInstance="ei93" />
-<TLINK lid="l17" relType="INCLUDES" eventInstanceID="ei2" relatedToTime="t0" />
-<TLINK lid="l18" relType="INCLUDES" eventInstanceID="ei3" relatedToTime="t0" />
-<TLINK lid="l19" relType="SIMULTANEOUS" eventInstanceID="ei2" relatedToEventInstance="ei3" />
-<TLINK lid="l20" relType="ENDS" eventInstanceID="ei1" relatedToEventInstance="ei2" />
-<TLINK lid="l21" relType="SIMULTANEOUS" eventInstanceID="ei1" relatedToEventInstance="ei5" />
-<TLINK lid="l22" relType="BEGINS" eventInstanceID="ei5" relatedToEventInstance="ei6" />
-<TLINK lid="l23" relType="SIMULTANEOUS" eventInstanceID="ei1" relatedToEventInstance="ei11" />
-<TLINK lid="l24" relType="BEFORE" eventInstanceID="ei7" relatedToEventInstance="ei9" />
-<TLINK lid="l25" relType="BEFORE" eventInstanceID="ei9" relatedToTime="t0" />
-<TLINK lid="l26" relType="BEFORE" eventInstanceID="ei10" relatedToTime="t0" />
-<TLINK lid="l27" relType="ENDS" eventInstanceID="ei10" relatedToEventInstance="ei11" />
-<TLINK lid="l28" relType="BEFORE" eventInstanceID="ei11" relatedToTime="t0" />
-<TLINK lid="l29" relType="INCLUDES" eventInstanceID="ei12" relatedToTime="t0" />
-<TLINK lid="l30" relType="INCLUDES" eventInstanceID="ei16" relatedToTime="t0" />
-<TLINK lid="l31" relType="SIMULTANEOUS" eventInstanceID="ei16" relatedToEventInstance="ei19" />
-<TLINK lid="l32" relType="SIMULTANEOUS" eventInstanceID="ei21" relatedToTime="t1" />
-<TLINK lid="l34" relType="INCLUDES" eventInstanceID="ei24" relatedToTime="t0" />
-<TLINK lid="l35" relType="SIMULTANEOUS" eventInstanceID="ei27" relatedToTime="t3" />
-<TLINK lid="l37" relType="SIMULTANEOUS" eventInstanceID="ei29" relatedToTime="t4" />
-<TLINK lid="l39" relType="INCLUDES" eventInstanceID="ei31" relatedToTime="t0" />
-<TLINK lid="l40" relType="SIMULTANEOUS" eventInstanceID="ei33" relatedToTime="t5" />
-<TLINK lid="l42" relType="IS_INCLUDED" eventInstanceID="ei34" relatedToTime="t6" />
-<TLINK lid="l43" relType="DURING" eventInstanceID="ei38" relatedToTime="t7" />
-<TLINK lid="l44" relType="INCLUDES" eventInstanceID="ei39" relatedToEventInstance="ei43" />
-<TLINK lid="l45" relType="BEFORE" eventInstanceID="ei39" relatedToTime="t0" />
-<TLINK lid="l46" relType="AFTER" eventInstanceID="ei34" relatedToTime="t0" />
-<TLINK lid="l47" relType="BEFORE" eventInstanceID="ei48" relatedToTime="t0" />
-<TLINK lid="l48" relType="IAFTER" eventInstanceID="ei49" relatedToTime="t8" />
-<TLINK lid="l49" relType="SIMULTANEOUS" eventInstanceID="ei48" relatedToEventInstance="ei50" />
-<TLINK lid="l50" relType="BEFORE" eventInstanceID="ei53" relatedToEventInstance="ei54" />
-<TLINK lid="l51" relType="AFTER" eventInstanceID="ei54" relatedToTime="t0" />
-<TLINK lid="l52" relType="INCLUDES" eventInstanceID="ei55" relatedToTime="t0" />
-<TLINK lid="l53" relType="SIMULTANEOUS" eventInstanceID="ei54" relatedToEventInstance="ei56" />
-<TLINK lid="l54" relType="BEFORE" eventInstanceID="ei57" relatedToTime="t0" />
-<TLINK lid="l55" relType="INCLUDES" eventInstanceID="ei63" relatedToTime="t0" />
-<TLINK lid="l56" relType="BEFORE" eventInstanceID="ei67" relatedToTime="t0" />
-<TLINK lid="l57" relType="BEFORE" eventInstanceID="ei72" relatedToTime="t0" />
-<TLINK lid="l58" relType="SIMULTANEOUS" eventInstanceID="ei72" relatedToEventInstance="ei74" />
-<TLINK lid="l59" relType="BEFORE" eventInstanceID="ei78" relatedToTime="t0" />
-<TLINK lid="l60" relType="SIMULTANEOUS" eventInstanceID="ei78" relatedToEventInstance="ei80" />
-<TLINK lid="l61" relType="AFTER" eventInstanceID="ei78" relatedToEventInstance="ei81" />
-<TLINK lid="l62" relType="BEFORE" eventInstanceID="ei83" relatedToTime="t0" />
-<TLINK lid="l63" relType="BEFORE" eventInstanceID="ei87" relatedToTime="t0" />
-<TLINK lid="l64" relType="AFTER" eventInstanceID="ei87" relatedToEventInstance="ei89" />
-<TLINK lid="l65" relType="INCLUDES" eventInstanceID="ei92" relatedToTime="t0" />
 
 </TimeML>
-

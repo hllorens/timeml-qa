@@ -33,23 +33,20 @@ Lawrence Group also <EVENT eid="e16" class="OCCURRENCE" stem="own">owns</EVENT> 
 <MAKEINSTANCE eventID="e7" eiid="ei7" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN" />
 <MAKEINSTANCE eventID="e1" eiid="ei1" tense="PAST" aspect="NONE" polarity="POS" pos="VERB" />
 <MAKEINSTANCE eventID="e6" eiid="ei6" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB" />
+<TLINK lid="l18" relType="BEFORE" eventInstanceID="ei13" relatedToTime="t0" />
+<TLINK lid="l1" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0" />
+<TLINK lid="l2" relType="AFTER" eventInstanceID="ei1" relatedToEventInstance="ei2" />
+<TLINK lid="l3" relType="BEFORE" eventInstanceID="ei3" relatedToTime="t0" />
+<TLINK lid="l5" relType="SIMULTANEOUS" eventInstanceID="ei7" relatedToEventInstance="ei8" />
+<TLINK lid="l6" relType="DURING" eventInstanceID="ei4" relatedToTime="t0" />
+<TLINK lid="l7" relType="SIMULTANEOUS" eventInstanceID="ei3" relatedToEventInstance="ei9" />
+<TLINK lid="l10" relType="BEFORE" eventInstanceID="ei9" relatedToEventInstance="ei11" />
+<TLINK lid="l11" relType="DURING" eventInstanceID="ei12" relatedToTime="t0" />
+<TLINK lid="l12" relType="DURING" eventInstanceID="ei16" relatedToTime="t0" />
 
 
 
 
 
-
-
-<TLINK lid="l2" relType="BEFORE" eventInstanceID="ei13" relatedToTime="t0" />
-<TLINK lid="l3" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0" />
-<TLINK lid="l4" relType="AFTER" eventInstanceID="ei1" relatedToEventInstance="ei2" />
-<TLINK lid="l5" relType="BEFORE" eventInstanceID="ei3" relatedToTime="t0" />
-<TLINK lid="l6" relType="SIMULTANEOUS" eventInstanceID="ei7" relatedToEventInstance="ei8" />
-<TLINK lid="l7" relType="DURING" eventInstanceID="ei4" relatedToTime="t0" />
-<TLINK lid="l8" relType="SIMULTANEOUS" eventInstanceID="ei3" relatedToEventInstance="ei9" />
-<TLINK lid="l9" relType="BEFORE" eventInstanceID="ei9" relatedToEventInstance="ei11" />
-<TLINK lid="l10" relType="DURING" eventInstanceID="ei12" relatedToTime="t0" />
-<TLINK lid="l11" relType="DURING" eventInstanceID="ei16" relatedToTime="t0" />
 
 </TimeML>
-

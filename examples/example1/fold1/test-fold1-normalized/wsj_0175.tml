@@ -40,6 +40,25 @@ Still <EVENT eid="e10" class="STATE">unresolved</EVENT> is Sony's <EVENT eid="e1
 <MAKEINSTANCE eventID="e22" eiid="ei22" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN" />
 <MAKEINSTANCE eventID="e23" eiid="ei23" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB" />
 <MAKEINSTANCE eventID="e24" eiid="ei24" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN" />
+<TLINK lid="l34" relType="SIMULTANEOUS" eventInstanceID="ei19" relatedToEventInstance="ei24" />
+<TLINK lid="l32" relType="IS_INCLUDED" eventInstanceID="ei16" relatedToTime="t0" />
+<TLINK lid="l31" relType="BEFORE" eventInstanceID="ei7" relatedToTime="t0" />
+<TLINK lid="l1" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0" />
+<TLINK lid="l2" relType="SIMULTANEOUS" eventInstanceID="ei2" relatedToEventInstance="ei3" />
+<TLINK lid="l3" relType="BEFORE" eventInstanceID="ei3" relatedToTime="t1"  />
+<TLINK lid="l4" relType="AFTER" timeID="t0" relatedToTime="t1" />
+<TLINK lid="l5" relType="AFTER" eventInstanceID="ei2" relatedToEventInstance="ei4" />
+<TLINK lid="l6" relType="SIMULTANEOUS" eventInstanceID="ei6" relatedToTime="t2"  />
+<TLINK lid="l7" relType="AFTER" eventInstanceID="ei6" relatedToEventInstance="ei8" />
+<TLINK lid="l8" relType="INCLUDES" eventInstanceID="ei6" relatedToEventInstance="ei9" />
+<TLINK lid="l9" relType="BEFORE" timeID="t0" relatedToTime="t2"  />
+<TLINK lid="l10" relType="INCLUDES" eventInstanceID="ei10" relatedToTime="t0"  />
+<TLINK lid="l11" relType="SIMULTANEOUS" eventInstanceID="ei10" relatedToEventInstance="ei11" />
+<TLINK lid="l12" relType="IS_INCLUDED" eventInstanceID="ei17" relatedToTime="t3" />
+<TLINK lid="l13" relType="BEFORE" timeID="t0" relatedToTime="t3" />
+<TLINK lid="l14" relType="INCLUDES" eventInstanceID="ei18" relatedToTime="t0" />
+<TLINK lid="l15" relType="SIMULTANEOUS" eventInstanceID="ei18" relatedToEventInstance="ei19" />
+<TLINK lid="l16" relType="INCLUDES" eventInstanceID="ei22" relatedToTime="t0" />
 
 
 
@@ -50,28 +69,5 @@ Still <EVENT eid="e10" class="STATE">unresolved</EVENT> is Sony's <EVENT eid="e1
 
 
 
-
-
-<TLINK lid="l1" relType="BEFORE" timeID="t1" relatedToTime="t2" />
-<TLINK lid="l2" relType="INCLUDES" timeID="t2" relatedToTime="t0" />
-<TLINK lid="l3" relType="INCLUDES" timeID="t2" relatedToTime="t3" />
-<TLINK lid="l4" relType="BEFORE" timeID="t0" relatedToTime="t3" />
-<TLINK lid="l8" relType="SIMULTANEOUS" eventInstanceID="ei19" relatedToEventInstance="ei24" />
-<TLINK lid="l9" relType="IS_INCLUDED" eventInstanceID="ei16" relatedToTime="t0" />
-<TLINK lid="l10" relType="BEFORE" eventInstanceID="ei7" relatedToTime="t0" />
-<TLINK lid="l11" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0" />
-<TLINK lid="l12" relType="SIMULTANEOUS" eventInstanceID="ei2" relatedToEventInstance="ei3" />
-<TLINK lid="l13" relType="BEFORE" eventInstanceID="ei3" relatedToTime="t1" />
-<TLINK lid="l15" relType="AFTER" eventInstanceID="ei2" relatedToEventInstance="ei4" />
-<TLINK lid="l16" relType="SIMULTANEOUS" eventInstanceID="ei6" relatedToTime="t2" />
-<TLINK lid="l17" relType="AFTER" eventInstanceID="ei6" relatedToEventInstance="ei8" />
-<TLINK lid="l18" relType="INCLUDES" eventInstanceID="ei6" relatedToEventInstance="ei9" />
-<TLINK lid="l20" relType="INCLUDES" eventInstanceID="ei10" relatedToTime="t0" />
-<TLINK lid="l21" relType="SIMULTANEOUS" eventInstanceID="ei10" relatedToEventInstance="ei11" />
-<TLINK lid="l22" relType="IS_INCLUDED" eventInstanceID="ei17" relatedToTime="t3" />
-<TLINK lid="l24" relType="INCLUDES" eventInstanceID="ei18" relatedToTime="t0" />
-<TLINK lid="l25" relType="SIMULTANEOUS" eventInstanceID="ei18" relatedToEventInstance="ei19" />
-<TLINK lid="l26" relType="INCLUDES" eventInstanceID="ei22" relatedToTime="t0" />
 
 </TimeML>
-

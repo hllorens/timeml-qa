@@ -30,24 +30,21 @@ HEALTHDYNE Inc., Atlanta, <EVENT eid="e1" class="REPORTING" stem="say">said</EVE
 <MAKEINSTANCE eventID="e15" eiid="ei15" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN" />
 <MAKEINSTANCE eventID="e2" eiid="ei2" tense="PAST" aspect="NONE" polarity="POS" pos="VERB" />
 <MAKEINSTANCE eventID="e12" eiid="ei12" tense="INFINITIVE" aspect="NONE" polarity="POS" pos="VERB" />
-
-
-
-
-
-
-
-
-
-<TLINK lid="l2" relType="SIMULTANEOUS" eventInstanceID="ei17" relatedToEventInstance="ei19" />
-<TLINK lid="l3" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0" />
-<TLINK lid="l4" relType="BEGINS" eventInstanceID="ei2" relatedToEventInstance="ei3" />
-<TLINK lid="l5" relType="SIMULTANEOUS" eventInstanceID="ei1" relatedToEventInstance="ei5" />
-<TLINK lid="l6" relType="SIMULTANEOUS" eventInstanceID="ei6" relatedToEventInstance="ei7" />
-<TLINK lid="l7" relType="INCLUDES" eventInstanceID="ei8" relatedToTime="t0" />
-<TLINK lid="l8" relType="SIMULTANEOUS" eventInstanceID="ei1" relatedToEventInstance="ei10" />
-<TLINK lid="l9" relType="IS_INCLUDED" eventInstanceID="ei16" relatedToTime="t1" />
+<TLINK lid="l1" relType="SIMULTANEOUS" eventInstanceID="ei17" relatedToEventInstance="ei19" />
+<TLINK lid="l2" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0" />
+<TLINK lid="l3" relType="BEGINS" eventInstanceID="ei2" relatedToEventInstance="ei3" />
+<TLINK lid="l4" relType="SIMULTANEOUS" eventInstanceID="ei1" relatedToEventInstance="ei5" />
+<TLINK lid="l5" relType="SIMULTANEOUS" eventInstanceID="ei6" relatedToEventInstance="ei7" />
+<TLINK lid="l6" relType="INCLUDES" eventInstanceID="ei8" relatedToTime="t0" />
+<TLINK lid="l7" relType="SIMULTANEOUS" eventInstanceID="ei1" relatedToEventInstance="ei10" />
+<TLINK lid="l8" relType="IS_INCLUDED" eventInstanceID="ei16" relatedToTime="t1" />
 <TLINK lid="l10" relType="BEFORE" eventInstanceID="ei16" relatedToEventInstance="ei17" />
 
-</TimeML>
 
+
+
+
+
+
+
+</TimeML>

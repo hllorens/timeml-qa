@@ -24,23 +24,17 @@ AEP INDUSTRIES Inc. directors <EVENT eid="e1" class="I_ACTION">authorized</EVENT
 <MAKEINSTANCE eventID="e8" eiid="ei8" tense="FUTURE" aspect="NONE" polarity="POS" pos="VERB" />
 <MAKEINSTANCE eventID="e9" eiid="ei9" tense="NONE" aspect="NONE" polarity="POS" pos="NOUN" />
 <MAKEINSTANCE eventID="e10" eiid="ei10" tense="PAST" aspect="NONE" polarity="POS" pos="VERB" />
+<TLINK lid="l18" relType="BEFORE" eventInstanceID="ei6" relatedToTime="t0" />
+<TLINK lid="l1" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0" />
+<TLINK lid="l2" relType="SIMULTANEOUS" eventInstanceID="ei2" relatedToEventInstance="ei3" />
+<TLINK lid="l3" relType="SIMULTANEOUS" eventInstanceID="ei3" relatedToEventInstance="ei7" />
+<TLINK lid="l4" relType="BEFORE" eventInstanceID="ei9" relatedToTime="t0" />
+<TLINK lid="l9" relType="IS_INCLUDED" eventInstanceID="ei3" relatedToEventInstance="ei4" />
+<TLINK lid="l11" relType="ENDED_BY" eventInstanceID="ei9" relatedToEventInstance="ei10" />
+<TLINK lid="l12" relType="IS_INCLUDED" eventInstanceID="ei9" relatedToTime="t3" />
+<TLINK lid="l13" relType="BEFORE" eventInstanceID="ei7" relatedToEventInstance="ei8"  />
 
 
 
-
-
-<TLINK lid="l1" relType="BEFORE" timeID="t3" relatedToTime="t0" />
-<TLINK lid="l2" relType="BEFORE" timeID="t0" relatedToTime="t2" />
-<TLINK lid="l3" relType="BEFORE" timeID="t2" relatedToTime="t1" />
-<TLINK lid="l8" relType="BEFORE" eventInstanceID="ei6" relatedToTime="t0" />
-<TLINK lid="l9" relType="BEFORE" eventInstanceID="ei1" relatedToTime="t0" />
-<TLINK lid="l10" relType="SIMULTANEOUS" eventInstanceID="ei2" relatedToEventInstance="ei3" />
-<TLINK lid="l11" relType="SIMULTANEOUS" eventInstanceID="ei3" relatedToEventInstance="ei7" />
-<TLINK lid="l12" relType="BEFORE" eventInstanceID="ei9" relatedToTime="t0" />
-<TLINK lid="l13" relType="IS_INCLUDED" eventInstanceID="ei3" relatedToEventInstance="ei4" />
-<TLINK lid="l14" relType="ENDED_BY" eventInstanceID="ei9" relatedToEventInstance="ei10" />
-<TLINK lid="l15" relType="IS_INCLUDED" eventInstanceID="ei9" relatedToTime="t3" />
-<TLINK lid="l16" relType="BEFORE" eventInstanceID="ei7" relatedToEventInstance="ei8" />
 
 </TimeML>
-

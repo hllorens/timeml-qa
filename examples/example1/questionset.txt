@@ -1,189 +1,26 @@
-1|APW19980418.0210.tml|LIST AFTER ei21|What happened after Farkas was cited by the police?
-2|APW19980418.0210.tml|LIST AFTER t1|What happened after Saturday (1998-04-18)?
-3|APW19980418.0210.tml|IS ei21 AFTER ei19|Was Farkas cited by the police after becoming a brigadier general? (YES)
-4|APW19980418.0210.tml|IS ei14 BEFORE ei2|Did Farkas serve as administrator before saying he was leaving for US? (YES)
-5|APW19980418.0210.tml|LIST SINCE t8 |What happened since 1995 
-6|APW19980418.0210.tml|IS ei24 AFTER ei20 |Was Farkas ordered home after he was appointed as military attaché at Hungarian embassy in Washington? 
-7|APW19980418.0210.tml|IS ei24 AFTER ei19  |Was Farkas ordered home after he was made a brigadier general 
-8|APW19980418.0210.tml|IS ei24 AFTER ei22 |Was Farkas ordered home after he was driving under the influence of alcohol? 
-9|APW19980418.0210.tml|LIST AFTER t0 |What is going to happen in future? 
-10|APW19980418.0210.tml|WHEN ei19|When was Farkus made a brigadier general? 
-11|NYT19981121.0173.tml|LIST AFTER ei3|What happened after two man were sought?
-12|NYT19981121.0173.tml|LIST BETWEEN t4 t7|What happened between 1998-10-23 and 1998-11-20?
-13|NYT19981121.0173.tml|IS ei1 AFTER ei3|Were two man interviewed after being sought? (YES)
-14|NYT19981121.0173.tml|IS ei9 AFTER ei14|Was the FBI letter sent after the killing? (YES)
-15|NYT19981121.0173.tml|LIST SINCE t2 |What happened since Thursday? 
-16|NYT19981121.0173.tml|LIST AFTER ei35 |What happened after Slepian was shot? 
-17|NYT19981121.0173.tml|IS ei45 AFTER ei46 |Did two men showed up after Spelian's death? 
-18|NYT19981121.0173.tml|WHEN ei8|When was Ronald Stauber and Michael Gingrich named in a bulletin? 
-19|NYT19981121.0173.tml|WHEN ei35|When was Slepian shot? 
-20|PRI19980216.2000.0170.tml|LIST BEFORE ei9|What happened before the killings?
-21|PRI19980216.2000.0170.tml|IS ei1 AFTER ei9|Was Fein called after the killings? (YES)
-22|PRI19980216.2000.0170.tml|IS ei2 AFTER ei6 |Did British government expelled Sinn Fein after Northern Ireland police said IRA was behind two killings in Belfast? 
-23|PRI19980216.2000.0170.tml|LIST AFTER ei6|What happened after Northern Ireland police said they believe IRA was behind two killings in Belfast? 
-24|PRI19980216.2000.0170.tml|WHEN ei9|When did the killing happen? 
-25|wsj_0127.tml|LIST BEFORE t4|What happened before the 1998?
-26|wsj_0127.tml|IS ei4 AFTER t4|Did the income slip after 1988? (YES)
-27|wsj_0127.tml|LIST WITHIN t5 |What happened this year? 
-28|wsj_0127.tml|IS ei12 IS_INCLUDED t6 |Did they contributed $34 million before tax in last year? 
-29|wsj_0127.tml|LIST BETWEEN t6 t5 |What happened between last year and this year? 
-30|wsj_0159.tml|LIST BETWEEN t1 t4|What happened between Nov. 10 and Nov. 20?
-31|wsj_0159.tml|IS ei8 AFTER ei1|Was the withdrawal of the company’s after their extension of the shares offer? (NO)
-32|wsj_0159.tml|LIST BEFORE t4 |What happened before Nov. 10 deadline 
-33|wsj_0159.tml|WHEN ei22|When did Dunkin set the deadline for the receipt of any competing bids? 
-34|wsj_0175.tml|LIST AFTER ei15|What is happening after the planned acquisition of the producers?
-35|wsj_0175.tml|LIST AFTER ei6|What is happening after Sony takes ownership of Columbia Pictures?
-36|wsj_0175.tml|IS ei12 AFTER ei1|Is Sony trying to hire the producers after completing the offer for Columbia Pictures? (YES)
-37|wsj_0175.tml|IS ei6 AFTER ei12|Is Sony taking ownership of Columbia after hiring the producers? (NO)
-38|wsj_0175.tml|IS ei6 IS_INCLUDED t2 |Does Sony take ownership later this month? 
-39|wsj_0175.tml|LIST WITHIN t3 |What happens on Monday? 
-40|wsj_0175.tml|WHEN ei6|When will Sony Columbia Acquisition Corp. take ownership of movie studio? 
-41|wsj_0752.tml|LIST AFTER t2|What is happening after Nov. 22?
-42|wsj_0752.tml|IS ei2 AFTER ei1|Is the split happening after the authorization?
-43|wsj_0752.tml|IS ei8 AFTER ei7 |Will the company have more than 4.7 million shares outstanding after the split? 
-44|wsj_0752.tml|LIST WITHIN t3 |What happened yesterday? 
-45|wsj_0752.tml|WHEN ei10|When was AEP shares closed at $21.25, down 50 cents? 
-46|wsj_1008.tml|IS ei7 AFTER ei2|Will the operation be financed with a selling after the acquisition of United Republic?
-47|wsj_1008.tml|IS ei11 AFTER ei2|Did Lawrence Group increase its stake after acquiring United Republic?
-48|wsj_1008.tml|IS ei2 BEFORE ei3 |Did Lawrence Insurance Group Inc. acquired United Republic Reinsurance Co. before selling 3.2 million of its shares? 
-49|wsj_1008.tml|LIST AFTER ei3 |What happened after Lawrence Insurance Group Inc. sold 3.2 million of its shares? 
-50|wsj_1040.tml|LIST BEFORE t3|What is happening before the stock closing yesterday?
-51|wsj_1040.tml|IS ei5 AFTER ei1|Did Oneida declare a dividend before applying it to the new shares? (YES)
-52|wsj_1040.tml|LIST WITHIN t3 |What happened yesterday? 
-53|wsj_1040.tml|LIST AFTER ei1 |What happened after ONEIDA Ltd. declared a 10% stock dividend. 
-54|wsj_1040.tml|WHEN ei12|When did Oneida's share close at $18.375 a share? 
-55|XIE19980821.0077.tml|LIST BEFORE t3|What happened before August 7?
-56|XIE19980821.0077.tml|IS ei2 AFTER ei5|Did the US air raid on Afghanistan and Sudan take place after the bombings in US embassy? (YES)
-57|XIE19980821.0077.tml|IS ei8 BEFORE ei9|Was Freeh at a conference before returning home? (YES)
-58|XIE19980821.0077.tml|IS ei19 BEFORE ei26|Were hundreds of people interviewed before the conference? (YES)
-59|XIE19980821.0077.tml|IS ei28 AFTER ei30|Did Clinton order strikes after receiving “convincing evidence” of the terrorist attack? (YES)
-60|XIE19980821.0077.tml|IS ei42 BEFORE ei44|Did the FBI toured Dar es Salaam before meeting Kenyan Police? (YES)
-61|XIE19980821.0077.tml|IS ei48 BEFORE ei51|Did the man hurled grenades before being arrested? (YES)
-62|XIE19980821.0077.tml|IS ei66 BEFORE ei74|Was the bomb car attack before the Taliban refinement of Laden’s extradition? 
-63|XIE19980821.0077.tml|LIST SINCE t2 |What happened since Friday? 
-64|XIE19980821.0077.tml|IS ei28 BEFORE t5|Did Clinton ordered strikes before Thursday? 
-65|XIE19980821.0077.tml|LIST BETWEEN t7 t8|What happened between Thursday and Friday morning? 
-66|XIE19980821.0077.tml|IS ei66 SIMULTANEOUS ei69|Is the car bomb attack at the U.S. embassy in Nairobi simultaneous with car bombing outside the U.S. embassy in Tanzania? 
-67|XIE19980821.0077.tml|WHEN ei27 |When did President Bill Clinton said he ordered the strikes? 
-68|XIE19980821.0077.tml|WHEN ei52|When did Kenya's national newspaper reported that one Arab and one Sudanese had been arrested? 
-69|XIE19980821.0077.tml|WHEN ei69|When did car bombing outside U.S. embassy in Tanzania happen? 
-70|APW19980219.0476.tml|LIST WITHIN t1|What happened on Thursday? 
-71|APW19980219.0476.tml|WHEN ei12|When can the force recover the remains of Christopher Howes, according to Gen. Nhek Bunchhay? 
-72|APW19980219.0476.tml|WHEN ei14|When was Howes abducted? 
-73|APW19980219.0476.tml|IS ei13 INCLUDES ei14 |Was Howes working for the Britain-based Mines Advisory Group when he was abducted? 
-74|APW19980219.0476.tml|WHEN ei26|When did Howes die? 
-75|APW19980219.0476.tml|LIST SINCE t18|What happened since July last year? 
-76|APW19980219.0476.tml|IS ei14 BEFORE ei2|Was Howes abducted before the commander sent a team to recover the remains of the mine removal expert? (YES)
-77|APW19980219.0476.tml|LIST WITHIN t4|What happened in March 1996?
-78|APW19980219.0476.tml|LIST WITHIN t16|What happened in th 1970s?
-79|APW19980219.0476.tml|LIST BETWEEN t6 t11|What happened between January 1996 and Today?
-80|APW19980219.0476.tml|LIST BEFORE t12|What happened before 1997?
-81|APW19980219.0476.tml|IS ei48 AFTER ei47|Did Howes flee from Cambodia after the coup d'etat? (YES)
-82|APW19980219.0476.tml|WHEN ei48|When did Howes flee from Cambodia?
-83|APW19980219.0476.tml|WHEN ei83|When was the coup d'etat?
-84|APW19980219.0476.tml|WHEN ei81|When was Pol Pot arrested?
-85|APW19980219.0476.tml|IS ei65 AFTER ei66|Was Howes killed after his capture? (YES)
-86|APW19980219.0476.tml|IS ei83 AFTER ei81|Was the coup d'etat after Pol Pot was arrested? (YES)
-87|APW19980219.0476.tml|IS ei93 AFTER ei83|Were Hun Sen attacks after the coup d'etat?
-88|APW19980219.0476.tml|LIST BETWEEN ei29 t18|What happened between Howes capture and June 1997?
-89|APW19980820.1428.tml|LIST WITHIN t4|What happened on Thursday?
-90|APW19980820.1428.tml|IS ei18 BEFORE t4|Where the embassy bombings before Thursday?
-91|APW19980820.1428.tml|LIST BEFORE ei18|What happened before the embassy bombings?
-92|APW19980820.1428.tml|WHEN ei18|When was the embassy bombed?
-93|APW19980820.1428.tml|LIST BEFORE ei19|What happened before 247 people were killed in Kenya?
-94|APW19980820.1428.tml|WHEN ei19|When were 247 people killed in Kenya?
-95|APW19990506.0155.tml|WHEN ei4|When was the subject charged with murder?
-96|APW19990506.0155.tml|IS ei20 AFTER ei15|Is Kopp facing a federal charge after the slaying?
-97|APW19990506.0155.tml|LIST BEFORE t4|What happened before last November?
-98|APW19990506.0155.tml|IS ei57 BEFORE ei46|Was the Atomic Dog arrested before the shooting? (YES)
-99|APW19990506.0155.tml|WHEN ei57|When was the Atomic Dog arrested?
-100|APW19990506.0155.tml|WHEN ei46|When was the sooting?
-101|APW19990506.0155.tml|IS ei59 BEFORE ei60|Was his car spotted before the shooting? (YES)
-102|APW19990506.0155.tml|IS ei80 BEFORE ei33|Was the Birmingham bombing before the shooting? (YES)
-103|APW19990506.0155.tml|WHEN ei80|When was the Birmingham bombing?
-104|APW19990506.0155.tml|LIST BEFORE t12|What happened before January 1998?
-105|APW20000115.0031.tml|IS ei30 BEFORE ei18|Was Castro brought to power before the march? (YES)
-106|APW20000115.0031.tml|WHEN ei30|When was Castro brought to the power?
-107|APW20000115.0031.tml|LIST BEFORE t5|What happened before 1959?
-108|APW20000115.0031.tml|IS ei32 AFTER ei30|Was Elian found after Castro was brought to power? (YES)
-109|APW20000115.0031.tml|WHEN ei32|When was Elian found?
-110|APW20000115.0031.tml|IS ei5 AFTER ei18|Fidel Castro's point man on US relations expressed impatience after the march of the Combatant Mothers? (YES)
-111|APW20000115.0031.tml|WHEN ei18|When was the march?
-112|APW20000115.0031.tml|LIST AFTER ei18|What happened after the march?
-113|APW20000115.0031.tml|LIST WITHIN t5|What happened in 1959?
-114|APW20000115.0031.tml|LIST WITHIN t1|What happened yesterday?
-115|APW20000405.0276.tml|IS ei1 AFTER ei32|Was Castro's declaration after the rescue?
-116|APW20000405.0276.tml|WHEN ei1|When did Castro the declaration?
-117|APW20000405.0276.tml|IS ei13 AFTER ei1|Would be Elian's father traveling after Castro's declaration?
-118|APW20000405.0276.tml|WHEN ei13|When would be Elian's father traveling?
-119|APW20000405.0276.tml|IS ei41 BEFORE t0|Did Elian's mother perish before today?
-120|APW20000405.0276.tml|LIST AFTER t0|What is happening in the future?
-121|APW20000405.0276.tml|IS ei32 BEFORE t9|Was Elian rescued before this week?
-122|NYT19980206.0460.tml|LIST BETWEEN t1 t0|What happened between January and today?
-123|NYT19980206.0460.tml|IS ei27 AFTER ei1|Will the economy slow after creating jobs?
-124|NYT19980206.0460.tml|WHEN ei21|When did they loose earning power?
-125|NYT19980206.0460.tml|WHEN ei54|When did the gains began?
-126|NYT19980206.0460.tml|IS ei54 BEFORE t0|Did the gains began before today?
-127|NYT20000403.0463.tml|IS ei5 AFTER t1|Could Elian come back to Cuba after today?
-128|NYT20000403.0463.tml|LIST AFTER t2|What is happening after tomorrow?
-129|NYT20000403.0463.tml|WHEN ei5|When would Elian com back to Cuba?
-130|NYT20000403.0463.tml|WHEN ei9|When did they say that the visas were approved?
-131|NYT20000403.0463.tml|IS ei37 AFTER t0|Will the negotiations continue in the future?
-132|NYT20000403.0463.tml|WHEN ei63|When did Doris Meissner rule that Elian had to come back?
-133|NYT20000403.0463.tml|IS ei63 BEFORE ei70|Did Doris Meissner rule that Elian had to come back before ruling against that?
-134|NYT20000403.0463.tml|LIST BETWEEN t12 t13|What happened between January and March?
-135|NYT20000403.0463.tml|IS ei77 BEFORE ei5|Did the federal officials see something before Elian could come back to Cuba?
-136|NYT20000403.0463.tml|IS ei94 BEFORE ei5|Did Castro announce that the father of the boy was ready to travel before Elian could come back?
-137|wsj_0321.tml|IS ei2 AFTER ei20|Did StatesWest Airlines withdraw the offer after Mesa rejection?
-138|wsj_0321.tml|LIST BEFORE t1|What happened before yesterday?
-139|wsj_0321.tml|LIST WITHIN t1|What happened yesterday?
-140|wsj_0376.tml|IS ei1 BEFORE ei9|Did Courtaulds PLC announce the plan before the establishment of Courtaulds Textiles?
-141|wsj_0376.tml|IS ei27 ENDED_BY t3|When ended their #50 million profit count?
-142|wsj_0376.tml|WHEN ei41|When Kerry Packer surfaced?
-143|wsj_0376.tml|IS ei41 BEFORE ei1|Did Kerry Packer surfaced before Courtaulds announce?
-144|wsj_0376.tml|LIST BEFORE t4|Is there something happening before last year?
-145|wsj_0555.tml|WHEN ei3|When Waxman elected to convert shares?
-146|wsj_0555.tml|IS ei3 BEFORE t0|Is the conversion before today?
-147|wsj_0555.tml|IS ei7 AFTER ei3|Did the holders represent 52% of the face amount of the debentures after the election to convert?
-148|wsj_0555.tml|LIST BEFORE t1|What happened before the conversion?
-149|wsj_0610.tml|IS ei4 BEFORE ei11|Did the company's president quit before they begin to turn out the product?
-150|wsj_0610.tml|IS ei4 BEFORE t4|Did the company's president quit before 1993?
-151|wsj_0610.tml|WHEN ei11|When will they begin to turn out the product?
-152|wsj_0610.tml|IS ei54 INCLUDES t0|Do the expectations include today?
-153|wsj_0610.tml|WHEN ei64|When will be added the bran-processing and rice-processing capacity?
-154|wsj_0610.tml|IS ei64 AFTER t0|Will the bran-processing added in the future?
-155|wsj_0610.tml|IS ei64 BEFORE ei11|Will the brain-processing added before beginning to turn out the product?
-156|wsj_0610.tml|LIST AFTER t4|What happened after 1993?
-157|wsj_0610.tml|WHEN ei104|When the intend to achieve a 50% share of the market?
-158|wsj_0610.tml|IS ei11 AFTER ei104|Do they want to turn out the product after intending to achieve a 50% share of the market?
-159|wsj_0610.tml|WHEN ei110|When did the company earn $480.4 million?
-160|wsj_0610.tml|LIST BEFORE ei110|What happened before the company earn $480.4 million?
-161|wsj_0610.tml|LIST BEFORE t22|What happened before 1988?
-162|wsj_0675.tml|LIST BEFORE t7|What happened before last year?
-163|wsj_0675.tml|WHEN ei38|When was the investigation of the company?
-164|wsj_0675.tml|IS ei33 AFTER ei38|Is the future demand to come after the investigation?
-165|wsj_0675.tml|IS ei16 AFTER ei21|Are the companies organizing something after the rose of personal spendings?
-166|wsj_0675.tml|IS ei16 AFTER t1|Are the companies organizing something after last September?
-167|wsj_0675.tml|WHEN ei21|When did the personal spending rise?
-168|wsj_0675.tml|LIST BETWEEN t1 t0|What happened between last September and today?
-169|wsj_0806.tml|WHEN ei16|When Home Nutritional had 10 million shares? 
-170|wsj_0806.tml|IS ei17 AFTER ei16|Will Home Nutritional have 11.8 million shares after having 10 million shares? 
-171|wsj_0806.tml|LIST AFTER ei2|What happened after Home Nutritional Services Inc. registered with the Securities and Exchange Commission?
-172|wsj_0924.tml|WHEN ei1|When Dominion Textile Inc. holders adopted a shareholder-rights plan? 
-173|wsj_0924.tml|WHEN ei3|When did the poison-pill take effect? 
-174|wsj_0924.tml|LIST AFTER ei8|What happens after a hostile bidder acquires more than 20% of the shares outstanding? 
-175|wsj_0924.tml|LIST WITHIN t3|What happened in the fiscal-first quarter? 
-176|wsj_0924.tml|WHEN ei13 |When did Dominion Textile posted net income of 4.7 million Canadian dollars ($4 million)? 
-177|wsj_0924.tml|LIST WITHIN t6|What happened last year? 
-178|WSJ910225-0066.tml|WHEN ei161|When did the president decide that war was necessary?
-179|WSJ910225-0066.tml|IS ei1 AFTER ei161|Was the offensive after the president decided war was necessary?
-180|WSJ910225-0066.tml|IS ei161 BEFORE t1|Did the president decided that war was necessary before yesterday?
-181|WSJ910225-0066.tml|LIST AFTER t0|What happened after today?
-182|WSJ910225-0066.tml|IS ei8 BEFORE ei1|Did the soldiers surrender before the offensive?
-183|WSJ910225-0066.tml|IS ei8 BEFORE t1|Did the soldiers surrender before yesterday?
-184|WSJ910225-0066.tml|LIST BEFORE ei161|What happened before the president decided that war was necessary?
-185|WSJ910225-0066.tml|IS ei201 AFTER ei199|Was the invasion after the diplomacy began?
-186|WSJ910225-0066.tml|IS ei199 BEFORE t14|Was the diplomacy begun before last August?
-187|WSJ910225-0066.tml|LIST BEFORE t14|What happened before last August?
-188|WSJ910225-0066.tml|IS ei201 BEFORE ei161|Was the invasion before the president decided that war was necessary?
-189|WSJ910225-0066.tml|WHEN ei201|When was the invasion?
+3|APW19980418.0210.tml|IS ei21 AFTER ei19|Was Farkas cited by the police after becoming a brigadier general?|yes
+4|APW19980418.0210.tml|IS ei14 BEFORE ei2|Did Farkas serve as administrator before saying he was leaving for US?|yes
+13|NYT19981121.0173.tml|IS ei1 AFTER ei3|Were two man interviewed after being sought?|yes
+14|NYT19981121.0173.tml|IS ei9 AFTER ei14|Was the FBI letter sent after the killing?|yes
+21|PRI19980216.2000.0170.tml|IS ei1 AFTER ei9|Was Fein called after the killings?|yes
+26|wsj_0127.tml|IS ei4 AFTER t4|Did the income slip after 1988?|yes
+31|wsj_0159.tml|IS ei8 AFTER ei1|Was the withdrawal of the company’s after their extension of the shares offer?|no
+36|wsj_0175.tml|IS ei12 AFTER ei1|Is Sony trying to hire the producers after completing the offer for Columbia Pictures?|yes
+37|wsj_0175.tml|IS ei6 AFTER ei12|Is Sony taking ownership of Columbia after hiring the producers?|no
+51|wsj_1040.tml|IS ei5 AFTER ei1|Did Oneida declare a dividend before applying it to the new shares?|yes
+56|XIE19980821.0077.tml|IS ei2 AFTER ei5|Did the US air raid on Afghanistan and Sudan take place after the bombings in US embassy?|yes
+57|XIE19980821.0077.tml|IS ei8 BEFORE ei9|Was Freeh at a conference before returning home?|yes
+58|XIE19980821.0077.tml|IS ei19 BEFORE ei26|Were hundreds of people interviewed before the conference?|yes
+59|XIE19980821.0077.tml|IS ei28 AFTER ei30|Did Clinton order strikes after receiving “convincing evidence” of the terrorist attack?|yes
+60|XIE19980821.0077.tml|IS ei42 BEFORE ei44|Did the FBI toured Dar es Salaam before meeting Kenyan Police?|yes
+61|XIE19980821.0077.tml|IS ei48 BEFORE ei51|Did the man hurled grenades before being arrested?|yes
+76|APW19980219.0476.tml|IS ei14 BEFORE ei2|Was Howes abducted before the commander sent a team to recover the remains of the mine removal expert?|yes
+81|APW19980219.0476.tml|IS ei48 AFTER ei47|Did Howes flee from Cambodia after the coup d'etat?|yes
+85|APW19980219.0476.tml|IS ei65 AFTER ei66|Was Howes killed after his capture?|yes
+86|APW19980219.0476.tml|IS ei83 AFTER ei81|Was the coup d'etat after Pol Pot was arrested?|yes
+98|APW19990506.0155.tml|IS ei57 BEFORE ei46|Was the Atomic Dog arrested before the shooting?|yes
+101|APW19990506.0155.tml|IS ei59 BEFORE ei60|Was his car spotted before the shooting?|yes
+102|APW19990506.0155.tml|IS ei80 BEFORE ei33|Was the Birmingham bombing before the shooting?|yes
+105|APW20000115.0031.tml|IS ei30 BEFORE ei18|Was Castro brought to power before the march?|yes
+108|APW20000115.0031.tml|IS ei32 AFTER ei30|Was Elian found after Castro was brought to power?|yes
+110|APW20000115.0031.tml|IS ei5 AFTER ei18|Fidel Castro's point man on US relations expressed impatience after the march of the Combatant Mothers?|yes

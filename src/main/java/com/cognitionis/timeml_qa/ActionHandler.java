@@ -93,39 +93,11 @@ public class ActionHandler {
                                     throw new Exception("Null TG wrapper.");
                                 }
 
-                                String[] command = pipesarr[2].trim().split("\\s+");
+                                
                                 System.out.print(pipesline + "|predicted=");
 
-                                if (command[0].equals("IS")) {
-                                    predicted_answer = (tg.getTimeGraph().checkRelation(command[1], command[3], command[2]));
-                                }
-
-                                if (command[0].equals("LIST")) {
-                                    if (command[1].equals("BETWEEN")) {
-                                        predicted_answer = (tg.getTimeGraph().getEntitiesBetween(command[2], command[3]));
-                                    } else if (command[1].equals("BEFORE")) {
-                                        predicted_answer = (tg.getTimeGraph().getEntitiesBeforeEntity(command[2]));
-                                    } else {
-                                        if (command[1].equals("AFTER")) {
-                                            predicted_answer = (tg.getTimeGraph().getEntitiesAfterEntity(command[2]));
-                                        } else {
-                                            if (command[1].equals("SINCE")) {
-                                                predicted_answer = (tg.getTimeGraph().getEntitiesSinceEntity(command[2]));
-                                            } else {
-                                                if (command[1].equals("WITHIN")) {
-                                                    predicted_answer = (tg.getTimeGraph().getEntitiesWithinEntity(command[2]));
-                                                } else {
-                                                    predicted_answer = ("\t Need to implement this");
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-
-                                if (command[0].equals("WHEN")) {
-                                    predicted_answer = (tg.getTimeGraph().getEntitiesIncludeEntity(command[1]));
-                                }
-
+                                predicted_answer=TimeML_QA.answer_question(pipesarr[2],tg);
+                                
                                 System.out.println(predicted_answer);
                                 if(predicted_answer.split(" ")[0].equals(pipesarr[4])){
                                     total_correct++;
