@@ -49,6 +49,8 @@ public class ActionHandler {
                 case TQA:
                     int total_questions = 0;
                     int total_correct = 0;
+                    int total_incorrect = 0;
+                    int total_unknown = 0;
                     HashMap<String, Integer> file_totals = new HashMap<>();
                     HashMap<String, Integer> file_corrects = new HashMap<>();
                     for (int i = 0; i < input_files.length; i++) {
@@ -63,6 +65,9 @@ public class ActionHandler {
                             String curr_fileid = "";
                             TimeGraphWrapper tg = null;
                             while ((pipesline = pipesreader.readLine()) != null) {
+                                if(pipesline.trim().equals("")){
+                                    continue;
+                                }
                                 String predicted_answer = "unknown";
                                 linen++;
                                 total_questions++;
@@ -92,15 +97,17 @@ public class ActionHandler {
                                 if (tg == null) {
                                     throw new Exception("Null TG wrapper.");
                                 }
-
-                                
-                                System.out.print(pipesline + "|predicted=");
-
-                                predicted_answer=TimeML_QA.answer_question(pipesarr[2],tg);
-                                
-                                System.out.println(predicted_answer);
+                                predicted_answer=TimeML_QA.answer_question(pipesarr[2],tg);                                
+                                System.out.println(pipesline + "|predicted="+predicted_answer);
                                 if(predicted_answer.split(" ")[0].equals(pipesarr[4])){
                                     total_correct++;
+                                }else{
+                                    if(predicted_answer.split(" ")[0].equals("unknown")){
+                                        total_unknown++;
+                                    }else{
+                                        total_incorrect++;
+                                    }
+                                    
                                 }
                             }
                             
@@ -117,7 +124,12 @@ public class ActionHandler {
                         }
                     }
                     
-                    System.out.println("questions="+total_questions+" correct="+total_correct+" accuracy="+((double)((double) total_correct/(double) total_questions)));
+                    int total_answered=total_questions-total_unknown;
+                    double accuracy=((double)((double) total_correct/(double) total_questions));
+                    double prec=((double)((double) total_correct/(double) total_answered));
+                    double rec=((double)((double) (total_correct+total_incorrect)/(double) total_questions));
+                    double f1=(2*prec*rec)/(prec+rec);
+                    System.out.println("questions="+total_questions+" answered="+total_answered+" correct="+total_correct+" incorrect="+total_incorrect+" accuracy="+StringUtils.twoDecPosS(accuracy)+" prec="+StringUtils.twoDecPosS(prec)+" rec="+StringUtils.twoDecPosS(rec)+" f1="+StringUtils.twoDecPosS(f1));
                     
                     break;
 
