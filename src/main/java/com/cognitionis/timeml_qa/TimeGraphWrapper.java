@@ -192,7 +192,7 @@ public class TimeGraphWrapper {
                 }
             }
 
-            tg.removeEmptyChain();
+            tg.removeEmptyChains();
 
         } catch (Exception e) {
             System.err.println("Errors found (TimeGraph):\n\t" + e.toString() + "\n");

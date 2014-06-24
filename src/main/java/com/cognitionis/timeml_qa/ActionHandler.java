@@ -14,7 +14,7 @@ public class ActionHandler {
 
     public static enum Action {
 
-        READ_TML, TQA, WIKITQA;
+        READ_TML, TQA, WIKITQA, GET_TE3_INPUT;
     }
 
     public static String getParameter(String params, String param) {
@@ -57,7 +57,7 @@ public class ActionHandler {
                         File f = new File(input_files[i]);
                         String path = FileUtils.getFolder(f.getCanonicalPath());
                         BufferedReader pipesreader = new BufferedReader(new FileReader(input_files[i]));
-                        
+
                         int linen = 0;
                         try {
                             String pipesline;
@@ -65,7 +65,7 @@ public class ActionHandler {
                             String curr_fileid = "";
                             TimeGraphWrapper tg = null;
                             while ((pipesline = pipesreader.readLine()) != null) {
-                                if(pipesline.trim().equals("")){
+                                if (pipesline.trim().equals("")) {
                                     continue;
                                 }
                                 String predicted_answer = "unknown";
@@ -97,22 +97,22 @@ public class ActionHandler {
                                 if (tg == null) {
                                     throw new Exception("Null TG wrapper.");
                                 }
-                                predicted_answer=TimeML_QA.answer_question(pipesarr[2],tg);                                
-                                System.out.println(pipesline + "|predicted="+predicted_answer);
-                                if(predicted_answer.split(" ")[0].equals(pipesarr[4])){
+                                predicted_answer = TimeML_QA.answer_question(pipesarr[2], tg);
+                                System.out.println(pipesline + "|predicted=" + predicted_answer);
+                                if (predicted_answer.split(" ")[0].equals(pipesarr[4])) {
                                     total_correct++;
-                                }else{
-                                    if(predicted_answer.split(" ")[0].equals("unknown")){
+                                } else {
+                                    if (predicted_answer.split(" ")[0].equals("unknown")) {
                                         total_unknown++;
-                                    }else{
+                                    } else {
                                         total_incorrect++;
                                     }
-                                    
+
                                 }
                             }
-                            
+
                         } catch (Exception e) {
-                            System.err.println("\nErrors found (timeml-qa):\n\t" + e.toString() +" - line "+ linen+ "\n");
+                            System.err.println("\nErrors found (timeml-qa):\n\t" + e.toString() + " - line " + linen + "\n");
                             if (System.getProperty("DEBUG") != null && System.getProperty("DEBUG").equalsIgnoreCase("true")) {
                                 e.printStackTrace(System.err);
                                 System.exit(1);
@@ -123,15 +123,34 @@ public class ActionHandler {
                             }
                         }
                     }
-                    
-                    int total_answered=total_questions-total_unknown;
-                    double accuracy=((double)((double) total_correct/(double) total_questions));
-                    double prec=((double)((double) total_correct/(double) total_answered));
-                    double rec=((double)((double) (total_correct+total_incorrect)/(double) total_questions));
-                    double f1=(2*prec*rec)/(prec+rec);
-                    System.out.println("questions="+total_questions+" answered="+total_answered+" correct="+total_correct+" incorrect="+total_incorrect+" accuracy="+StringUtils.twoDecPosS(accuracy)+" prec="+StringUtils.twoDecPosS(prec)+" rec="+StringUtils.twoDecPosS(rec)+" f1="+StringUtils.twoDecPosS(f1));
-                    
+
+                    int total_answered = total_questions - total_unknown;
+                    double accuracy = ((double) ((double) total_correct / (double) total_questions));
+                    double prec = ((double) ((double) total_correct / (double) total_answered));
+                    double rec = ((double) ((double) (total_correct + total_incorrect) / (double) total_questions));
+                    double f1 = (2 * prec * rec) / (prec + rec);
+                    System.out.println("questions=" + total_questions + " answered=" + total_answered + " correct=" + total_correct + " incorrect=" + total_incorrect + " accuracy=" + StringUtils.twoDecPosS(accuracy) + " prec=" + StringUtils.twoDecPosS(prec) + " rec=" + StringUtils.twoDecPosS(rec) + " f1=" + StringUtils.twoDecPosS(f1));
+
                     break;
+
+
+                case GET_TE3_INPUT: {
+                    for (int i = 0; i < input_files.length; i++) {
+                        XMLFile nlpfile = new XMLFile(input_files[i], null);
+                        if (!nlpfile.getClass().getSimpleName().equals("XMLFile")) {
+                            throw new Exception("TIPSem requires XMLFile files as input. Found: " + nlpfile.getClass().getSimpleName());
+                        }
+                        if (!nlpfile.getExtension().equalsIgnoreCase("tml")) {
+                            nlpfile.overrideExtension("tml");
+                        }
+                        if (!nlpfile.isWellFormatted()) {
+                            throw new Exception("File: " + nlpfile.getFile() + " is not a valid TimeML (.tml) XML file.");
+                        }
+                        TML_file_utils.TML2TE3(nlpfile.getFile().getCanonicalPath());
+                    }
+                }
+                break;
+
 
                 /*
                  * Reads a TimeML file and answers the questions below (to be added manually for testing)
