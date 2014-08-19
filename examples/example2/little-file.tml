@@ -21,6 +21,8 @@ Unlinked <EVENT eid="e3" class="I_ACTION">evnet</EVENT>.
 <TLINK lid="l3" relType="AFTER" timeID="t2" relatedToTime="t1" />
 <TLINK lid="l4" relType="IS_INCLUDED" eventInstanceID="ei1" relatedToTime="t1" />
 <TLINK lid="l5" relType="IS_INCLUDED" eventInstanceID="ei2" relatedToTime="t2" />
+<!--contradictory link: should be discarded by timegraph -->
+<TLINK lid="l6" relType="AFTER" eventInstanceID="ei1" relatedToEventInstance="ei2" />
 
 </TimeML>
 

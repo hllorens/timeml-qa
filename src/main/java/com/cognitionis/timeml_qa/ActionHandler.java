@@ -6,6 +6,7 @@ import com.cognitionis.utils_basickit.*;
 import java.io.*;
 import com.cognitionis.nlp_files.*;
 import java.util.HashMap;
+import java.util.Scanner;
 
 /**
  * @author Hector Llorens
@@ -14,7 +15,7 @@ public class ActionHandler {
 
     public static enum Action {
 
-        READ_TML, TQA, WIKITQA, GET_TE3_INPUT;
+        INTERACTIVE, SAMPLE_QUESTIONS, TQA, WIKITQA, GET_TE3_INPUT;
     }
 
     public static String getParameter(String params, String param) {
@@ -153,9 +154,10 @@ public class ActionHandler {
 
 
                 /*
-                 * Reads a TimeML file and answers the questions below (to be added manually for testing)
+                 * Reads a TimeML file and answers the questions below (to be 
+                 * added manually for testing) which file is it?
                  */
-                case READ_TML:
+                case SAMPLE_QUESTIONS:
                     for (int i = 0; i < input_files.length; i++) {
                         XMLFile nlpfile = new XMLFile(input_files[i], null);
                         if (!nlpfile.getClass().getSimpleName().equals("XMLFile")) {
@@ -170,6 +172,7 @@ public class ActionHandler {
                         TimeML tml = TML_file_utils.ReadTml2Object(nlpfile.getFile().getCanonicalPath());
                         TimeGraphWrapper tg = new TimeGraphWrapper(tml, "original_order");
                         System.out.println("\nFinal TimeGraph:\n----------\n" + tg.getTimeGraph());
+                        // TODO add questions between event and timex and between timex and timex
                         System.out.println("\nIs ei112 before ei105? " + tg.getTimeGraph().checkRelation("ei112", "ei105", "BEFORE"));
                         System.out.println("\nIs ei105 before ei112? " + tg.getTimeGraph().checkRelation("ei105", "ei112", "BEFORE"));
                         System.out.println("\nIs ei112 before ei107? " + tg.getTimeGraph().checkRelation("ei112", "ei107", "BEFORE"));
@@ -195,6 +198,42 @@ public class ActionHandler {
                         System.out.println("\nPrint all between 1999 and 2000: ");
                         System.out.println("\nPrint all in 1999 (calculate upper-lower): ");
                         System.out.println("\nDo not implement anything esle.");
+                    }
+                    break;
+
+                /*
+                 * Reads a TimeML file and answers the questions interactively
+                 */
+                case INTERACTIVE:
+                    for (int i = 0; i < input_files.length; i++) {
+                        XMLFile nlpfile = new XMLFile(input_files[i], null);
+                        if (!nlpfile.getClass().getSimpleName().equals("XMLFile")) {
+                            throw new Exception("Requires XMLFile files as input. Found: " + nlpfile.getClass().getSimpleName());
+                        }
+                        if (!nlpfile.getExtension().equalsIgnoreCase("tml")) {
+                            nlpfile.overrideExtension("tml");
+                        }
+                        if (!nlpfile.isWellFormatted()) {
+                            throw new Exception("File: " + input_files[i] + " is not a valid TimeML (.tml) XML file.");
+                        }
+                        TimeML tml = TML_file_utils.ReadTml2Object(nlpfile.getFile().getCanonicalPath());
+                        TimeGraphWrapper tg = new TimeGraphWrapper(tml, "original_order");
+                        System.out.println("\nFinal TimeGraph:\n----------\n" + tg.getTimeGraph());
+                        System.out.println("\nAsk questions about:" + input_files[i]);
+
+                        while(true){
+                            Scanner in = new Scanner(System.in); 
+                            System.out.print("Enter a question ('quit' for exit): ");
+                            String input_question = in.nextLine();
+                            if(input_question.equalsIgnoreCase("quit")){
+                                break;
+                            }else{
+                                System.out.println("Question: "+input_question);
+                                String predicted_answer = TimeML_QA.answer_question(input_question, tg);                            
+                                System.out.println("Answer: "+predicted_answer);
+                            }
+                        }
+
                     }
                     break;
 

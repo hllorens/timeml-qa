@@ -23,24 +23,23 @@ public class TimeML_QA {
 
     public static String answer_question(String question, TimeGraphWrapper tg) {
         String predicted_answer = "unknown";
-        String[] command = question.trim().split("\\s+");
-        if (command[0].equals("IS")) {
+        String[] command = question.toLowerCase().trim().split("\\s+");
+        if (command[0].equalsIgnoreCase("IS")) {
             predicted_answer = (tg.getTimeGraph().checkRelation(command[1], command[3], command[2]));
         } else {
-
-            if (command[0].equals("LIST")) {
-                if (command[1].equals("BETWEEN")) {
+            if (command[0].equalsIgnoreCase("LIST")) {
+                if (command[1].equalsIgnoreCase("BETWEEN")) {
                     predicted_answer = (tg.getTimeGraph().getEntitiesBetween(command[2], command[3]));
-                } else if (command[1].equals("BEFORE")) {
+                } else if (command[1].equalsIgnoreCase("BEFORE")) {
                     predicted_answer = (tg.getTimeGraph().getEntitiesBeforeEntity(command[2]));
                 } else {
-                    if (command[1].equals("AFTER")) {
+                    if (command[1].equalsIgnoreCase("AFTER")) {
                         predicted_answer = (tg.getTimeGraph().getEntitiesAfterEntity(command[2]));
                     } else {
-                        if (command[1].equals("SINCE")) {
+                        if (command[1].equalsIgnoreCase("SINCE")) {
                             predicted_answer = (tg.getTimeGraph().getEntitiesSinceEntity(command[2]));
                         } else {
-                            if (command[1].equals("WITHIN")) {
+                            if (command[1].equalsIgnoreCase("WITHIN")) {
                                 predicted_answer = (tg.getTimeGraph().getEntitiesWithinEntity(command[2]));
                             } else {
                                 predicted_answer = ("\t Need to implement this");
@@ -50,7 +49,7 @@ public class TimeML_QA {
                 }
             } else {
 
-                if (command[0].equals("WHEN")) {
+                if (command[0].equalsIgnoreCase("WHEN")) {
                     predicted_answer = (tg.getTimeGraph().getEntitiesIncludeEntity(command[1]));
                 }
             }
