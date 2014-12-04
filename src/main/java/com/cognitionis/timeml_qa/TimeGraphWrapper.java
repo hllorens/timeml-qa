@@ -18,6 +18,11 @@ public class TimeGraphWrapper {
 
         ORIGINAL_ORDER, NEIGHBOURS_STARTING_FROM_DCT;
     }
+    
+    private ArrayList<Link> links_array;
+    private Timex dct;
+    private TimeML tml;
+    
     // All links: linkid->Link
     private HashMap<String, Link> links_hash;
     // hash entity -> links related to that entity
@@ -28,6 +33,8 @@ public class TimeGraphWrapper {
     private Queue<String> entity_queue; // to alter the natural order
     // Hash link -> added ?? Seems duplicated from links queue
     private HashMap<String, String> added_links; // important if the natural order is altered
+    // Links that were insconsistent when added
+    private HashSet<String> inconsistent_links; // important if the natural order is altered    
     // Hash entity -> considered ...
     private HashMap<String, String> added_entities; // important if the natural order is altered
     // TimeGraph
@@ -36,6 +43,16 @@ public class TimeGraphWrapper {
     // consider removing the adding methods from here and give a sorted links list instead... (some entities must have explicit dates or durations)
     public TimeGraphWrapper(TimeML tml) {
         this(tml, "neighbours-starting-from-dct");
+    }
+    
+    private void reset_timegraph(){
+        tg = new TimeGraph();
+        links_queue = new LinkedList<String>();
+        entity_queue = new LinkedList<String>();
+        added_links = new HashMap<String, String>();
+        added_entities = new HashMap<String, String>();
+        links_hash = new HashMap<String, Link>();
+        entity_links = new HashMap<String, ArrayList<String>>();
     }
 
     /**
@@ -48,24 +65,49 @@ public class TimeGraphWrapper {
      * @param tml
      * @param method
      */
-    public TimeGraphWrapper(TimeML tml, String method) {
-        tg = new TimeGraph();
-        links_queue = new LinkedList<String>();
-        entity_queue = new LinkedList<String>();
-        added_links = new HashMap<String, String>();
-        added_entities = new HashMap<String, String>();
-        links_hash = new HashMap<String, Link>();
-        entity_links = new HashMap<String, ArrayList<String>>();
-
+    public TimeGraphWrapper(TimeML tml_object, String method) {
+        reset_timegraph();
+        tml=tml_object;
+        links_array = tml.getLinks();
+        dct = tml.getDCT();
+        inconsistent_links=new HashSet<>();
+        
         try {
-            ArrayList<Link> links_array = tml.getLinks();
-            Timex dct = tml.getDCT();
             switch (Methods.valueOf(method.toUpperCase())) {
             	
            	/*
            	* Add relations one after the other as they appear in the file
            	*/ 
                 case ORIGINAL_ORDER: {
+                    original_order();
+                }
+                break;
+
+		/*
+		* Add links in entity appearance order from DCT (this could create a better ordered)
+		*/
+                case NEIGHBOURS_STARTING_FROM_DCT: {
+                    neighbours_starting_from_dct();
+                }
+            }
+
+            tg.removeEmptyChains();
+
+        } catch (Exception e) {
+            System.err.println("Errors found (TimeGraph):\n\t" + e.toString() + "\n");
+            if (System.getProperty("DEBUG") != null && System.getProperty("DEBUG").equalsIgnoreCase("true")) {
+                e.printStackTrace(System.err);
+                System.exit(1);
+
+            }
+        }
+    }
+
+    public TimeGraph getTimeGraph() {
+        return tg;
+    }
+    
+    public void original_order(){
                     for (int i = 0; i < links_array.size(); i++) {
                         Link l = links_array.get(i);
                         String greginterval1_s = null;
@@ -83,20 +125,28 @@ public class TimeGraphWrapper {
                         if (System.getProperty("DEBUG") != null && System.getProperty("DEBUG").equalsIgnoreCase("true")) {
                             System.out.println("\nAdding " + l.get_id()+ "  "+l.get_id1()+"  "+l.get_category()+"   "+l.get_id2());
                         }
-                        tg.addRelation(l.get_id(), l.get_id1(), greginterval1_s, greginterval1_e, l.get_id2(), greginterval2_s, greginterval2_e, l.get_category());
+                        
+                        if(!inconsistent_links.contains(l.get_id())){
+                            if(!tg.addRelation(l.get_id(), l.get_id1(), greginterval1_s, greginterval1_e, l.get_id2(), greginterval2_s, greginterval2_e, l.get_category())){
+                                System.out.println("-- "+ l.get_id() + " is inconsistent with the timegraph.\n" + tg);                                
+                                inconsistent_links.add(l.get_id());
+                                reset_timegraph();
+                                original_order();
+                            }
+                        }else{
+                            if (System.getProperty("DEBUG") != null && System.getProperty("DEBUG").equalsIgnoreCase("true")) {
+                                System.out.println("-- Skyping " + l.get_id() + " because it was inconsistent.\n" + tg);
+                            }                            
+                        }
+                        
                         if (System.getProperty("DEBUG") != null && System.getProperty("DEBUG").equalsIgnoreCase("true")) {
                             System.out.println("\nTimeGraph after adding " + l.get_id() + ":\n" + tg);
                         }
                     }
-                    tg.checkInconsistentConnections();
-                }
-                break;
+                    tg.checkInconsistentConnections();        
+    }
 
-		/*
-		* Add links in entity appearance order from DCT (this could create a better ordered)
-		*/
-                case NEIGHBOURS_STARTING_FROM_DCT: {
-                    if (method.equals("neighbours-starting-from-dct")) {
+    public void neighbours_starting_from_dct(){
 
                         // fill links_queue and entity_links
                         for (int i = 0; i < links_array.size(); i++) {
@@ -186,25 +236,8 @@ public class TimeGraphWrapper {
                                 }
                             }
                         }
-                    } else {
-                        throw new Exception("Invalid method: " + method);
-                    }
-                }
-            }
 
-            tg.removeEmptyChains();
 
-        } catch (Exception e) {
-            System.err.println("Errors found (TimeGraph):\n\t" + e.toString() + "\n");
-            if (System.getProperty("DEBUG") != null && System.getProperty("DEBUG").equalsIgnoreCase("true")) {
-                e.printStackTrace(System.err);
-                System.exit(1);
-
-            }
-        }
     }
-
-    public TimeGraph getTimeGraph() {
-        return tg;
-    }
+    
 }
