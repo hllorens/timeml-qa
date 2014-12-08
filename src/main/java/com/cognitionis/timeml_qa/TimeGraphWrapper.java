@@ -128,7 +128,7 @@ public class TimeGraphWrapper {
                         
                         if(!inconsistent_links.contains(l.get_id())){
                             if(!tg.addRelation(l.get_id(), l.get_id1(), greginterval1_s, greginterval1_e, l.get_id2(), greginterval2_s, greginterval2_e, l.get_category())){
-                                System.out.println("-- "+ l.get_id() + " is inconsistent with the timegraph.\n" + tg);                                
+                                System.out.println("-- "+ l.get_id() + " is inconsistent with the timegraph. Rebuilding the graph excluding it.\n" + tg);                                
                                 inconsistent_links.add(l.get_id());
                                 reset_timegraph();
                                 original_order();
