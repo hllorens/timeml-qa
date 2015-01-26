@@ -5,7 +5,9 @@ A java application capable of performing temporal QA over TimeML annotated texts
 
 Input:
 	A questionset following the format:
-		questionID|TimeML file|question in timeml-qa syntax|question in NL|Expected answer
+		questionID|TimeML file*|question in timeml-qa syntax|question in NL|Expected answer
+		
+		*use / for the path even in Windows environments
 
 Output:
 	A text file reporting the answers for the questions in the input questionset
@@ -36,11 +38,11 @@ Just move/rename compiled jar dist folder with the lib subfolder to any destinat
 
 USAGE
 
-java -jar path-to-the-jar/timeml-qa.jar questionset-file/s
+java -jar path-to-the-jar/timeml-qa.jar -a ACTION questionset-file/s
 
 EXAMPLE (if timeml-qa is included in the CLASSPATH)
 
-java -jar timeml-qa.jar examples/example2/questionset.txt
+java -jar timeml-qa.jar -a TQA examples/example2/questionset.txt
 
 OPTIONS
 

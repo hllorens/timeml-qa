@@ -18,7 +18,7 @@ public class Main {
      */
     public static void main(String[] args) {
         try {
-            String action = "read_tml"; //default action
+            String action = "tqa"; //default action
             String action_parameters = null;
             String input_files[];
             String input_text = null;
@@ -29,7 +29,7 @@ public class Main {
             Options opt = new Options();
             //addOption(String opt, boolean hasArg, String description)
             opt.addOption("h", "help", false, "Print this help");
-            opt.addOption("a", "action", true, "Action/s to be done (annotate,...)");
+            opt.addOption("a", "action", true, "Action/s to be done (tqa,...)");
             opt.addOption("ap", "action_parameters", true, "Optionally actions can have parameters (-a annotate -ap model=TIPSemB)");
             opt.addOption("t", "text", true, "To use text instead of a file (for short texts)");
             opt.addOption("d", "debug", false, "Debug mode: Output errors stack trace (default: disabled)");
