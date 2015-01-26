@@ -56,9 +56,12 @@ public class ActionHandler {
                     HashMap<String, Integer> file_corrects = new HashMap<>();
                     for (int i = 0; i < input_files.length; i++) {
                         File f = new File(input_files[i]);
-                        String path = FileUtils.getFolder(f.getCanonicalPath());
+                        String tmppath = f.getCanonicalPath();
+                        if(tmppath.contains("\\")){
+                        	tmppath = tmppath.replace("\\", "/");
+                        }
+                        String path = FileUtils.getFolder(tmppath);
                         BufferedReader pipesreader = new BufferedReader(new FileReader(input_files[i]));
-
                         int linen = 0;
                         try {
                             String pipesline;
