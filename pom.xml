@@ -2,7 +2,7 @@
         <modelVersion>4.0.0</modelVersion> <!--maven model type (see schema above) -->
         <groupId>com.cognitionis</groupId>       <!-- base package uri -->
         <artifactId>timeml-qa</artifactId>     <!-- the project name (id) -->
-	<version>1.0.1</version>  <!-- version. NOTE: update it manually -->        
+	<version>1.0.2</version>  <!-- version. NOTE: update it manually -->        
 	<packaging>jar</packaging>
         <name>TimeML QA</name>                 <!-- Full name (not id) -->
         <description>A java application capable of performing temporal QA over a TimeML annotated text (via timegraph reasoning).</description>

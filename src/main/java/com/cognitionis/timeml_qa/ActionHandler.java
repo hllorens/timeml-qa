@@ -129,11 +129,11 @@ public class ActionHandler {
                     }
 
                     int total_answered = total_questions - total_unknown;
-                    double accuracy = ((double) ((double) total_correct / (double) total_questions));
+                    double coverage = ((double) ((double) (total_correct + total_incorrect) / (double) total_questions));
                     double prec = ((double) ((double) total_correct / (double) total_answered));
-                    double rec = ((double) ((double) (total_correct + total_incorrect) / (double) total_questions));
+                    double rec = ((double) ((double) total_correct / (double) total_questions));
                     double f1 = (2 * prec * rec) / (prec + rec);
-                    System.out.println("questions=" + total_questions + " answered=" + total_answered + " correct=" + total_correct + " incorrect=" + total_incorrect + " accuracy=" + StringUtils.twoDecPosS(accuracy) + " prec=" + StringUtils.twoDecPosS(prec) + " rec=" + StringUtils.twoDecPosS(rec) + " f1=" + StringUtils.twoDecPosS(f1));
+                    System.out.println("questions=" + total_questions + " answered=" + total_answered + " correct=" + total_correct + " incorrect=" + total_incorrect + " coverage=" + StringUtils.twoDecPosS(coverage) + " prec=" + StringUtils.twoDecPosS(prec) + " rec=" + StringUtils.twoDecPosS(rec) + " f1=" + StringUtils.twoDecPosS(f1));
 
                     break;
 
